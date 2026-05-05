@@ -1,297 +1,514 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        'creamy-white': '#FEFFFF',
+                        'deep-blue': '#0A192F',
+                        black: '#000000',
+                    },
+                    fontFamily: {
+                        display: ['Space Grotesk', 'sans-serif'],
+                        sans: ['Manrope', 'sans-serif'],
+                        arabic: ['Tajawal', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/logo.PNG">
-    <title>Mohamed Waleed</title>
+    <title>Mohamed Waleed | Portfolio</title>
 </head>
 
-<body>
-    <header class="header">
-        <img style="transform:scale(0.5)" src="images/logo.PNG" alt="logo">
-        <p style="font-size: 4rem; font-family: Poppins;">|</p> <a href="#" class="logo"> Mohamed Waleed </a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#work-experience">Work experience</a>
-            <a href="#services">Services</a>
-            <a href="#skills">Skills</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+<body class="site-body font-sans">
+    <header class="header" id="header">
+        <div class="shell header-shell">
+            <a href="#home" class="brand-mark">
+                <img class="brand-logo" src="images/logo.PNG" alt="Mohamed Waleed logo">
+                <div>
+                    <span class="brand-name">Mohamed Waleed</span>
+                    <span class="brand-role" data-i18n="brand_role">Software Engineer</span>
+                </div>
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <a href="#home" class="active" data-i18n="nav_home">Home</a>
+                <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#education" data-i18n="nav_journey">Journey</a>
+                <a href="#services" data-i18n="nav_services">Services</a>
+                <a href="#skills" data-i18n="nav_skills">Skills</a>
+                <a href="#portfolio" data-i18n="nav_projects">Projects</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Switch language">AR</button>
+                <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle theme">
+                    <i class='bx bx-moon' id="theme-icon"></i>
+                </button>
+                <a href="#contact" class="header-cta" data-i18n="header_cta">Book a Call</a>
+                <button class="menu-toggle md:hidden" id="menu-icon" type="button" aria-label="Open menu"
+                    aria-expanded="false">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </div>
+        </div>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Mohamed Waleed</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>Welcome to my personal site. I am very happy to meet you. How can I help you?</p>
-            <div class="social-media">
-                <a href="https://www.facebook.com/profile.php?id=100043741989009"><i class='bx bxl-facebook'></i></a>
-                <a href="https://www.instagram.com/mohamed.waleed1_/"><i class='bx bxl-instagram'></i></a>
-                <a href="https://www.linkedin.com/in/mohamedwaleed1/"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/mw205"><i class='bx bxl-github'></i></a>
-
-
-            </div>
-        </div>
-        <div class="home-img">
-            <img src="images/person.png" alt="">
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/person.png" alt="">
-
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About</h2>
-            <h3>Flutter Developer</h3>
-            <p>I'm an enthusiastic junior Flutter developer with a growing passion for creating dynamic and responsive
-                mobile applications. Recently completing a comprehensive Flutter course, I have gained a solid
-                foundation in Dart, state management, and UI/UX principles. I enjoy the process of learning and applying
-                new concepts, and I am dedicated to refining my skills in mobile development. I am eager to contribute
-                to a team where I can collaborate, learn from experienced developers, and contribute to meaningful
-                projects. With a strong commitment to continuous improvement, I offer my services as a flutter developer
-                for hire to work with businesses of all sizes. Feel free to get in touch. I’m available during the week
-                to discuss and advise on your project or development needs.
-                .
-            </p>
-            <a href="https://www.linkedin.com/in/mohamedwaleed1" class="btn">Read More</a>
-        </div>
-    </section>
-
-    <section class="education" id="education">
-        <h2 class="heading"><span>Education</span></h2>
-        <div class="education-container">
-
-            <div class="education-box">
-                <i class='bx bxs-graduation'></i>
-                <h3>Bachelor's Degree in Computer Science</h3>
-                <p><strong>Mansoura University</strong> | 2021 - 2025</p>
-                <p>Studied computer science fundamentals, algorithms, data structures, and software development with a
-                    specialization in mobile app development.</p>
-            </div>
-
-            <div class="education-box">
-                <i class='bx bx-certification'></i>
-                <h3>Flutter Development Summer Training</h3>
-                <p><strong>Information Technology Institute (ITI)</strong> | 2024</p>
-                <p>Completed an intensive summer training program focused on Flutter framework, state management, and
-                    UI/UX best practices.</p>
-            </div>
-
-            <div class="education-box">
-                <i class='bx bx-mobile-alt'></i>
-                <h3>Mobile Applications Development</h3>
-                <p><strong>DEPI</strong> | 2024</p>
-                <p>Learned advanced techniques for building scalable and high-performance mobile applications using
-                    Flutter and native technologies.</p>
-            </div>
-
-            <div class="education-box">
-                <i class='bx bx-server'></i>
-                <h3>Backend Development with Laravel</h3>
-                <p><strong>CCIC</strong> | 2023</p>
-                <p>Studied backend development, APIs, authentication, and database management using Laravel framework.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <section class="work-experience" id="work-experience">
-        <h2 class="heading">Work <span>Experience</span></h2>
-        <div class="experience-container">
-            <div class="experience-box">
-                <i class='bx bx-briefcase'></i>
-                <h3>Trainee in DEPI</h3>
-                <p> Mobile application development track</p>
-            </div>
-            <div class="experience-box">
-                <i class='bx bx-briefcase'></i>
-                <h3>Flutter Developer Trainer at Serv5</h3>
-                <p>Worked as a Flutter trainer for two months (Oct 2024 - Dec 2024), teaching mobile development.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <h2 class="heading"> <span>Services</span></h2>
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bxl-flutter'></i>
-                <h3>Build Mobile Apps</h3>
-                <p>Building mobile applications that work on Android and IOS operating systems using the flutter
-                    framework.</p>
-
-                <a href="#contact" class="btn">Contact US</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bxs-bug'></i>
-                <h3>Fix Issues</h3>
-                <p>I can help you fix all the bugs in your app.</p>
-
-                <a href="#contact" class="btn">Contact US</a>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Develop Your App</h3>
-                <p>Add and develop all the modifications you want in your application to make it in the best possible
-                    form and the best performance.</p>
-
-                <a href="#contact" class="btn">Contact US</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="skills" id="skills">
-        <h2 class="heading">My <span>Skills</span></h2>
-        <div class="skills-container">
-            <div class="skill-box">
-                <img src="https://storage.googleapis.com/cms-storage-bucket/flutter-logo-white.ec64036b4eacc9f3fd73.svg"
-                    alt="Flutter">
-                <span>Flutter</span>
-            </div>
-            <div class="skill-box">
-                <img src="images/skills/dart.png" alt="Dart">
-                <span>Dart</span>
-            </div>
-            <div class="skill-box">
-                <img src="images/skills/csharp.png" alt="C#">
-                <span>C#</span>
-            </div>
-            <div class="skill-box">
-                <img src="images/skills/Python.png" alt="Python">
-                <span>Python</span>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Projects</span></h2>
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="images/projects/cx.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>CX Academy</h4>
-                    <p> An online learning platform.</p>
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="images/projects/farmbot.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>farmbot</h4>
-                    <p> Application to monitor your farm </p>
-
-
-                </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="images/projects/Logo.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Green Car</h4>
-                    <p> Car Wash App
+    <main>
+        <section class="hero-section" id="home">
+            <div class="shell hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow" data-i18n="hero_eyebrow">Mobile, Web, and AI systems that ship</span>
+                    <h1 class="hero-title" data-i18n="hero_title">Building ambitious digital products with clean
+                        execution.</h1>
+                    <p class="hero-text" data-i18n="hero_text">
+                        I’m Mohamed Waleed, a software engineer focused on Flutter, full-stack web platforms, and GenAI
+                        experiences. I design polished products with scalable architecture and strong delivery
+                        discipline.
                     </p>
 
+                    <div class="hero-actions">
+                        <a href="#portfolio" class="primary-btn" data-i18n="hero_primary">View Projects</a>
+                        <a href="#contact" class="secondary-btn" data-i18n="hero_secondary">Start a Conversation</a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <div class="hero-stat">
+                            <strong data-i18n="hero_stat_1_title">2024+</strong>
+                            <span data-i18n="hero_stat_1_text">Freelance product delivery</span>
+                        </div>
+                        <div class="hero-stat">
+                            <strong data-i18n="hero_stat_2_title">Mobile + AI</strong>
+                            <span data-i18n="hero_stat_2_text">Cross-functional engineering focus</span>
+                        </div>
+                        <div class="hero-stat">
+                            <strong><span class="multiple-text"></span></strong>
+                            <span data-i18n="hero_stat_3_text">Current specialization</span>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=100043741989009" aria-label="Facebook"><i
+                                class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/mohamed.waleed1_/" aria-label="Instagram"><i
+                                class='bx bxl-instagram'></i></a>
+                        <a href="https://www.linkedin.com/in/mohamedwaleed1/" aria-label="LinkedIn"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/mw205" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="hero-badge badge-top">
+                            <span class="badge-dot"></span>
+                            <span data-i18n="hero_badge">Available for freelance and product work</span>
+                        </div>
+                        <div class="portrait-frame">
+                            <img src="images/my_photo.jpeg" alt="Portrait of Mohamed Waleed">
+                        </div>
+                        <div class="hero-panel">
+                            <div>
+                                <span class="panel-label" data-i18n="hero_panel_1_label">Primary Stack</span>
+                                <strong data-i18n="hero_panel_1_text">Flutter, Laravel, Vue, Python</strong>
+                            </div>
+                            <div>
+                                <span class="panel-label" data-i18n="hero_panel_2_label">Engineering Style</span>
+                                <strong data-i18n="hero_panel_2_text">Fast delivery, clean structure, real product
+                                    focus</strong>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio-box">
-                <img src="images/projects/modifai.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>modifai </h4>
-                    <p>AI photo editor </p>
+        </section>
+
+        <section class="section-block" id="about">
+            <div class="shell section-grid">
+                <div class="section-intro">
+                    <span class="eyebrow" data-i18n="about_eyebrow">About</span>
+                    <h2 class="section-title" data-i18n="about_title">An engineer who bridges product speed and
+                        technical depth.</h2>
+                </div>
+
+                <div class="about-layout">
+                    <div class="about-card">
+                        <img src="images/my_photo_2.jpeg" alt="Mohamed Waleed profile photo">
+                    </div>
+                    <div class="about-copy">
+                        <h3 data-i18n="about_heading">Full-stack and mobile systems with AI capability built in.</h3>
+                        <p data-i18n="about_text">
+                            Versatile and results-driven Software Engineer with a strong foundation in Artificial
+                            Intelligence and hands-on expertise across Mobile, Full-Stack Web, and GenAI development.
+                            Adept at designing scalable architectures and delivering end-to-end applications from
+                            intuitive frontends to robust backend systems.
+                        </p>
+
+                        <div class="about-points">
+                            <div class="point-card">
+                                <i class='bx bx-mobile-alt'></i>
+                                <span data-i18n="about_point_1">Cross-platform apps with strong UX and real-time
+                                    workflows</span>
+                            </div>
+                            <div class="point-card">
+                                <i class='bx bx-layer'></i>
+                                <span data-i18n="about_point_2">Structured systems using SOLID principles and scalable
+                                    patterns</span>
+                            </div>
+                            <div class="point-card">
+                                <i class='bx bx-brain'></i>
+                                <span data-i18n="about_point_3">Applied AI including RAG, image tooling, and LLM
+                                    product features</span>
+                            </div>
+                            <div class="point-card">
+                                <i class='bx bx-rocket'></i>
+                                <span data-i18n="about_point_4">Production-ready delivery across mobile, web, and AI
+                                    products</span>
+                            </div>
+                        </div>
+
+                        <a href="https://www.linkedin.com/in/mohamedwaleed1" target="_blank" rel="noreferrer"
+                            class="secondary-btn" data-i18n="about_cta">Connect on LinkedIn</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="portfolio-box">
-                <img src="images/projects/race.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Race </h4>
-                    <p>Defect detection with AI </p>
+        <section class="section-block muted-section" id="education">
+            <div class="shell">
+                <div class="section-heading center">
+                    <span class="eyebrow" data-i18n="journey_eyebrow">Journey</span>
+                    <h2 class="section-title" data-i18n="journey_title">Education and experience shaped around applied
+                        software delivery.</h2>
+                </div>
+
+                <div class="timeline-grid">
+                    <div>
+                        <h3 class="column-title"><i class='bx bxs-graduation'></i> <span
+                                data-i18n="education_column">Education</span></h3>
+                        <div class="timeline-stack">
+                            <article class="timeline-card education-box">
+                                <span class="timeline-date">Oct 2021 - Jul 2025</span>
+                                <h4 data-i18n="education_1_title">Bachelor of Computer and Information Sciences
+                                    (Artificial Intelligence Program)</h4>
+                                <p class="timeline-place">Faculty of Computer and Information Sciences, Mansoura
+                                    University | GPA: 3.38</p>
+                                <p data-i18n="education_1_text">Built a strong base in AI, algorithms, and software
+                                    engineering fundamentals.</p>
+                            </article>
+                            <article class="timeline-card education-box">
+                                <span class="timeline-date">Oct 2025 - Aug 2026</span>
+                                <h4 data-i18n="education_2_title">Open Source Applications Development</h4>
+                                <p class="timeline-place">Information Technology Institute (ITI) | 9-Month Track</p>
+                                <p data-i18n="education_2_text">Advanced training focused on open-source technologies
+                                    and enterprise application delivery.</p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="column-title"><i class='bx bx-briefcase'></i> <span
+                                data-i18n="experience_column">Experience</span></h3>
+                        <div class="timeline-stack">
+                            <article class="timeline-card experience-box">
+                                <span class="timeline-date">Nov 2024 - Present</span>
+                                <h4 data-i18n="experience_1_title">Freelance Flutter Developer</h4>
+                                <p class="timeline-place" data-i18n="experience_1_place">Independent</p>
+                                <ul class="timeline-list">
+                                    <li data-i18n="experience_1_item_1"><strong>Mindly:</strong> Developed a
+                                        Flutter-based EdTech app with anti-piracy safeguards and QR subscriptions.</li>
+                                    <li data-i18n="experience_1_item_2"><strong>FarmBot:</strong> Built an IoT
+                                        agriculture dashboard with real-time sensor visibility.</li>
+                                    <li data-i18n="experience_1_item_3"><strong>CX Academy:</strong> Delivered a
+                                        corporate e-learning platform with WebSocket chat and streaming.</li>
+                                </ul>
+                            </article>
+                            <article class="timeline-card experience-box">
+                                <span class="timeline-date">Oct 2024 - Dec 2024</span>
+                                <h4 data-i18n="experience_2_title">Flutter Developer Intern</h4>
+                                <p class="timeline-place">serv5 | Mansoura, Egypt</p>
+                                <p data-i18n="experience_2_text">Contributed to the Green Car Wash app using MVVM,
+                                    Bloc, Firebase, and Google Maps integration.</p>
+                            </article>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="portfolio-box">
-                <img src="images/projects/play_store.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Prayers App</h4>
-                    <p>Islamic app </p>
+        <section class="section-block" id="services">
+            <div class="shell">
+                <div class="section-heading center">
+                    <span class="eyebrow" data-i18n="services_eyebrow">Services</span>
+                    <h2 class="section-title" data-i18n="services_title">High-value engineering support across product
+                        layers.</h2>
+                </div>
 
+                <div class="services-grid">
+                    <article class="services-box service-card">
+                        <i class='bx bxl-flutter'></i>
+                        <h3 data-i18n="service_1_title">Mobile Product Development</h3>
+                        <p data-i18n="service_1_text">Cross-platform Flutter applications with strong performance,
+                            maintainable state management, and production-ready polish.</p>
+                        <a href="#contact" class="text-link" data-i18n="service_1_link">Discuss mobile work</a>
+                    </article>
 
+                    <article class="services-box service-card">
+                        <i class='bx bx-code-alt'></i>
+                        <h3 data-i18n="service_2_title">Full-Stack Web Systems</h3>
+                        <p data-i18n="service_2_text">Backend and frontend delivery for dashboards, business platforms,
+                            APIs, and modern web interfaces.</p>
+                        <a href="#contact" class="text-link" data-i18n="service_2_link">Discuss web systems</a>
+                    </article>
+
+                    <article class="services-box service-card">
+                        <i class='bx bxs-bot'></i>
+                        <h3 data-i18n="service_3_title">GenAI Integration</h3>
+                        <p data-i18n="service_3_text">RAG workflows, image tooling, and LLM-powered features integrated
+                            into real applications with practical product value.</p>
+                        <a href="#contact" class="text-link" data-i18n="service_3_link">Discuss AI features</a>
+                    </article>
                 </div>
             </div>
+        </section>
 
+        <section class="section-block muted-section" id="skills">
+            <div class="shell">
+                <div class="section-heading center">
+                    <span class="eyebrow" data-i18n="skills_eyebrow">Skills</span>
+                    <h2 class="section-title" data-i18n="skills_title">A broad stack anchored by mobile engineering and
+                        applied AI.</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-category skill-card">
+                        <h3 data-i18n="skills_mobile">Mobile</h3>
+                        <div class="tag-row">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>GetX / Bloc</span>
+                            <span>WebSockets</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-category skill-card">
+                        <h3 data-i18n="skills_frontend">Frontend</h3>
+                        <div class="tag-row">
+                            <span>Vue.js</span>
+                            <span>Tailwind CSS</span>
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-category skill-card">
+                        <h3 data-i18n="skills_backend">Backend</h3>
+                        <div class="tag-row">
+                            <span>Laravel</span>
+                            <span>Django</span>
+                            <span>Python</span>
+                            <span>PHP</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-category skill-card">
+                        <h3 data-i18n="skills_ai_tools">AI & Tools</h3>
+                        <div class="tag-row">
+                            <span>LangChain</span>
+                            <span>Hugging Face</span>
+                            <span>Git / CI-CD</span>
+                            <span>Firebase</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block" id="portfolio">
+            <div class="shell">
+                <div class="section-heading center">
+                    <span class="eyebrow" data-i18n="projects_eyebrow">Projects</span>
+                    <h2 class="section-title" data-i18n="projects_title">Selected work across AI, IoT, education, and
+                        product platforms.</h2>
+                </div>
+
+                <div class="portfolio-grid">
+                    <article class="portfolio-box project-card">
+                        <img src="images/projects/modifai.png" alt="ModifAI project">
+                        <div class="project-overlay">
+                            <span class="project-pill">Flutter + Firebase</span>
+                            <h3>ModifAI</h3>
+                            <p data-i18n="project_modifai">AI-powered photo editing with prompt-based transformations
+                                built for mobile workflows.</p>
+                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card">
+                        <img src="images/projects/cx.png" alt="Cogninue project">
+                        <div class="project-overlay">
+                            <span class="project-pill" data-i18n="project_pill_healthcare">Healthcare EdTech</span>
+                            <h3>Cogninue</h3>
+                            <p data-i18n="project_cogninue">Interactive autism support app with danger cognition
+                                activities and parental oversight.</p>
+                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card placeholder-card">
+                        <div class="placeholder-media">DS</div>
+                        <div class="project-overlay static-overlay">
+                            <span class="project-pill">Vue.js + DRF</span>
+                            <h3 data-i18n="project_doctor_title">Doctor Scheduling Management System</h3>
+                            <p data-i18n="project_doctor">Healthcare scheduling platform for appointment booking and
+                                physician availability tracking.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card">
+                        <img src="images/projects/farmbot.png" alt="FarmBot project">
+                        <div class="project-overlay">
+                            <span class="project-pill" data-i18n="project_pill_iot">IoT Dashboard</span>
+                            <h3>FarmBot</h3>
+                            <p data-i18n="project_farmbot">Real-time agriculture monitoring dashboard for soil and crop
+                                intelligence via APIs.</p>
+                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card">
+                        <img src="images/projects/Logo.png" alt="Hotel System project">
+                        <div class="project-overlay">
+                            <span class="project-pill">Laravel + Vue</span>
+                            <h3 data-i18n="project_hotel_title">Hotel System</h3>
+                            <p data-i18n="project_hotel">Hospitality management platform designed for room operations
+                                and reservation workflows.</p>
+                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card placeholder-card">
+                        <div class="placeholder-media">BS</div>
+                        <div class="project-overlay static-overlay">
+                            <span class="project-pill">Django</span>
+                            <h3 data-i18n="project_bookstore_title">Bookstore System</h3>
+                            <p data-i18n="project_bookstore">E-commerce bookstore with digital inventory flow and secure
+                                order management.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card placeholder-card">
+                        <div class="placeholder-media">ST</div>
+                        <div class="project-overlay static-overlay">
+                            <span class="project-pill">Vue.js</span>
+                            <h3 data-i18n="project_stride_title">Stride</h3>
+                            <p data-i18n="project_stride">Responsive footwear e-commerce frontend focused on clean
+                                browsing and conversion flow.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card placeholder-card">
+                        <div class="placeholder-media">QZ</div>
+                        <div class="project-overlay static-overlay">
+                            <span class="project-pill">JavaScript</span>
+                            <h3 data-i18n="project_quizzy_title">Quizzy</h3>
+                            <p data-i18n="project_quizzy">Educational platform with interactive quizzes and student
+                                performance tracking.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card placeholder-card">
+                        <div class="placeholder-media">AI</div>
+                        <div class="project-overlay static-overlay">
+                            <span class="project-pill" data-i18n="project_pill_ai">AI Application</span>
+                            <h3 data-i18n="project_chatgpt_title">ChatGPT Clone</h3>
+                            <p data-i18n="project_chatgpt">AI chat application with dynamic conversations and
+                                text-to-image generation support.</p>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-box project-card">
+                        <img src="images/projects/race.jpg" alt="RAG System project">
+                        <div class="project-overlay">
+                            <span class="project-pill">LangChain + Flask</span>
+                            <h3 data-i18n="project_rag_title">RAG System</h3>
+                            <p data-i18n="project_rag">Document chat workflow for PDFs using retrieval-augmented
+                                generation and search.</p>
+                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-block contact-section" id="contact">
+            <div class="shell contact-shell">
+                <div class="contact-copy">
+                    <span class="eyebrow" data-i18n="contact_eyebrow">Contact</span>
+                    <h2 class="section-title" data-i18n="contact_title">Let’s build something useful, fast, and
+                        well-structured.</h2>
+                    <p data-i18n="contact_text">
+                        If you need a mobile app, a product-focused full-stack build, or AI features integrated into an
+                        existing system, I’m open to discussing the scope.
+                    </p>
+
+                    <div class="contact-points">
+                        <div><i class='bx bxl-whatsapp'></i><span>+201092219806</span></div>
+                        <div><i class='bx bxl-gmail'></i><span>mohamedwaleedabdelghany@gmail.com</span></div>
+                        <div><i class='bx bxs-map'></i><span data-i18n="contact_location">Mansoura, Egypt</span></div>
+                    </div>
+                </div>
+
+                <form action="#" class="contact-form" id="contact-form">
+                    <div class="field-row">
+                        <input type="text" data-i18n-placeholder="form_name" placeholder="Full Name"
+                            aria-label="Full Name">
+                        <input type="email" data-i18n-placeholder="form_email" placeholder="Email Address"
+                            aria-label="Email Address">
+                    </div>
+                    <input type="text" data-i18n-placeholder="form_project_type" placeholder="Project Type"
+                        aria-label="Project Type">
+                    <textarea data-i18n-placeholder="form_details"
+                        placeholder="Tell me about the product, scope, or problem you want solved" rows="6"
+                        aria-label="Project details"></textarea>
+                    <button type="submit" class="primary-btn full-width" data-i18n="form_submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="shell footer-shell">
+            <p data-i18n="footer_text">&copy; 2026 Mohamed Waleed. All rights reserved.</p>
+            <a href="#home" class="back-top" aria-label="Back to top"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
-    </section>
-    <section class="achievements" id="achievements">
-        <h2 class="heading">My <span>Achievements</span></h2>
-        <div class="achievements-container">
-            <div class="achievement-box depi">
-                <h3>Mobile Applications Development</h3>
-                <p>Completed an extensive training program at DEPI in 2024, focusing on building scalable and
-                    high-performance mobile apps.</p>
-            </div>
-            <br>
+    </footer>
 
-            <div class="achievement-box iti">
-                <h3>Flutter Development Summer Training</h3>
-                <p>Successfully finished Flutter Development Summer Training at ITI in 2024, gaining hands-on experience
-                    with Dart and Flutter.</p>
-            </div>
-            <br>
-
-            <div class="achievement-box ccic">
-                <h3>BackEnd with Laravel Summer Training</h3>
-                <p>Completed a BackEnd Development Course at CCIC in 2023, learning Laravel framework and API
-                    development.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials" id="testimonials">
-        <h2 class="heading">Client <span>Testimonials</span></h2>
-        <div class="testimonial-box">
-            <p>"Mohamed is a talented Flutter developer! He delivered high-quality work on time."</p>
-            <h3>- John Doe</h3>
-        </div>
-        <div class="testimonial-box">
-            <p>"Great experience working with him! Highly recommended."</p>
-            <h3>- Alice Bob</h3>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2 class="heading">
-            Contact <span>Me!</span>
-        </h2>
-        <form action="#" method="post">
-            <div class="social-media">
-                <a href="https://wa.me/01092219806"><i class='bx bxl-whatsapp'></i></a>
-                <a href="mailto:mw99746@gmail.com"><i class='bx bxl-gmail'></i></a>
-                <a href="https://www.linkedin.com/in/mohamedwaleed1"><i class='bx bxl-linkedin'></i></a>
-
-            </div>
-
-            <br><br><br>
-
-            <div class="footer-iconTop">
-                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-            </div>
-            </footer>
-            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-            <script src="https://unpkg.com/scrollreveal"></script>
-            <script src="js/script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
