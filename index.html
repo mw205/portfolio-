@@ -300,41 +300,65 @@
                 <div class="skills-grid">
                     <article class="skill-category skill-card">
                         <h3 data-i18n="skills_mobile">Mobile</h3>
-                        <div class="tag-row">
-                            <span>Flutter</span>
-                            <span>Dart</span>
-                            <span>GetX / Bloc</span>
-                            <span>WebSockets</span>
+                        <div class="tag-row flex flex-wrap gap-4">
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter" class="w-6 h-6">
+                                <span>Flutter</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" class="w-6 h-6">
+                                <span>Dart</span>
+                            </div>
                         </div>
                     </article>
 
                     <article class="skill-category skill-card">
                         <h3 data-i18n="skills_frontend">Frontend</h3>
-                        <div class="tag-row">
-                            <span>Vue.js</span>
-                            <span>Tailwind CSS</span>
-                            <span>JavaScript</span>
-                            <span>HTML/CSS</span>
+                        <div class="tag-row flex flex-wrap gap-4">
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="Vue.js" class="w-6 h-6">
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" class="w-6 h-6">
+                                <span>Tailwind CSS</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS" class="w-6 h-6">
+                                <span>JavaScript</span>
+                            </div>
                         </div>
                     </article>
 
                     <article class="skill-category skill-card">
                         <h3 data-i18n="skills_backend">Backend</h3>
-                        <div class="tag-row">
-                            <span>Laravel</span>
-                            <span>Django</span>
-                            <span>Python</span>
-                            <span>PHP</span>
+                        <div class="tag-row flex flex-wrap gap-4">
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" alt="Laravel" class="w-6 h-6">
+                                <span>Laravel</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" alt="Django" class="w-6 h-6">
+                                <span>Django</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" class="w-6 h-6">
+                                <span>Python</span>
+                            </div>
                         </div>
                     </article>
 
                     <article class="skill-category skill-card">
                         <h3 data-i18n="skills_ai_tools">AI & Tools</h3>
-                        <div class="tag-row">
-                            <span>LangChain</span>
-                            <span>Hugging Face</span>
-                            <span>Git / CI-CD</span>
-                            <span>Firebase</span>
+                        <div class="tag-row flex flex-wrap gap-4">
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" class="w-6 h-6">
+                                <span>Git</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg" alt="Firebase" class="w-6 h-6">
+                                <span>Firebase</span>
+                            </div>
                         </div>
                     </article>
                 </div>
@@ -350,103 +374,106 @@
                 </div>
 
                 <div class="portfolio-grid">
-                    <article class="portfolio-box project-card">
-                        <img src="images/projects/modifai.png" alt="ModifAI project">
-                        <div class="project-overlay">
-                            <span class="project-pill">Flutter + Firebase</span>
-                            <h3>ModifAI</h3>
-                            <p data-i18n="project_modifai">AI-powered photo editing with prompt-based transformations
+                    <article class="portfolio-box project-card group overflow-hidden">
+                        <img src="images/projects/modifai.png" alt="ModifAI project" class="group-hover:scale-110 transition-transform duration-500">
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20">Flutter + Firebase</span>
+                            <h3 class="text-white">ModifAI</h3>
+                            <p data-i18n="project_modifai" class="text-white/80">AI-powered photo editing with prompt-based transformations
                                 built for mobile workflows.</p>
-                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
-                                    class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/mw205" class="project-link text-white mt-4" aria-label="View project"><i
+                                    class='bx bx-link-external text-2xl'></i></a>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card">
-                        <img src="images/projects/cx.png" alt="Cogninue project">
-                        <div class="project-overlay">
-                            <span class="project-pill" data-i18n="project_pill_healthcare">Healthcare EdTech</span>
-                            <h3>Cogninue</h3>
-                            <p data-i18n="project_cogninue">Interactive autism support app with danger cognition
+                    <article class="portfolio-box project-card group overflow-hidden">
+                        <img src="images/projects/cx.png" alt="Cogninue project" class="group-hover:scale-110 transition-transform duration-500">
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20" data-i18n="project_pill_healthcare">Healthcare EdTech</span>
+                            <h3 class="text-white">Cogninue</h3>
+                            <p data-i18n="project_cogninue" class="text-white/80">Interactive autism support app with danger cognition
                                 activities and parental oversight.</p>
-                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
-                                    class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/mw205" class="project-link text-white mt-4" aria-label="View project"><i
+                                    class='bx bx-link-external text-2xl'></i></a>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card placeholder-card">
+                    <article class="portfolio-box project-card placeholder-card group overflow-hidden">
                         <div class="placeholder-media">DS</div>
-                        <div class="project-overlay static-overlay">
-                            <span class="project-pill">Vue.js + DRF</span>
-                            <h3 data-i18n="project_doctor_title">Doctor Scheduling Management System</h3>
-                            <p data-i18n="project_doctor">Healthcare scheduling platform for appointment booking and
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20">Vue.js + DRF</span>
+                            <h3 data-i18n="project_doctor_title" class="text-white">Doctor Scheduling Management System</h3>
+                            <p data-i18n="project_doctor" class="text-white/80">Healthcare scheduling platform for appointment booking and
                                 physician availability tracking.</p>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card">
-                        <img src="images/projects/farmbot.png" alt="FarmBot project">
-                        <div class="project-overlay">
-                            <span class="project-pill" data-i18n="project_pill_iot">IoT Dashboard</span>
-                            <h3>FarmBot</h3>
-                            <p data-i18n="project_farmbot">Real-time agriculture monitoring dashboard for soil and crop
+                    <article class="portfolio-box project-card group overflow-hidden">
+                        <img src="images/projects/farmbot.png" alt="FarmBot project" class="group-hover:scale-110 transition-transform duration-500">
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20" data-i18n="project_pill_iot">IoT Dashboard</span>
+                            <h3 class="text-white">FarmBot</h3>
+                            <p data-i18n="project_farmbot" class="text-white/80">Real-time agriculture monitoring dashboard for soil and crop
                                 intelligence via APIs.</p>
-                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
-                                    class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/mw205" class="project-link text-white mt-4" aria-label="View project"><i
+                                    class='bx bx-link-external text-2xl'></i></a>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card">
-                        <img src="images/projects/Logo.png" alt="Hotel System project">
-                        <div class="project-overlay">
-                            <span class="project-pill">Laravel + Vue</span>
-                            <h3 data-i18n="project_hotel_title">Hotel System</h3>
-                            <p data-i18n="project_hotel">Hospitality management platform designed for room operations
+                    <article class="portfolio-box project-card group overflow-hidden">
+                        <img src="images/projects/Logo.png" alt="Hotel System project" class="group-hover:scale-110 transition-transform duration-500">
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20">Laravel + Vue</span>
+                            <h3 data-i18n="project_hotel_title" class="text-white">Hotel System</h3>
+                            <p data-i18n="project_hotel" class="text-white/80">Hospitality management platform designed for room operations
                                 and reservation workflows.</p>
-                            <a href="https://github.com/mw205" class="project-link" aria-label="View project"><i
-                                    class='bx bx-link-external'></i></a>
+                            <a href="https://github.com/mw205" class="project-link text-white mt-4" aria-label="View project"><i
+                                    class='bx bx-link-external text-2xl'></i></a>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card placeholder-card">
+                    <article class="portfolio-box project-card group overflow-hidden placeholder-card">
                         <div class="placeholder-media">BS</div>
-                        <div class="project-overlay static-overlay">
-                            <span class="project-pill">Django</span>
-                            <h3 data-i18n="project_bookstore_title">Bookstore System</h3>
-                            <p data-i18n="project_bookstore">E-commerce bookstore with digital inventory flow and secure
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20">Django</span>
+                            <h3 data-i18n="project_bookstore_title" class="text-white">Bookstore System</h3>
+                            <p data-i18n="project_bookstore" class="text-white/80">E-commerce bookstore with digital inventory flow and secure
                                 order management.</p>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card placeholder-card">
+                    <article class="portfolio-box project-card group overflow-hidden placeholder-card">
                         <div class="placeholder-media">ST</div>
-                        <div class="project-overlay static-overlay">
-                            <span class="project-pill">Vue.js</span>
-                            <h3 data-i18n="project_stride_title">Stride</h3>
-                            <p data-i18n="project_stride">Responsive footwear e-commerce frontend focused on clean
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20">Vue.js</span>
+                            <h3 data-i18n="project_stride_title" class="text-white">Stride</h3>
+                            <p data-i18n="project_stride" class="text-white/80">Responsive footwear e-commerce frontend focused on clean
                                 browsing and conversion flow.</p>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card placeholder-card">
+                    <article class="portfolio-box project-card group overflow-hidden placeholder-card">
                         <div class="placeholder-media">QZ</div>
-                        <div class="project-overlay static-overlay">
-                            <span class="project-pill">JavaScript</span>
-                            <h3 data-i18n="project_quizzy_title">Quizzy</h3>
-                            <p data-i18n="project_quizzy">Educational platform with interactive quizzes and student
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20">JavaScript</span>
+                            <h3 data-i18n="project_quizzy_title" class="text-white">Quizzy</h3>
+                            <p data-i18n="project_quizzy" class="text-white/80">Educational platform with interactive quizzes and student
                                 performance tracking.</p>
                         </div>
                     </article>
 
-                    <article class="portfolio-box project-card placeholder-card">
+                    <article class="portfolio-box project-card group overflow-hidden placeholder-card">
                         <div class="placeholder-media">AI</div>
-                        <div class="project-overlay static-overlay">
-                            <span class="project-pill" data-i18n="project_pill_ai">AI Application</span>
-                            <h3 data-i18n="project_chatgpt_title">ChatGPT Clone</h3>
-                            <p data-i18n="project_chatgpt">AI chat application with dynamic conversations and
+                        <div class="project-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-slate-900/90 flex flex-col justify-center p-8 absolute inset-0">
+                            <span class="project-pill text-white border-white/20" data-i18n="project_pill_ai">AI Application</span>
+                            <h3 data-i18n="project_chatgpt_title" class="text-white">ChatGPT Clone</h3>
+                            <p data-i18n="project_chatgpt" class="text-white/80">AI chat application with dynamic conversations and
                                 text-to-image generation support.</p>
                         </div>
                     </article>
+                </div>
+            </div>
+        </section>
 
                     <article class="portfolio-box project-card">
                         <img src="images/projects/race.jpg" alt="RAG System project">
