@@ -79,7 +79,9 @@
       "project_modifai": "AI-powered photo editor for prompt-based transformations and fast mobile creation workflows.",
       "project_pill_healthcare": "Healthcare EdTech",
       "project_cogninue": "Autism support app with guided cognition exercises, safety prompts, and parent visibility.",
-      "project_pill_mindly: ": "Flutter + Firebase",
+      "project_pill_cx_academy": "Corporate EdTech",
+      "project_cx_academy": "An educational platform that is used by companies to train their employees.",
+      "project_pill_mindly": "Flutter + Firebase",
       "project_mindly_title": "Mindly",
       "project_mindly": "Protected EdTech platform with subscription control, QR access, and learning content delivery.",
       "project_pill_doctor": "Vue.js + DRF",
@@ -147,7 +149,7 @@
       "nav_contact": "تواصل معي",
       "header_cta": "احجز مكالمة",
       "hero_eyebrow": "تطوير تطبيقات موبايل ومنصات ويب وحلول ذكاء اصطناعي جاهزة للإطلاق",
-      "hero_title": "أبني منتجات رقمية عملية بتصميم نظيف وتنفيذ يعتمد عليه.",
+      "hero_title": "أبني Digital products عملية بتصميم نظيف وتنفيذ يعتمد عليه.",
       "hero_text": "أنا محمد وليد، مهندس برمجيات متخصص في Flutter وتطوير منصات الويب المتكاملة، مع خبرة في دمج حلول الذكاء الاصطناعي داخل المنتجات. أركز على بناء تطبيقات قابلة للتوسع، منظمة من الداخل، وسهلة الاستخدام من الخارج، مع التزام واضح بالجودة ومواعيد التسليم.",
       "hero_primary": "استعرض المشاريع",
       "hero_secondary": "ابدأ المحادثة",
@@ -215,6 +217,8 @@
       "project_modifai": "محرر صور يعتمد على الذكاء الاصطناعي لتعديل الصور من خلال الأوامر النصية، مع تجربة سريعة ومناسبة للموبايل.",
       "project_pill_healthcare": "تعليم تقني للرعاية الصحية",
       "project_cogninue": "تطبيق يساعد أطفال التوحد من خلال تمارين إدراكية موجهة، تنبيهات للسلامة، ولوحة تحكم لمتابعة أولياء الأمور.",
+      "project_pill_cx_academy": "منصة تعليمية للشركات",
+      "project_cx_academy": "منصة تعليمية تستخدمها الشركات لتدريب موظفيها.",
       "project_pill_mindly": "Flutter + Firebase",
       "project_mindly_title": "Mindly",
       "project_mindly": "منصة تعليمية مزودة بميزات لحماية المحتوى، ونظام اشتراك يعتمد على QR لتنظيم الوصول إلى المواد التعليمية.",
@@ -460,7 +464,7 @@
     },
     {
       "id": "cogninue",
-      "image": "images/projects/cx.png",
+      "image": "images/projects/cogninue.jpeg",
       "alt": "Cogninue project",
       "pill_i18n": "project_pill_healthcare",
       "status_i18n": "project_status_product",
@@ -469,6 +473,19 @@
       "stack_raw": "Accessibility",
       "links": {
         "github": "https://github.com/mw205/cogninue"
+      }
+    },
+    {
+      "id": "cx_academy",
+      "image": "images/projects/cx.png",
+      "alt": "CX Academy project",
+      "pill_i18n": "project_pill_cx_academy",
+      "status_i18n": "project_status_product",
+      "title_raw": "CX Academy",
+      "desc_i18n": "project_cx_academy",
+      "stack_raw": "EdTech",
+      "links": {
+        "github": "https://github.com/mw205"
       }
     },
     {
