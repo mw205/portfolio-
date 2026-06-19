@@ -176,6 +176,7 @@ body[dir="rtl"] .brand-name {
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface);
+  margin: 0 1.2rem;
 }
 
 .navbar a {
@@ -237,6 +238,7 @@ html.dark .navbar a::after {
   border-radius: 1rem;
   background: var(--surface);
   color: var(--text);
+  cursor: pointer;
   transition:
     transform 0.2s ease,
     background-color 0.2s ease,
@@ -270,6 +272,7 @@ html.dark .navbar a::after {
   padding: 0.95rem 1.4rem;
   border-radius: 999px;
   font-weight: 800;
+  cursor: pointer;
   transition:
     transform 0.2s ease,
     background-color 0.2s ease,
@@ -1217,6 +1220,7 @@ body.menu-open {
   .navbar {
     position: fixed;
     inset: 5.5rem 1rem auto;
+    margin: 0;
     display: grid;
     gap: 0.35rem;
     padding: 1rem;
@@ -1351,5 +1355,15 @@ html.dark .spinner {
 @keyframes spin {
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-copy,
+  .contact-form {
+    padding: 1.25rem 1rem;
+  }
+  .contact-points div span {
+    word-break: break-all;
   }
 }
