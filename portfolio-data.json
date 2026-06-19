@@ -1,0 +1,592 @@
+{
+  "translations": {
+    "en": {
+      "brand_role": "Software Engineer",
+      "nav_home": "Home",
+      "nav_about": "About",
+      "nav_journey": "Journey",
+      "nav_services": "Services",
+      "nav_skills": "Skills",
+      "nav_projects": "Projects",
+      "nav_contact": "Contact",
+      "header_cta": "Book a Call",
+      "hero_eyebrow": "Mobile, Web, and AI systems that ship",
+      "hero_title": "Building ambitious digital products with clean execution.",
+      "hero_text": "I’m Mohamed Waleed, a software engineer focused on Flutter, full-stack web platforms, and GenAI experiences. I design polished products with scalable architecture and strong delivery discipline.",
+      "hero_primary": "View Projects",
+      "hero_secondary": "Start a Conversation",
+      "hero_stat_1_title": "2024+",
+      "hero_stat_1_text": "Freelance product delivery",
+      "hero_stat_2_title": "Mobile + AI",
+      "hero_stat_2_text": "Cross-functional engineering focus",
+      "hero_stat_3_text": "Current specialization",
+      "hero_badge": "Available for freelance and product work",
+      "hero_panel_1_label": "Primary Stack",
+      "hero_panel_1_text": "Flutter, Laravel, Vue, Python",
+      "hero_panel_2_label": "Engineering Style",
+      "hero_panel_2_text": "Fast delivery, clean structure, real product focus",
+      "about_eyebrow": "About",
+      "about_title": "An engineer who bridges product speed and technical depth.",
+      "about_heading": "Full-stack and mobile systems with AI capability built in.",
+      "about_text": "Versatile and results-driven Software Engineer with a strong foundation in Artificial Intelligence and hands-on expertise across Mobile, Full-Stack Web, and GenAI development. Adept at designing scalable architectures and delivering end-to-end applications from intuitive frontends to robust backend systems.",
+      "about_point_1": "Cross-platform apps with strong UX and real-time workflows",
+      "about_point_2": "Structured systems using SOLID principles and scalable patterns",
+      "about_point_3": "Applied AI including RAG, image tooling, and LLM product features",
+      "about_point_4": "Production-ready delivery across mobile, web, and AI products",
+      "about_cta": "Connect on LinkedIn",
+      "journey_eyebrow": "Journey",
+      "journey_title": "Education and experience shaped around applied software delivery.",
+      "education_column": "Education",
+      "education_1_title": "Bachelor of Computer and Information Sciences (Artificial Intelligence Program)",
+      "education_1_text": "Built a strong base in AI, algorithms, and software engineering fundamentals.",
+      "education_2_title": "Open Source Applications Development",
+      "education_2_text": "Advanced training focused on open-source technologies and enterprise application delivery.",
+      "experience_column": "Experience",
+      "experience_1_title": "Freelance Flutter Developer",
+      "experience_1_place": "Independent",
+      "experience_1_item_1": "<strong>Mindly:</strong> Developed a Flutter-based EdTech app with anti-piracy safeguards and QR subscriptions.",
+      "experience_1_item_2": "<strong>FarmBot:</strong> Built an IoT agriculture dashboard with real-time sensor visibility.",
+      "experience_1_item_3": "<strong>CX Academy:</strong> Delivered a corporate e-learning platform with WebSocket chat and streaming.",
+      "experience_2_title": "Flutter Developer Intern",
+      "experience_2_text": "Contributed to the Green Car Wash app using MVVM, Bloc, Firebase, and Google Maps integration.",
+      "services_eyebrow": "Services",
+      "services_title": "High-value engineering support across product layers.",
+      "service_1_title": "Mobile Product Development",
+      "service_1_text": "Cross-platform Flutter applications with strong performance, maintainable state management, and production-ready polish.",
+      "service_1_link": "Discuss mobile work",
+      "service_2_title": "Full-Stack Web Systems",
+      "service_2_text": "Backend and frontend delivery for dashboards, business platforms, APIs, and modern web interfaces.",
+      "service_2_link": "Discuss web systems",
+      "service_3_title": "GenAI Integration",
+      "service_3_text": "RAG workflows, image tooling, and LLM-powered features integrated into real applications with practical product value.",
+      "service_3_link": "Discuss AI features",
+      "skills_eyebrow": "Skills",
+      "skills_title": "A broad stack anchored by mobile engineering and applied AI.",
+      "skills_mobile": "Mobile",
+      "skills_frontend": "Frontend",
+      "skills_backend": "Backend",
+      "skills_ai_tools": "AI & Tools",
+      "projects_eyebrow": "Projects",
+      "projects_title": "Selected work across AI, IoT, education, and product platforms.",
+      "projects_note": "A curated selection of shipped products and working prototypes, organized by stack and business use case.",
+      "portfolio_stat_1_title": "10+",
+      "portfolio_stat_1_text": "Projects presented",
+      "portfolio_stat_2_title": "3 domains",
+      "portfolio_stat_2_text": "Mobile, web, and AI",
+      "portfolio_stat_3_title": "Repo-first",
+      "portfolio_stat_3_text": "Readable code and structure",
+      "project_pill_modifai": "Flutter + Firebase",
+      "project_modifai": "AI-powered photo editor for prompt-based transformations and fast mobile creation workflows.",
+      "project_pill_healthcare": "Healthcare EdTech",
+      "project_cogninue": "Autism support app with guided cognition exercises, safety prompts, and parent visibility.",
+      "project_pill_mindly: ": "Flutter + Firebase",
+      "project_mindly_title": "Mindly",
+      "project_mindly": "Protected EdTech platform with subscription control, QR access, and learning content delivery.",
+      "project_pill_doctor": "Vue.js + DRF",
+      "project_doctor_title": "Doctor Scheduling Management System",
+      "project_doctor": "Clinic scheduling system for patient bookings, doctor availability, and daily coordination.",
+      "project_pill_iot": "IoT Dashboard",
+      "project_farmbot": "Agriculture monitoring dashboard that surfaces live soil and crop data from APIs.",
+      "project_pill_hotel": "Laravel + Vue",
+      "project_hotel_title": "Hotel System",
+      "project_hotel": "Hospitality management platform for room operations, reservations, and service tracking.",
+      "project_pill_bookstore": "Django",
+      "project_bookstore_title": "Bookstore System",
+      "project_bookstore": "Bookstore platform with catalog browsing, inventory handling, and order management.",
+      "project_pill_stride": "Vue.js",
+      "project_stride_title": "Stride",
+      "project_stride": "Responsive footwear storefront focused on product discovery and smooth purchase flow.",
+      "project_pill_quizzy": "JavaScript",
+      "project_quizzy_title": "Quizzy",
+      "project_quizzy": "Interactive quiz platform with progress tracking and student assessment flow.",
+      "project_pill_ai": "AI Application",
+      "project_chatgpt_title": "ChatGPT Clone",
+      "project_chatgpt": "Conversational AI playground with dynamic chat and experimentation hooks.",
+      "project_pill_cafeteria": "PHP Native",
+      "project_cafeteria_title": "Cafeteria System",
+      "project_cafeteria": "Native PHP cafeteria system for ordering, billing, and daily operations.",
+      "project_pill_rag": "LangChain + Flask",
+      "project_rag_title": "RAG System",
+      "project_rag": "PDF question-answering workflow powered by retrieval-augmented generation.",
+      "project_status_featured": "Featured",
+      "project_status_product": "Product",
+      "project_status_system": "System",
+      "project_status_realtime": "Realtime",
+      "project_status_operations": "Operations",
+      "project_status_catalog": "Catalog",
+      "project_status_ecommerce": "E-commerce",
+      "project_status_assessment": "Assessment",
+      "project_status_sandbox": "Sandbox",
+      "project_status_ai_search": "AI search",
+      "contact_eyebrow": "Contact",
+      "contact_title": "Let’s build something useful, fast, and well-structured.",
+      "contact_text": "If you need a mobile app, a product-focused full-stack build, or AI features integrated into an existing system, I’m open to discussing the scope.",
+      "contact_location": "Mansoura, Egypt",
+      "form_name": "Full Name",
+      "form_email": "Email Address",
+      "form_project_type": "Project Type",
+      "form_details": "Tell me about the product, scope, or problem you want solved",
+      "form_submit": "Send Message",
+      "footer_text": "&copy; 2026 Mohamed Waleed. All rights reserved.",
+      "contact_alert": "Contact form delivery is not wired yet. Please reach out on LinkedIn, WhatsApp, or email.",
+      "typed_strings": [
+        "Flutter Delivery",
+        "Full-Stack Systems",
+        "GenAI Products",
+        "Product Engineering"
+      ]
+    },
+    "ar": {
+      "brand_role": "مهندس برمجيات",
+      "nav_home": "الرئيسية",
+      "nav_about": "نبذة عني",
+      "nav_journey": "رحلتي",
+      "nav_services": "الخدمات",
+      "nav_skills": "المهارات",
+      "nav_projects": "المشاريع",
+      "nav_contact": "تواصل معي",
+      "header_cta": "احجز مكالمة",
+      "hero_eyebrow": "تطوير تطبيقات موبايل ومنصات ويب وحلول ذكاء اصطناعي جاهزة للإطلاق",
+      "hero_title": "أبني منتجات رقمية عملية بتصميم نظيف وتنفيذ يعتمد عليه.",
+      "hero_text": "أنا محمد وليد، مهندس برمجيات متخصص في Flutter وتطوير منصات الويب المتكاملة، مع خبرة في دمج حلول الذكاء الاصطناعي داخل المنتجات. أركز على بناء تطبيقات قابلة للتوسع، منظمة من الداخل، وسهلة الاستخدام من الخارج، مع التزام واضح بالجودة ومواعيد التسليم.",
+      "hero_primary": "استعرض المشاريع",
+      "hero_secondary": "ابدأ المحادثة",
+      "hero_stat_1_title": "+2024",
+      "hero_stat_1_text": "خبرة في العمل الحر وتسليم منتجات برمجية حقيقية",
+      "hero_stat_2_title": "موبايل + ويب + ذكاء اصطناعي",
+      "hero_stat_2_text": "خبرة تجمع بين أكثر من طبقة في بناء المنتج",
+      "hero_stat_3_text": "التخصص الحالي",
+      "hero_badge": "متاح للعمل الحر وبناء المنتجات البرمجية",
+      "hero_panel_1_label": "التقنيات الأساسية",
+      "hero_panel_1_text": "Flutter، Laravel، Vue، Python",
+      "hero_panel_2_label": "أسلوب العمل",
+      "hero_panel_2_text": "تنفيذ سريع، هيكلة واضحة، وتركيز مباشر على قيمة المنتج",
+      "about_eyebrow": "نبذة عني",
+      "about_title": "مهندس برمجيات يجمع بين سرعة بناء المنتج والاهتمام بالتفاصيل التقنية.",
+      "about_heading": "أطوّر تطبيقات موبايل ومنصات ويب متكاملة مع إمكانية دمج حلول الذكاء الاصطناعي عند الحاجة.",
+      "about_text": "مهندس برمجيات عملي وموجّه بالنتائج، لدي أساس قوي في الذكاء الاصطناعي وخبرة في تطوير تطبيقات الموبايل ومنصات الويب الكاملة. أعمل على تحويل الأفكار إلى منتجات قابلة للاستخدام، بدايةً من الواجهات التفاعلية وحتى الأنظمة الخلفية المستقرة والقابلة للتوسع.",
+      "about_point_1": "تطوير تطبيقات موبايل تعمل على Android و iOS مع تجربة مستخدم سلسة وتدفقات عمل لحظية",
+      "about_point_2": "بناء أنظمة منظمة تعتمد على مبادئ SOLID وتصميمات قابلة للصيانة والتوسع",
+      "about_point_3": "دمج حلول ذكاء اصطناعي عملية مثل RAG، أدوات معالجة الصور، وميزات مبنية على نماذج اللغة",
+      "about_point_4": "تسليم منتجات جاهزة للاستخدام الفعلي عبر الموبايل والويب والذكاء الاصطناعي",
+      "about_cta": "تواصل عبر LinkedIn",
+      "journey_eyebrow": "الرحلة التقنية",
+      "journey_title": "مسار يجمع بين الدراسة الأكاديمية والتطبيق العملي في بناء البرمجيات.",
+      "education_column": "التعليم",
+      "education_1_title": "بكالوريوس الحاسبات والمعلومات — برنامج الذكاء الاصطناعي",
+      "education_1_text": "تأسيس قوي في الذكاء الاصطناعي، الخوارزميات، وهندسة البرمجيات.",
+      "education_2_title": "تطوير تطبيقات المصادر المفتوحة — ITI",
+      "education_2_text": "منحة تدريبية ركزت على تقنيات المصادر المفتوحة وبناء تطبيقات ويب قابلة للاستخدام المؤسسي.",
+      "experience_column": "الخبرة",
+      "experience_1_title": "مطور Flutter مستقل",
+      "experience_1_place": "عمل حر",
+      "experience_1_item_1": "<strong>Mindly:</strong> تطوير تطبيق تعليمي باستخدام Flutter مع نظام اشتراكات يعتمد على QR وميزات لحماية المحتوى.",
+      "experience_1_item_2": "<strong>FarmBot:</strong> بناء لوحة تحكم زراعية لإنترنت الأشياء لمتابعة بيانات الحساسات لحظة بلحظة.",
+      "experience_1_item_3": "<strong>CX Academy:</strong> تسليم منصة تعليم إلكتروني للمؤسسات تدعم البث المباشر والمحادثات الفورية باستخدام WebSockets.",
+      "experience_2_title": "متدرب Flutter Developer",
+      "experience_2_text": "المساهمة في تطوير تطبيق Green Car Wash باستخدام MVVM و Bloc و Firebase، مع دمج خرائط Google Maps.",
+      "services_eyebrow": "الخدمات البرمجية",
+      "services_title": "خدمات تطوير تساعدك على تحويل الفكرة إلى منتج واضح وقابل للنمو.",
+      "service_1_title": "تطوير تطبيقات الموبايل",
+      "service_1_text": "بناء تطبيقات Flutter لنظامي Android و iOS بأداء جيد، إدارة حالة مستقرة، وتجربة استخدام مناسبة للإطلاق.",
+      "service_1_link": "ناقش مشروع الموبايل",
+      "service_2_title": "تطوير منصات الويب المتكاملة",
+      "service_2_text": "بناء الواجهات الأمامية والأنظمة الخلفية للوحات التحكم، منصات الأعمال، واجهات API، وتطبيقات الويب الحديثة.",
+      "service_2_link": "ناقش مشروع الويب",
+      "service_3_title": "دمج حلول الذكاء الاصطناعي",
+      "service_3_text": "تطوير ميزات تعتمد على RAG، معالجة الصور، ونماذج اللغة، مع دمجها داخل المنتج بطريقة عملية ومفيدة للمستخدم.",
+      "service_3_link": "ناقش ميزات الذكاء الاصطناعي",
+      "skills_eyebrow": "المهارات التقنية",
+      "skills_title": "مهارات تغطي تطوير الموبايل، الويب، والذكاء الاصطناعي العملي.",
+      "skills_mobile": "تطوير الموبايل",
+      "skills_frontend": "الواجهات الأمامية",
+      "skills_backend": "الأنظمة الخلفية",
+      "skills_ai_tools": "الذكاء الاصطناعي والأدوات",
+      "projects_eyebrow": "أبرز المشاريع",
+      "projects_title": "مشاريع مختارة في الذكاء الاصطناعي، إنترنت الأشياء، التعليم، ومنصات المنتجات الرقمية.",
+      "projects_note": "مجموعة مختارة من المنتجات والنماذج الأولية، موضحة حسب التقنيات المستخدمة وحالات الاستخدام.",
+      "portfolio_stat_1_title": "10+",
+      "portfolio_stat_1_text": "مشاريع معروضة",
+      "portfolio_stat_2_title": "3 مجالات",
+      "portfolio_stat_2_text": "الموبايل، الويب، والذكاء الاصطناعي",
+      "portfolio_stat_3_title": "تنظيم يعتمد على الكود أولاً",
+      "portfolio_stat_3_text": "بنية واضحة وكود سهل القراءة والتطوير",
+      "project_pill_modifai": "Flutter + Firebase",
+      "project_modifai": "محرر صور يعتمد على الذكاء الاصطناعي لتعديل الصور من خلال الأوامر النصية، مع تجربة سريعة ومناسبة للموبايل.",
+      "project_pill_healthcare": "تعليم تقني للرعاية الصحية",
+      "project_cogninue": "تطبيق يساعد أطفال التوحد من خلال تمارين إدراكية موجهة، تنبيهات للسلامة، ولوحة تحكم لمتابعة أولياء الأمور.",
+      "project_pill_mindly": "Flutter + Firebase",
+      "project_mindly_title": "Mindly",
+      "project_mindly": "منصة تعليمية مزودة بميزات لحماية المحتوى، ونظام اشتراك يعتمد على QR لتنظيم الوصول إلى المواد التعليمية.",
+      "project_pill_doctor": "Vue.js + DRF",
+      "project_doctor_title": "نظام إدارة مواعيد العيادات",
+      "project_doctor": "نظام لإدارة حجوزات المرضى، متابعة مواعيد الأطباء، وتنظيم العمليات اليومية داخل العيادة.",
+      "project_pill_iot": "لوحة تحكم لإنترنت الأشياء",
+      "project_farmbot": "لوحة تحكم زراعية ذكية لمراقبة بيانات التربة والمحاصيل لحظة بلحظة عبر واجهات API.",
+      "project_pill_hotel": "Laravel + Vue",
+      "project_hotel_title": "نظام إدارة الفنادق",
+      "project_hotel": "منصة لإدارة الغرف، حجوزات النزلاء، ومتابعة العمليات التشغيلية داخل الفندق.",
+      "project_pill_bookstore": "Django",
+      "project_bookstore_title": "نظام إدارة متجر كتب",
+      "project_bookstore": "منصة لبيع الكتب تتيح تصفح الكتالوج، إدارة المخزون، ومعالجة الطلبات بكفاءة.",
+      "project_pill_stride": "Vue.js",
+      "project_stride_title": "Stride Store",
+      "project_stride": "متجر أحذية متجاوب يركز على عرض المنتجات بوضوح وتسهيل خطوات الشراء.",
+      "project_pill_quizzy": "JavaScript",
+      "project_quizzy_title": "Quizzy",
+      "project_quizzy": "منصة اختبارات تفاعلية تساعد على متابعة تقدم الطلاب ونتائج التقييم.",
+      "project_pill_ai": "تطبيق ذكاء اصطناعي",
+      "project_chatgpt_title": "ChatGPT Clone",
+      "project_chatgpt": "واجهة محادثة تفاعلية تعتمد على الذكاء الاصطناعي، مع دعم للحوار الديناميكي وتجربة استخدام مرنة.",
+      "project_pill_cafeteria": "PHP Native",
+      "project_cafeteria_title": "نظام إدارة الكافتيريا",
+      "project_cafeteria": "نظام كافتيريا متكامل لإدارة الطلبات، الحسابات، والعمليات اليومية.",
+      "project_pill_rag": "LangChain + Flask",
+      "project_rag_title": "نظام RAG مخصص",
+      "project_rag": "نظام أسئلة وأجوبة على ملفات PDF يعتمد على Retrieval-Augmented Generation لتقديم إجابات مبنية على محتوى الملفات.",
+      "project_status_featured": "مميز",
+      "project_status_product": "منتج",
+      "project_status_system": "نظام",
+      "project_status_realtime": "لحظي",
+      "project_status_operations": "تشغيل",
+      "project_status_catalog": "كتالوج",
+      "project_status_ecommerce": "متجر إلكتروني",
+      "project_status_assessment": "تقييم",
+      "project_status_sandbox": "تجريبي",
+      "project_status_ai_search": "بحث ذكي",
+      "contact_eyebrow": "تواصل معي",
+      "contact_title": "لنبنِ منتجاً مفيداً، واضحاً، ومنظماً من الداخل.",
+      "contact_text": "سواء كنت تحتاج إلى تطبيق موبايل، منصة ويب متكاملة، أو دمج ميزات ذكاء اصطناعي داخل نظامك الحالي، يمكنني مساعدتك في فهم المتطلبات وتحويلها إلى منتج قابل للتنفيذ.",
+      "contact_location": "المنصورة، مصر",
+      "form_name": "الاسم الكامل",
+      "form_email": "البريد الإلكتروني",
+      "form_project_type": "نوع المشروع أو الفكرة",
+      "form_details": "اكتب تفاصيل المنتج، نطاق العمل، أو المشكلة التي تريد حلها...",
+      "form_submit": "إرسال الرسالة",
+      "footer_text": "&copy; 2026 Mohamed Waleed. جميع الحقوق محفوظة.",
+      "contact_alert": "نموذج التواصل غير مفعل حالياً. يرجى التواصل مباشرة عبر WhatsApp أو البريد الإلكتروني أو LinkedIn.",
+      "typed_strings": [
+        "تطوير تطبيقات Flutter",
+        "بناء منصات ويب متكاملة",
+        "دمج حلول الذكاء الاصطناعي",
+        "هندسة المنتجات الرقمية"
+      ]
+    }
+  },
+  "journey": {
+    "education": [
+      {
+        "date": "Oct 2021 - Jul 2025",
+        "title_i18n": "education_1_title",
+        "place_raw": "Faculty of Computer and Information Sciences, Mansoura University | GPA: 3.38",
+        "text_i18n": "education_1_text"
+      },
+      {
+        "date": "Oct 2025 - Aug 2026",
+        "title_i18n": "education_2_title",
+        "place_raw": "Information Technology Institute (ITI) | 9-Month Track",
+        "text_i18n": "education_2_text"
+      }
+    ],
+    "experience": [
+      {
+        "date": "Nov 2024 - Present",
+        "title_i18n": "experience_1_title",
+        "place_i18n": "experience_1_place",
+        "items": [
+          "experience_1_item_1",
+          "experience_1_item_2",
+          "experience_1_item_3"
+        ]
+      },
+      {
+        "date": "Oct 2024 - Dec 2024",
+        "title_i18n": "experience_2_title",
+        "place_raw": "serv5 | Mansoura, Egypt",
+        "text_i18n": "experience_2_text"
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon": "bx bxl-flutter",
+      "title_i18n": "service_1_title",
+      "text_i18n": "service_1_text",
+      "link_i18n": "service_1_link",
+      "link_target": "#contact"
+    },
+    {
+      "icon": "bx bx-code-alt",
+      "title_i18n": "service_2_title",
+      "text_i18n": "service_2_text",
+      "link_i18n": "service_2_link",
+      "link_target": "#contact"
+    },
+    {
+      "icon": "bx bxs-bot",
+      "title_i18n": "service_3_title",
+      "text_i18n": "service_3_text",
+      "link_i18n": "service_3_link",
+      "link_target": "#contact"
+    }
+  ],
+  "skills": [
+    {
+      "category_i18n": "skills_mobile",
+      "tags": [
+        {
+          "name": "Flutter",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg"
+        },
+        {
+          "name": "Dart",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg"
+        }
+      ]
+    },
+    {
+      "category_i18n": "skills_frontend",
+      "tags": [
+        {
+          "name": "Angular",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg"
+        },
+        {
+          "name": "Vue.js",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+        }
+      ]
+    },
+    {
+      "category_i18n": "skills_backend",
+      "tags": [
+        {
+          "name": "Laravel",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg"
+        },
+        {
+          "name": "Node.js",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+        },
+        {
+          "name": "Express.js",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+        },
+        {
+          "name": "MySQL",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
+        },
+        {
+          "name": "Django",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg"
+        },
+        {
+          "name": "Python",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+        },
+        {
+          "name": "Java",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+        }
+      ]
+    },
+    {
+      "category_i18n": "skills_ai_tools",
+      "tags": [
+        {
+          "name": "Git",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+        },
+        {
+          "name": "Firebase",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg"
+        },
+        {
+          "name": "Linux",
+          "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+        },
+        {
+          "name": "Codex",
+          "icon": "images/skills/codex.svg"
+        },
+        {
+          "name": "Gemini",
+          "icon": "images/skills/gemini.svg"
+        },
+        {
+          "name": "Hugging Face",
+          "icon": "images/skills/huggingface.svg"
+        },
+        {
+          "name": "Antigravity",
+          "icon": "images/skills/antigravity.png"
+        },
+        {
+          "name": "Cursor",
+          "icon": "images/skills/cursor.svg"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "modifai",
+      "image": "images/projects/modifai.png",
+      "alt": "ModifAI project",
+      "pill_i18n": "project_pill_modifai",
+      "status_i18n": "project_status_featured",
+      "title_raw": "ModifAI",
+      "desc_i18n": "project_modifai",
+      "stack_raw": "Mobile AI",
+      "links": {
+        "github": "https://github.com/mw205/ModifAI-photo-editor"
+      }
+    },
+    {
+      "id": "cogninue",
+      "image": "images/projects/cx.png",
+      "alt": "Cogninue project",
+      "pill_i18n": "project_pill_healthcare",
+      "status_i18n": "project_status_product",
+      "title_raw": "Cogninue",
+      "desc_i18n": "project_cogninue",
+      "stack_raw": "Accessibility",
+      "links": {
+        "github": "https://github.com/mw205/cogninue"
+      }
+    },
+    {
+      "id": "mindly",
+      "image": "images/projects/mindly.jpeg",
+      "alt": "Mindly project",
+      "pill_i18n": "project_pill_mindly",
+      "status_i18n": "project_status_featured",
+      "title_i18n": "project_mindly_title",
+      "desc_i18n": "project_mindly",
+      "stack_raw": "EdTech",
+      "links": {
+        "github": "https://github.com/mw205/mindly"
+      }
+    },
+    {
+      "id": "clinic_appointment",
+      "image": "images/projects/Clinic Scheduling Management System.png",
+      "alt": "Doctor Scheduling Management System project",
+      "pill_i18n": "project_pill_doctor",
+      "status_i18n": "project_status_system",
+      "title_i18n": "project_doctor_title",
+      "desc_i18n": "project_doctor",
+      "stack_raw": "Scheduling",
+      "links": {
+        "github": "https://github.com/mw205/clinic_appointment_system"
+      }
+    },
+    {
+      "id": "farmbot",
+      "image": "images/projects/farmbot.png",
+      "alt": "FarmBot project",
+      "pill_i18n": "project_pill_iot",
+      "status_i18n": "project_status_realtime",
+      "title_raw": "FarmBot",
+      "desc_i18n": "project_farmbot",
+      "stack_raw": "IoT",
+      "links": {
+        "github": "https://github.com/mw205/farmbot"
+      }
+    },
+    {
+      "id": "hotel",
+      "image": "images/projects/hotel.jpeg",
+      "alt": "Hotel System project",
+      "pill_i18n": "project_pill_hotel",
+      "status_i18n": "project_status_operations",
+      "title_i18n": "project_hotel_title",
+      "desc_i18n": "project_hotel",
+      "stack_raw": "Hospitality",
+      "links": {
+        "github": "https://github.com/mw205"
+      }
+    },
+    {
+      "id": "library_system",
+      "image": "images/projects/bookstore.png",
+      "alt": "Bookstore project",
+      "pill_i18n": "project_pill_bookstore",
+      "status_i18n": "project_status_catalog",
+      "title_i18n": "project_bookstore_title",
+      "desc_i18n": "project_bookstore",
+      "stack_raw": "Commerce",
+      "links": {
+        "github": "https://github.com/mw205/library_system"
+      }
+    },
+    {
+      "id": "stride",
+      "image": "images/projects/stride.png",
+      "alt": "Stride",
+      "pill_i18n": "project_pill_stride",
+      "status_i18n": "project_status_ecommerce",
+      "title_i18n": "project_stride_title",
+      "desc_i18n": "project_stride",
+      "stack_raw": "Frontend",
+      "links": {
+        "github": "https://github.com/mw205/stride_ecommerce"
+      }
+    },
+    {
+      "id": "quizzy",
+      "image": "images/projects/quizzy.png",
+      "alt": "Quizzy project",
+      "pill_i18n": "project_pill_quizzy",
+      "status_i18n": "project_status_assessment",
+      "title_i18n": "project_quizzy_title",
+      "desc_i18n": "project_quizzy",
+      "stack_raw": "Learning",
+      "links": {
+        "github": "https://github.com/mw205/quizzy"
+      }
+    },
+    {
+      "id": "cafeteria",
+      "image": "images/projects/cafeteria.jpg",
+      "alt": "Cafeteria project",
+      "pill_i18n": "project_pill_cafeteria",
+      "status_i18n": "project_status_operations",
+      "title_i18n": "project_cafeteria_title",
+      "desc_i18n": "project_cafeteria",
+      "stack_raw": "Back office",
+      "links": {
+        "github": "https://github.com/mw205"
+      }
+    },
+    {
+      "id": "rag",
+      "image": "images/projects/rag.png",
+      "alt": "RAG System project",
+      "pill_i18n": "project_pill_rag",
+      "status_i18n": "project_status_ai_search",
+      "title_i18n": "project_rag_title",
+      "desc_i18n": "project_rag",
+      "stack_raw": "Knowledge base",
+      "links": {
+        "github": "https://github.com/mw205/simple_rag_system"
+      }
+    }
+  ]
+}

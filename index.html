@@ -5,42 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mohamed Waleed - Software Engineer specializing in Flutter mobile apps, full-stack web platforms, and GenAI features.">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Mohamed Waleed | Portfolio">
+    <meta property="og:description" content="Building ambitious digital products with clean execution.">
+    <meta property="og:image" content="images/my_photo.jpeg">
+    <meta property="og:url" content="https://github.com/mw205">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mohamed Waleed | Portfolio">
+    <meta name="twitter:description" content="Building ambitious digital products with clean execution.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Tajawal:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
         rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        'creamy-white': '#FEFFFF',
-                        'deep-blue': '#0A192F',
-                        black: '#000000',
-                    },
-                    fontFamily: {
-                        display: ['Space Grotesk', 'sans-serif'],
-                        sans: ['Manrope', 'sans-serif'],
-                        arabic: ['Tajawal', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/logo.PNG">
     <title>Mohamed Waleed | Portfolio</title>
 </head>
 
 <body class="site-body font-sans">
+    <div id="splash-loader" class="splash-loader">
+        <div class="spinner"></div>
+    </div>
     <header class="header" id="header">
         <div class="shell header-shell">
             <a href="#home" class="brand-mark">
-                <img class="brand-logo" src="images/logo.PNG" alt="Mohamed Waleed logo">
+                <img class="brand-logo" src="images/logo.PNG" alt="Mohamed Waleed logo" width="88" height="84">
                 <div>
                     <span class="brand-name">Mohamed Waleed</span>
                     <span class="brand-role" data-i18n="brand_role">Software Engineer</span>
@@ -123,7 +121,8 @@
                             <span data-i18n="hero_badge">Available for freelance and product work</span>
                         </div>
                         <div class="portrait-frame">
-                            <img src="images/my_photo.jpeg" alt="Portrait of Mohamed Waleed">
+                            <img src="images/my_photo.jpeg" alt="Portrait of Mohamed Waleed" width="900" height="1024"
+                                fetchpriority="high">
                         </div>
                         <div class="hero-panel">
                             <div>
@@ -150,9 +149,6 @@
                 </div>
 
                 <div class="about-layout">
-                    <div class="about-card">
-                        <img src="images/my_photo_2.jpeg" alt="Mohamed Waleed profile photo">
-                    </div>
                     <div class="about-copy">
                         <h3 data-i18n="about_heading">Full-stack and mobile systems with AI capability built in.</h3>
                         <p data-i18n="about_text">
@@ -204,50 +200,14 @@
                     <div>
                         <h3 class="column-title"><i class='bx bxs-graduation'></i> <span
                                 data-i18n="education_column">Education</span></h3>
-                        <div class="timeline-stack">
-                            <article class="timeline-card education-box">
-                                <span class="timeline-date">Oct 2021 - Jul 2025</span>
-                                <h4 data-i18n="education_1_title">Bachelor of Computer and Information Sciences
-                                    (Artificial Intelligence Program)</h4>
-                                <p class="timeline-place">Faculty of Computer and Information Sciences, Mansoura
-                                    University | GPA: 3.38</p>
-                                <p data-i18n="education_1_text">Built a strong base in AI, algorithms, and software
-                                    engineering fundamentals.</p>
-                            </article>
-                            <article class="timeline-card education-box">
-                                <span class="timeline-date">Oct 2025 - Aug 2026</span>
-                                <h4 data-i18n="education_2_title">Open Source Applications Development</h4>
-                                <p class="timeline-place">Information Technology Institute (ITI) | 9-Month Track</p>
-                                <p data-i18n="education_2_text">Advanced training focused on open-source technologies
-                                    and enterprise application delivery.</p>
-                            </article>
+                        <div class="timeline-stack" id="education-stack">
                         </div>
                     </div>
 
                     <div>
                         <h3 class="column-title"><i class='bx bx-briefcase'></i> <span
                                 data-i18n="experience_column">Experience</span></h3>
-                        <div class="timeline-stack">
-                            <article class="timeline-card experience-box">
-                                <span class="timeline-date">Nov 2024 - Present</span>
-                                <h4 data-i18n="experience_1_title">Freelance Flutter Developer</h4>
-                                <p class="timeline-place" data-i18n="experience_1_place">Independent</p>
-                                <ul class="timeline-list">
-                                    <li data-i18n="experience_1_item_1"><strong>Mindly:</strong> Developed a
-                                        Flutter-based EdTech app with anti-piracy safeguards and QR subscriptions.</li>
-                                    <li data-i18n="experience_1_item_2"><strong>FarmBot:</strong> Built an IoT
-                                        agriculture dashboard with real-time sensor visibility.</li>
-                                    <li data-i18n="experience_1_item_3"><strong>CX Academy:</strong> Delivered a
-                                        corporate e-learning platform with WebSocket chat and streaming.</li>
-                                </ul>
-                            </article>
-                            <article class="timeline-card experience-box">
-                                <span class="timeline-date">Oct 2024 - Dec 2024</span>
-                                <h4 data-i18n="experience_2_title">Flutter Developer Intern</h4>
-                                <p class="timeline-place">serv5 | Mansoura, Egypt</p>
-                                <p data-i18n="experience_2_text">Contributed to the Green Car Wash app using MVVM,
-                                    Bloc, Firebase, and Google Maps integration.</p>
-                            </article>
+                        <div class="timeline-stack" id="experience-stack">
                         </div>
                     </div>
                 </div>
@@ -262,30 +222,7 @@
                         layers.</h2>
                 </div>
 
-                <div class="services-grid">
-                    <article class="services-box service-card">
-                        <i class='bx bxl-flutter'></i>
-                        <h3 data-i18n="service_1_title">Mobile Product Development</h3>
-                        <p data-i18n="service_1_text">Cross-platform Flutter applications with strong performance,
-                            maintainable state management, and production-ready polish.</p>
-                        <a href="#contact" class="text-link" data-i18n="service_1_link">Discuss mobile work</a>
-                    </article>
-
-                    <article class="services-box service-card">
-                        <i class='bx bx-code-alt'></i>
-                        <h3 data-i18n="service_2_title">Full-Stack Web Systems</h3>
-                        <p data-i18n="service_2_text">Backend and frontend delivery for dashboards, business platforms,
-                            APIs, and modern web interfaces.</p>
-                        <a href="#contact" class="text-link" data-i18n="service_2_link">Discuss web systems</a>
-                    </article>
-
-                    <article class="services-box service-card">
-                        <i class='bx bxs-bot'></i>
-                        <h3 data-i18n="service_3_title">GenAI Integration</h3>
-                        <p data-i18n="service_3_text">RAG workflows, image tooling, and LLM-powered features integrated
-                            into real applications with practical product value.</p>
-                        <a href="#contact" class="text-link" data-i18n="service_3_link">Discuss AI features</a>
-                    </article>
+                <div class="services-grid" id="services-grid">
                 </div>
             </div>
         </section>
@@ -298,140 +235,7 @@
                         applied AI.</h2>
                 </div>
 
-                <div class="skills-grid">
-                    <article class="skill-category skill-card">
-                        <h3 data-i18n="skills_mobile">Mobile</h3>
-                        <span class="tag-row">
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg"
-                                    alt="Flutter">
-                                <span>Flutter</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg"
-                                    alt="Dart">
-                                <span>Dart</span>
-                            </span>
-                        </span>
-                    </article>
-
-                    <article class="skill-category skill-card">
-                        <h3 data-i18n="skills_frontend">Frontend</h3>
-                        <span class="tag-row">
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg"
-                                    alt="Angular">
-                                <span>Angular</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg"
-                                    alt="Vue.js">
-                                <span>Vue.js</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"
-                                    alt="Bootstrap">
-                                <span>Bootstrap</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg"
-                                    alt="Tailwind">
-                                <span>Tailwind CSS</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                                    alt="JS">
-                                <span>JavaScript</span>
-                            </span>
-                        </span>
-                    </article>
-
-                    <article class="skill-category skill-card">
-                        <h3 data-i18n="skills_backend">Backend</h3>
-                        <span class="tag-row">
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg"
-                                    alt="Laravel">
-                                <span>Laravel</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
-                                    alt="Node.js">
-                                <span>Node.js</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                                    alt="Express.js">
-                                <span>Express.js</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
-                                    alt="MySQL">
-                                <span>MySQL</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
-                                    alt="MongoDB">
-                                <span>MongoDB</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg"
-                                    alt="Django">
-                                <span>Django</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-                                    alt="Python">
-                                <span>Python</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-                                    alt="Java">
-                                <span>Java</span>
-                            </span>
-                        </span>
-                    </article>
-
-                    <article class="skill-category skill-card">
-                        <h3 data-i18n="skills_ai_tools">AI & Tools</h3>
-                        <span class="tag-row">
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
-                                    alt="Git">
-                                <span>Git</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg"
-                                    alt="Firebase">
-                                <span>Firebase</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
-                                    alt="Linux">
-                                <span>Linux</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="images/skills/codex.svg" alt="Codex">
-                                <span>Codex</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="images/skills/gemini.svg" alt="Gemini">
-                                <span>Gemini</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="images/skills/huggingface.svg" alt="Hugging Face">
-                                <span>Hugging Face</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="images/skills/antigravity.png" alt="Antigravity">
-                                <span>Antigravity</span>
-                            </span>
-                            <span class="skill-tag">
-                                <img src="images/skills/cursor.svg" alt="Cursor">
-                                <span>Cursor</span>
-                            </span>
-                        </span>
-                    </article>
+                <div class="skills-grid" id="skills-grid">
                 </div>
             </div>
         </section>
@@ -443,259 +247,7 @@
                     <h2 class="section-title" data-i18n="projects_title">Selected work across AI, IoT, education, and
                         product platforms.</h2>
                 </div>
-                <div class="portfolio-grid">
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/ModifAI-photo-editor" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open ModifAI repository">
-                            <img src="images/projects/modifai.png" alt="ModifAI project" loading="lazy"
-                                decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_modifai">Flutter + Firebase</span>
-                                <span class="project-status" data-i18n="project_status_featured">Featured</span>
-                            </div>
-                            <h3>ModifAI</h3>
-                            <p data-i18n="project_modifai">AI-powered photo editor for prompt-based transformations and
-                                fast mobile creation workflows.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Mobile AI</span>
-                                <a href="https://github.com/mw205/ModifAI-photo-editor" target="_blank"
-                                    rel="noopener noreferrer" class="project-link" data-i18n="project_view"
-                                    aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/cogninue" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open Cogninue repository">
-                            <img src="images/projects/cx.png" alt="Cogninue project" loading="lazy" decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_healthcare">Healthcare EdTech</span>
-                                <span class="project-status" data-i18n="project_status_product">Product</span>
-                            </div>
-                            <h3>Cogninue</h3>
-                            <p data-i18n="project_cogninue">Autism support app with guided cognition exercises, safety
-                                prompts, and parent visibility.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Accessibility</span>
-                                <a href="https://github.com/mw205/cogninue" target="_blank" rel="noopener noreferrer"
-                                    class="project-link" data-i18n="project_view" aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/mindly" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open Mindly repository">
-                            <img src="images/projects/mindly.jpeg" alt="Mindly project" loading="lazy" decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_mindly">Flutter + Firebase</span>
-                                <span class="project-status" data-i18n="project_status_featured">Featured</span>
-                            </div>
-                            <h3 data-i18n="project_mindly_title">Mindly</h3>
-                            <p data-i18n="project_mindly">Protected EdTech platform with subscription control, QR
-                                access, and learning content delivery.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">EdTech</span>
-                                <a href="https://github.com/mw205/mindly" target="_blank" rel="noopener noreferrer"
-                                    class="project-link" data-i18n="project_view" aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/clinic_appointment_system"
-                            target="_blank" rel="noopener noreferrer"
-                            aria-label="Open Doctor Scheduling Management System repository">
-                            <img src="images/projects/Clinic Scheduling Management System.png"
-                                alt="Doctor Scheduling Management System project" loading="lazy" decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_doctor">Vue.js + DRF</span>
-                                <span class="project-status" data-i18n="project_status_system">System</span>
-                            </div>
-                            <h3 data-i18n="project_doctor_title">Doctor Scheduling Management System</h3>
-                            <p data-i18n="project_doctor">Clinic scheduling system for patient bookings, doctor
-                                availability, and daily coordination.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Scheduling</span>
-                                <a href="https://github.com/mw205/clinic_appointment_system" target="_blank"
-                                    rel="noopener noreferrer" class="project-link" data-i18n="project_view"
-                                    aria-label="View repository">View repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/farmbot" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open FarmBot repository">
-                            <img src="images/projects/farmbot.png" alt="FarmBot project" loading="lazy"
-                                decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_iot">IoT Dashboard</span>
-                                <span class="project-status" data-i18n="project_status_realtime">Realtime</span>
-                            </div>
-                            <h3>FarmBot</h3>
-                            <p data-i18n="project_farmbot">Agriculture monitoring dashboard that surfaces live soil and
-                                crop data from APIs.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">IoT</span>
-                                <a href="https://github.com/mw205/farmbot" target="_blank" rel="noopener noreferrer"
-                                    class="project-link" data-i18n="project_view" aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open Hotel System repository">
-                            <img src="images/projects/hotel.jpeg" alt="Hotel System project" loading="lazy"
-                                decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_hotel">Laravel + Vue</span>
-                                <span class="project-status" data-i18n="project_status_operations">Operations</span>
-                            </div>
-                            <h3 data-i18n="project_hotel_title">Hotel System</h3>
-                            <p data-i18n="project_hotel">Hospitality management platform for room operations,
-                                reservations, and service tracking.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Hospitality</span>
-                                <a href="https://github.com/mw205" target="_blank" rel="noopener noreferrer"
-                                    class="project-link" data-i18n="project_view" aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/library_system" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open Bookstore System repository">
-                            <img src="images/projects/bookstore.png" alt="Bookstore project" loading="lazy"
-                                decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_bookstore">Django</span>
-                                <span class="project-status" data-i18n="project_status_catalog">Catalog</span>
-                            </div>
-                            <h3 data-i18n="project_bookstore_title">Bookstore System</h3>
-                            <p data-i18n="project_bookstore">Bookstore platform with catalog browsing, inventory
-                                handling, and order management.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Commerce</span>
-                                <a href="https://github.com/mw205/library_system" target="_blank"
-                                    rel="noopener noreferrer" class="project-link" data-i18n="project_view"
-                                    aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/stride_ecommerce" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open Stride repository">
-                            <img src="images/projects/stride.png" alt="Stride" loading="lazy" decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_stride">Vue.js</span>
-                                <span class="project-status" data-i18n="project_status_ecommerce">E-commerce</span>
-                            </div>
-                            <h3 data-i18n="project_stride_title">Stride</h3>
-                            <p data-i18n="project_stride">Responsive footwear storefront focused on product discovery
-                                and smooth purchase flow.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Frontend</span>
-                                <a href="https://github.com/mw205/stride_ecommerce" target="_blank"
-                                    rel="noopener noreferrer" class="project-link" data-i18n="project_view"
-                                    aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/quizzy" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open Quizzy repository">
-                            <img src="images/projects/quizzy.png" alt="Quizzy project" loading="lazy" decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_quizzy">JavaScript</span>
-                                <span class="project-status" data-i18n="project_status_assessment">Assessment</span>
-                            </div>
-                            <h3 data-i18n="project_quizzy_title">Quizzy</h3>
-                            <p data-i18n="project_quizzy">Interactive quiz platform with progress tracking and student
-                                assessment flow.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Learning</span>
-                                <a href="https://github.com/mw205/quizzy" target="_blank" rel="noopener noreferrer"
-                                    class="project-link" data-i18n="project_view" aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open Cafeteria System repository">
-                            <img src="images/projects/cafeteria.jpg" alt="Cafeteria project" loading="lazy"
-                                decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_cafeteria">PHP Native</span>
-                                <span class="project-status" data-i18n="project_status_operations">Operations</span>
-                            </div>
-                            <h3 data-i18n="project_cafeteria_title">Cafeteria System</h3>
-                            <p data-i18n="project_cafeteria">Native PHP cafeteria system for ordering, billing, and
-                                daily operations.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Back office</span>
-                                <a href="https://github.com/mw205" target="_blank" rel="noopener noreferrer"
-                                    class="project-link" data-i18n="project_view" aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <a class="project-media" href="https://github.com/mw205/simple_rag_system" target="_blank"
-                            rel="noopener noreferrer" aria-label="Open RAG System repository">
-                            <img src="images/projects/rag.png" alt="RAG System project" loading="lazy" decoding="async">
-                        </a>
-                        <div class="project-content">
-                            <div class="project-topline">
-                                <span class="project-pill" data-i18n="project_pill_rag">LangChain + Flask</span>
-                                <span class="project-status" data-i18n="project_status_ai_search">AI search</span>
-                            </div>
-                            <h3 data-i18n="project_rag_title">RAG System</h3>
-                            <p data-i18n="project_rag">PDF question-answering workflow powered by retrieval-augmented
-                                generation.</p>
-                            <div class="project-footer">
-                                <span class="project-stack">Knowledge base</span>
-                                <a href="https://github.com/mw205/simple_rag_system" target="_blank"
-                                    rel="noopener noreferrer" class="project-link" data-i18n="project_view"
-                                    aria-label="View repository">View
-                                    repository</a>
-                            </div>
-                        </div>
-                    </article>
+                <div class="portfolio-grid" id="portfolio-grid">
                 </div>
             </div>
         </section>
@@ -720,16 +272,16 @@
 
                 <form action="#" class="contact-form" id="contact-form">
                     <div class="field-row">
-                        <input type="text" data-i18n-placeholder="form_name" placeholder="Full Name"
-                            aria-label="Full Name">
-                        <input type="email" data-i18n-placeholder="form_email" placeholder="Email Address"
-                            aria-label="Email Address">
+                        <input type="text" id="contact-name" name="name" data-i18n-placeholder="form_name"
+                            placeholder="Full Name" aria-label="Full Name" required>
+                        <input type="email" id="contact-email" name="email" data-i18n-placeholder="form_email"
+                            placeholder="Email Address" aria-label="Email Address" required>
                     </div>
-                    <input type="text" data-i18n-placeholder="form_project_type" placeholder="Project Type"
-                        aria-label="Project Type">
-                    <textarea data-i18n-placeholder="form_details"
+                    <input type="text" id="contact-project" name="project" data-i18n-placeholder="form_project_type"
+                        placeholder="Project Type" aria-label="Project Type" required>
+                    <textarea id="contact-details" name="details" data-i18n-placeholder="form_details"
                         placeholder="Tell me about the product, scope, or problem you want solved" rows="6"
-                        aria-label="Project details"></textarea>
+                        aria-label="Project details" required></textarea>
                     <button type="submit" class="primary-btn full-width" data-i18n="form_submit">Send Message</button>
                 </form>
             </div>
