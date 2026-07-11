@@ -871,6 +871,67 @@ html.dark .metric-header i {
   display: block;
 }
 
+.portfolio-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: -0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.filter-btn {
+  padding: 0.6rem 1.4rem;
+  border-radius: 2rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+  transition:
+    transform 0.25s ease,
+    background-color 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+html.dark .filter-btn {
+  background: var(--surface-soft);
+  border-color: var(--border);
+}
+
+.filter-btn:hover {
+  color: var(--deep-blue);
+  border-color: var(--deep-blue);
+  transform: translateY(-1px);
+}
+
+html.dark .filter-btn:hover {
+  color: var(--creamy-white);
+  border-color: var(--creamy-white);
+}
+
+.filter-btn.active {
+  background: var(--deep-blue);
+  color: var(--creamy-white);
+  border-color: var(--deep-blue);
+  box-shadow: 0 4px 12px rgba(10, 25, 47, 0.15);
+}
+
+html.dark .filter-btn.active {
+  background: var(--creamy-white);
+  color: var(--deep-blue);
+  border-color: var(--creamy-white);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.project-card.hide-project {
+  display: none;
+}
+
 .portfolio-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }

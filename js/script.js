@@ -192,7 +192,7 @@ const renderProjects = (projects) => {
   grid.innerHTML = projects
     .map((project) => {
       const links = project.links || {};
-      const mediaHref = links.github || links.website || links.playstore || "#";
+      const mediaHref = links.github || links.website || links.playstore || links.appstore || "#";
 
       let linksHtml = "";
       if (links.github) {
@@ -209,6 +209,13 @@ const renderProjects = (projects) => {
         </a>
       `;
       }
+      if (links.appstore) {
+        linksHtml += `
+        <a href="${links.appstore}" target="_blank" rel="noopener noreferrer" class="project-icon-btn" aria-label="App Store">
+          <i class="bx bxl-apple"></i>
+        </a>
+      `;
+      }
       if (links.website) {
         linksHtml += `
         <a href="${links.website}" target="_blank" rel="noopener noreferrer" class="project-icon-btn" aria-label="Website Link">
@@ -221,8 +228,15 @@ const renderProjects = (projects) => {
         ? `<h3 data-i18n="${project.title_i18n}"></h3>`
         : `<h3>${project.title_raw}</h3>`;
 
+      const categories = [...(project.categories || [])];
+      const hasOtherLinks = Object.keys(links).some((key) => key !== "github" && links[key]);
+      if (hasOtherLinks && !categories.includes("published")) {
+        categories.push("published");
+      }
+      const categoriesStr = categories.join(" ");
+
       return `
-      <article class="project-card">
+      <article class="project-card" data-categories="${categoriesStr}">
         <a class="project-media" href="${mediaHref}" target="_blank" rel="noopener noreferrer" aria-label="Open ${project.alt}">
           <img src="${project.image}" alt="${project.alt}" loading="lazy" decoding="async" width="1600" height="1200">
         </a>
@@ -246,6 +260,31 @@ const renderProjects = (projects) => {
     .join("");
 };
 
+const setupProjectFilters = () => {
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const projectCards = document.querySelectorAll(".project-card");
+
+  filterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      // Remove active class from all buttons
+      filterButtons.forEach((btn) => btn.classList.remove("active"));
+      // Add active class to clicked button
+      button.classList.add("active");
+
+      const filterValue = button.getAttribute("data-filter");
+
+      projectCards.forEach((card) => {
+        const categories = (card.getAttribute("data-categories") || "").split(" ");
+        if (filterValue === "all" || categories.includes(filterValue)) {
+          card.classList.remove("hide-project");
+        } else {
+          card.classList.add("hide-project");
+        }
+      });
+    });
+  });
+};
+
 const initializePortfolioData = async () => {
   try {
     const response = await fetch("portfolio-data.json");
@@ -256,34 +295,15 @@ const initializePortfolioData = async () => {
     if (data.journey) renderJourney(data.journey);
     if (data.services) renderServices(data.services);
     if (data.skills) renderSkills(data.skills);
-    if (data.projects) renderProjects(data.projects);
+    if (data.projects) {
+      renderProjects(data.projects);
+      setupProjectFilters();
+    }
   } catch (e) {
     console.error(
       "Could not fetch portfolio-data.json. Please ensure you are running on a local web server.",
       e,
     );
-  }
-};
-
-const initializeAnimations = () => {
-  if (typeof ScrollReveal !== "undefined") {
-    const reveal = ScrollReveal({
-      distance: "38px",
-      duration: 850,
-      delay: 100,
-      easing: "ease",
-      reset: false,
-    });
-
-    reveal.reveal(".hero-copy, .section-heading, .section-intro", {
-      origin: "top",
-    });
-    reveal.reveal(
-      ".hero-visual, .service-card, .skill-card, .project-card, .timeline-card, .contact-form",
-      { origin: "bottom", interval: 90 },
-    );
-    reveal.reveal(".about-card, .contact-copy", { origin: "left" });
-    reveal.reveal(".about-copy", { origin: "right" });
   }
 };
 
@@ -377,7 +397,6 @@ const init = async () => {
   initializeTheme();
   await initializePortfolioData();
   initializeLanguage();
-  initializeAnimations();
   handleHeaderScroll();
 
   // Fade out splash loader
