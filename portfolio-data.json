@@ -468,48 +468,6 @@
   ],
   "projects": [
     {
-      "id": "modifai",
-      "image": "images/projects/modifai.png",
-      "alt": "ModifAI project",
-      "pill_i18n": "project_pill_modifai",
-      "status_i18n": "project_status_featured",
-      "title_raw": "ModifAI",
-      "desc_i18n": "project_modifai",
-      "stack_raw": "Mobile AI",
-      "categories": ["mobile"],
-      "links": {
-        "github": "https://github.com/mw205/ModifAI-photo-editor"
-      }
-    },
-    {
-      "id": "cogninue",
-      "image": "images/projects/cogninue.jpeg",
-      "alt": "Cogninue project",
-      "pill_i18n": "project_pill_healthcare",
-      "status_i18n": "project_status_product",
-      "title_raw": "Cogninue",
-      "desc_i18n": "project_cogninue",
-      "stack_raw": "Accessibility",
-      "categories": ["mobile"],
-      "links": {
-        "github": "https://github.com/mw205/cogninue"
-      }
-    },
-    {
-      "id": "cx_academy",
-      "image": "images/projects/cx.png",
-      "alt": "CX Academy project",
-      "pill_i18n": "project_pill_cx_academy",
-      "status_i18n": "project_status_product",
-      "title_raw": "CX Academy",
-      "desc_i18n": "project_cx_academy",
-      "stack_raw": "EdTech",
-      "categories": ["mobile"],
-      "links": {
-        "github": "https://github.com/mw205"
-      }
-    },
-    {
       "id": "mindly",
       "image": "images/projects/mindly.jpeg",
       "alt": "Mindly project",
@@ -527,46 +485,17 @@
       }
     },
     {
-      "id": "smart_notes",
-      "image": "images/projects/smart_notes_workspace.png",
-      "alt": "Smart Notes Workspace project",
-      "pill_i18n": "project_pill_smart_notes",
+      "id": "cogninue",
+      "image": "images/projects/cogninue.jpeg",
+      "alt": "Cogninue project",
+      "pill_i18n": "project_pill_healthcare",
       "status_i18n": "project_status_product",
-      "title_i18n": "project_smart_notes_title",
-      "desc_i18n": "project_smart_notes",
-      "stack_raw": "Productivity",
-      "categories": ["frontend", "backend", "published"],
-      "links": {
-        "github": "https://github.com/mw205/smart_notes_workspace",
-        "website": "https://smart-notes-workspace.vercel.app/login"
-      }
-    },
-    {
-      "id": "clinic_appointment",
-      "image": "images/projects/Clinic Scheduling Management System.png",
-      "alt": "Doctor Scheduling Management System project",
-      "pill_i18n": "project_pill_doctor",
-      "status_i18n": "project_status_system",
-      "title_i18n": "project_doctor_title",
-      "desc_i18n": "project_doctor",
-      "stack_raw": "Scheduling",
-      "categories": ["backend", "frontend"],
-      "links": {
-        "github": "https://github.com/mw205/clinic_appointment_system"
-      }
-    },
-    {
-      "id": "farmbot",
-      "image": "images/projects/farmbot.png",
-      "alt": "FarmBot project",
-      "pill_i18n": "project_pill_iot",
-      "status_i18n": "project_status_realtime",
-      "title_raw": "FarmBot",
-      "desc_i18n": "project_farmbot",
-      "stack_raw": "IoT",
+      "title_raw": "Cogninue",
+      "desc_i18n": "project_cogninue",
+      "stack_raw": "Accessibility",
       "categories": ["mobile"],
       "links": {
-        "github": "https://github.com/mw205/farmbot"
+        "github": "https://github.com/mw205/cogninue"
       }
     },
     {
@@ -585,17 +514,32 @@
       }
     },
     {
-      "id": "library_system",
-      "image": "images/projects/bookstore.png",
-      "alt": "Bookstore project",
-      "pill_i18n": "project_pill_bookstore",
-      "status_i18n": "project_status_catalog",
-      "title_i18n": "project_bookstore_title",
-      "desc_i18n": "project_bookstore",
-      "stack_raw": "Commerce",
+      "id": "clinic_appointment",
+      "image": "images/projects/Clinic Scheduling Management System.png",
+      "alt": "Doctor Scheduling Management System project",
+      "pill_i18n": "project_pill_doctor",
+      "status_i18n": "project_status_system",
+      "title_i18n": "project_doctor_title",
+      "desc_i18n": "project_doctor",
+      "stack_raw": "Scheduling",
       "categories": ["backend", "frontend"],
       "links": {
-        "github": "https://github.com/mw205/library_system"
+        "github": "https://github.com/mw205/clinic_appointment_system"
+      }
+    },
+    {
+      "id": "smart_notes",
+      "image": "images/projects/smart_notes_workspace.png",
+      "alt": "Smart Notes Workspace project",
+      "pill_i18n": "project_pill_smart_notes",
+      "status_i18n": "project_status_product",
+      "title_i18n": "project_smart_notes_title",
+      "desc_i18n": "project_smart_notes",
+      "stack_raw": "Productivity",
+      "categories": ["frontend", "backend", "published"],
+      "links": {
+        "github": "https://github.com/mw205/smart_notes_workspace",
+        "website": "https://smart-notes-workspace.vercel.app/login"
       }
     },
     {
@@ -613,18 +557,59 @@
       }
     },
     {
-      "id": "quizzy",
-      "image": "images/projects/quizzy.png",
-      "alt": "Quizzy project",
-      "pill_i18n": "project_pill_quizzy",
-      "status_i18n": "project_status_assessment",
-      "title_i18n": "project_quizzy_title",
-      "desc_i18n": "project_quizzy",
-      "stack_raw": "Learning",
-      "categories": ["frontend", "published"],
+      "id": "rag",
+      "image": "images/projects/rag.png",
+      "alt": "RAG System project",
+      "pill_i18n": "project_pill_rag",
+      "status_i18n": "project_status_ai_search",
+      "title_i18n": "project_rag_title",
+      "desc_i18n": "project_rag",
+      "stack_raw": "Knowledge base",
+      "categories": ["ai", "backend"],
       "links": {
-        "github": "https://github.com/mw205/quizzy",
-        "website": "https://mw205.github.io/quizzy/"
+        "github": "https://github.com/mw205/simple_rag_system"
+      }
+    },
+    {
+      "id": "modifai",
+      "image": "images/projects/modifai.png",
+      "alt": "ModifAI project",
+      "pill_i18n": "project_pill_modifai",
+      "status_i18n": "project_status_featured",
+      "title_raw": "ModifAI",
+      "desc_i18n": "project_modifai",
+      "stack_raw": "Mobile AI",
+      "categories": ["mobile"],
+      "links": {
+        "github": "https://github.com/mw205/ModifAI-photo-editor"
+      }
+    },
+    {
+      "id": "farmbot",
+      "image": "images/projects/farmbot.png",
+      "alt": "FarmBot project",
+      "pill_i18n": "project_pill_iot",
+      "status_i18n": "project_status_realtime",
+      "title_raw": "FarmBot",
+      "desc_i18n": "project_farmbot",
+      "stack_raw": "IoT",
+      "categories": ["mobile"],
+      "links": {
+        "github": "https://github.com/mw205/farmbot"
+      }
+    },
+    {
+      "id": "cx_academy",
+      "image": "images/projects/cx.png",
+      "alt": "CX Academy project",
+      "pill_i18n": "project_pill_cx_academy",
+      "status_i18n": "project_status_product",
+      "title_raw": "CX Academy",
+      "desc_i18n": "project_cx_academy",
+      "stack_raw": "EdTech",
+      "categories": ["mobile"],
+      "links": {
+        "github": "https://github.com/mw205"
       }
     },
     {
@@ -642,17 +627,32 @@
       }
     },
     {
-      "id": "rag",
-      "image": "images/projects/rag.png",
-      "alt": "RAG System project",
-      "pill_i18n": "project_pill_rag",
-      "status_i18n": "project_status_ai_search",
-      "title_i18n": "project_rag_title",
-      "desc_i18n": "project_rag",
-      "stack_raw": "Knowledge base",
-      "categories": ["ai", "backend"],
+      "id": "library_system",
+      "image": "images/projects/bookstore.png",
+      "alt": "Bookstore project",
+      "pill_i18n": "project_pill_bookstore",
+      "status_i18n": "project_status_catalog",
+      "title_i18n": "project_bookstore_title",
+      "desc_i18n": "project_bookstore",
+      "stack_raw": "Commerce",
+      "categories": ["backend", "frontend"],
       "links": {
-        "github": "https://github.com/mw205/simple_rag_system"
+        "github": "https://github.com/mw205/library_system"
+      }
+    },
+    {
+      "id": "quizzy",
+      "image": "images/projects/quizzy.png",
+      "alt": "Quizzy project",
+      "pill_i18n": "project_pill_quizzy",
+      "status_i18n": "project_status_assessment",
+      "title_i18n": "project_quizzy_title",
+      "desc_i18n": "project_quizzy",
+      "stack_raw": "Learning",
+      "categories": ["frontend", "published"],
+      "links": {
+        "github": "https://github.com/mw205/quizzy",
+        "website": "https://mw205.github.io/quizzy/"
       }
     }
   ]
