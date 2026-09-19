@@ -145,7 +145,148 @@
         "Full-Stack Systems",
         "GenAI Products",
         "Product Engineering"
-      ]
+      ],
+      "case_study_btn": "Case Study",
+      "modal_problem_title": "Problem",
+      "modal_solution_title": "Solution",
+      "modal_built_title": "What I Built",
+      "modal_demo_title": "Screenshots & Demo",
+      "modal_live_demo_btn": "Live Preview",
+      "modal_github_btn": "View Source Code",
+      "modal_playstore_btn": "Google Play",
+      "modal_appstore_btn": "App Store",
+      "modal_close": "Close",
+      "modal_tech_stack": "Tech Stack",
+      "modal_deliverables": "Key Deliverables",
+      "project_mindly_problem": "Educational centers and content creators suffer severe financial losses from screen recording piracy, credential sharing, and complex manual student enrollment.",
+      "project_mindly_solution": "Engineered a hardened, cross-platform EdTech Flutter application featuring hardware-bound authentication, anti-piracy DRM protections, and offline QR-based subscription activation.",
+      "project_mindly_built_1": "Developed responsive mobile UI displaying interactive course catalogs, enrolled subjects, and lesson progress indicators.",
+      "project_mindly_built_2": "Engineered DRM-style anti-piracy mechanisms: floating student ID watermark, screen capture detection, and hardware device locking.",
+      "project_mindly_built_3": "Implemented offline-capable QR scanner for instant lesson unlocking and student subscription verification.",
+      "project_mindly_built_4": "Integrated Firebase Auth, Cloud Firestore, and real-time student activity and watch-time telemetry.",
+      "project_cogninue_problem": "Children on the autism spectrum experience communication hurdles, sensory overload, and difficulty structuring daily routines without specialized visual aids.",
+      "project_cogninue_solution": "Designed a child-centric mobile application providing guided cognition tasks, emergency safety prompts, and real-time visibility dashboards for parents and therapists.",
+      "project_cogninue_built_1": "Crafted soothing, accessible UI with sensory-friendly color palettes, predictable navigation, and gentle animations.",
+      "project_cogninue_built_2": "Built interactive Emotion & Needs expression board helping non-verbal children communicate feelings instantly.",
+      "project_cogninue_built_3": "Developed cognitive mini-games (object matching, sound association, memory puzzles) tailored for developmental therapy.",
+      "project_cogninue_built_4": "Implemented Guardian & Therapist Dashboard featuring milestone tracking, session history, and one-tap emergency location alerts.",
+      "project_hotel_problem": "Hotel administrators struggle with manual multi-floor room tracking, disorganized receptionist shifts, guest check-in bottlenecks, and unverified reservations.",
+      "project_hotel_solution": "A centralized hotel management platform that coordinates room inventory, reservation lifecycles, guest check-ins, and automated invoice accounting.",
+      "project_hotel_built_1": "Developed staff role hierarchy: Manage Managers, Manage Receptionists, and Client account assignments.",
+      "project_hotel_built_2": "Built Floor & Room Inventory management modules with status flags (Available, Occupied, Under Maintenance).",
+      "project_hotel_built_3": "Created Pending Clients verification queue allowing receptionists to approve, assign rooms, and confirm bookings.",
+      "project_hotel_built_4": "Designed public landing and booking interface integrated directly with Laravel backend and MySQL relational schema.",
+      "project_clinic_appointment_problem": "Medical facilities face scheduling overlaps, long patient wait queues, communication gaps between reception and doctors, and unverified patient accounts.",
+      "project_clinic_appointment_solution": "A streamlined clinic scheduling system offering real-time doctor availability calendars, conflict-free booking algorithms, and patient queue coordination.",
+      "project_clinic_appointment_built_1": "Built 4 dedicated dashboards: Admin (system metrics, user roles), Doctor (daily patient list, diagnosis logs), Receptionist (walk-in queue, check-in), and Patient (booking, history).",
+      "project_clinic_appointment_built_2": "Engineered secure automated email verification workflow for new patient authentication and appointment confirmations.",
+      "project_clinic_appointment_built_3": "Implemented conflict-free slot booking algorithm eliminating double-booking across specialties and shift hours.",
+      "project_clinic_appointment_built_4": "Created real-time patient queue lifecycle tracker (Booked, Checked In, In Consultation, Completed, Cancelled).",
+      "project_smart_notes_problem": "Knowledge workers lose productivity when notes, code snippets, and tasks are fragmented across disjointed apps without flexible tagging or instant search.",
+      "project_smart_notes_solution": "A full-stack modular workspace uniting rich markdown editing, tag-based taxonomy, instant full-text search, and project task management.",
+      "project_smart_notes_built_1": "Developed responsive React frontend with Tailwind CSS and rich text / markdown editing canvas.",
+      "project_smart_notes_built_2": "Engineered Express.js REST API with JWT authentication and MongoDB Atlas database persistence.",
+      "project_smart_notes_built_3": "Implemented instant client-side full-text search and multi-tag filtering across workspaces.",
+      "project_smart_notes_built_4": "Deployed full-stack application on Vercel with mobile and desktop responsive views.",
+      "project_stride_problem": "E-commerce shoppers abandon carts when storefronts suffer from slow filtering, full-page reloads, and clunky mobile navigation.",
+      "project_stride_solution": "A high-performance footwear e-commerce storefront delivering instant multi-facet filtering, responsive product showcases, and persistent cart management.",
+      "project_stride_built_1": "Developed component-driven single page application using Vue.js for maximum performance.",
+      "project_stride_built_2": "Built multi-criteria dynamic filter engine updating product grid instantly without page reloads.",
+      "project_stride_built_3": "Created persistent shopping cart state with local storage synchronization and promo calculations.",
+      "project_stride_built_4": "Designed smooth micro-interactions, responsive mobile layout, and interactive product galleries.",
+      "project_rag_problem": "Standard LLMs suffer from factual hallucinations and lack access to private enterprise PDF documents and proprietary technical manuals.",
+      "project_rag_solution": "A Retrieval-Augmented Generation (RAG) system that extracts, chunks, vectorizes, and retrieves precise passages from custom PDFs to produce grounded answers with citations.",
+      "project_rag_built_1": "Built automated document ingestion pipeline using LangChain for PDF text extraction and semantic chunking.",
+      "project_rag_built_2": "Developed vector search embedding pipeline with high-dimensional similarity matching.",
+      "project_rag_built_3": "Created Flask API endpoints to accept queries, retrieve relevant context passages, and synthesize answers.",
+      "project_rag_built_4": "Formatted responses with verifiable document references and source page highlights.",
+      "project_modifai_problem": "Mobile creators find traditional desktop photo manipulation software too complex and slow for quick, creative on-the-go image transformations.",
+      "project_modifai_solution": "A generative AI-powered mobile photo editing application that interprets natural language prompts to perform creative transformations and style transfers.",
+      "project_modifai_built_1": "Developed intuitive Flutter mobile client with interactive image preview, touch gestures, and preset controls.",
+      "project_modifai_built_2": "Integrated generative AI APIs for prompt-driven image modification and style enhancements.",
+      "project_modifai_built_3": "Implemented Firebase Cloud Storage for high-speed image compression, upload management, and history persistence.",
+      "project_modifai_built_4": "Built instant export and sharing workflows optimized for mobile social platforms.",
+      "project_farmbot_problem": "Farmers and greenhouse managers lack continuous telemetry into soil conditions, causing overwatering, crop drought stress, and wasted resources.",
+      "project_farmbot_solution": "An IoT smart agriculture mobile dashboard that streams live sensor telemetry, visualizes soil health trends, and delivers threshold-based crop alerts.",
+      "project_farmbot_built_1": "Built responsive Flutter dashboard with live sensor gauges, historical telemetry spline charts, and moisture trends.",
+      "project_farmbot_built_2": "Integrated REST API polling and background synchronization for continuous hardware telemetry feeds.",
+      "project_farmbot_built_3": "Configured threshold alert triggers for moisture drops, extreme temperatures, and hardware status changes.",
+      "project_farmbot_built_4": "Optimized mobile network and battery efficiency through intelligent data caching and delta updates.",
+      "project_cx_academy_problem": "Enterprise employee training programs face low engagement, isolated learning experiences, and lack of real-time communication during live remote workshops.",
+      "project_cx_academy_solution": "A collaborative corporate e-learning platform featuring interactive course tracks, integrated video streaming, and real-time WebSocket chat for company trainees.",
+      "project_cx_academy_built_1": "Developed modular mobile and web client interfaces with structured course curriculum navigation.",
+      "project_cx_academy_built_2": "Engineered real-time WebSocket communication layer for interactive session discussions and instructor Q&A.",
+      "project_cx_academy_built_3": "Integrated secure video player with playback progress persistence and milestone completion badges.",
+      "project_cx_academy_built_4": "Designed multi-tier enterprise roles for corporate admins, training instructors, and employee learners.",
+      "project_cafeteria_problem": "Workplace cafeterias suffer from peak-hour order congestion, manual ticketing errors, unorganized room delivery, and lack of ledger auditing for customer balances.",
+      "project_cafeteria_solution": "A streamlined cafeteria management and POS platform for swift order entry, kitchen ticket dispatching, inventory deduction, and daily sales auditing.",
+      "project_cafeteria_built_1": "Built Customer Portal for browsing menu items, customizing quantities, specifying delivery rooms, and tracking personal order history.",
+      "project_cafeteria_built_2": "Developed Admin POS module enabling cashiers to place manual orders on behalf of users and monitor real-time kitchen preparation status.",
+      "project_cafeteria_built_3": "Implemented 'Checks' financial ledger allowing admins to filter and review aggregated receipts and customer balances by date range.",
+      "project_cafeteria_built_4": "Created full User and Product CRUD modules (Add/Edit User with room numbers and photos, Product stock and category control).",
+      "project_library_system_problem": "Bookstores and libraries waste significant hours tracking physical book inventory, overdue borrow returns, and member records manually.",
+      "project_library_system_solution": "A comprehensive web-based bookstore and library management system automating catalog indexing, borrowing checkout flows, and penalty tracking.",
+      "project_library_system_built_1": "Architected robust Django backend with ORM data models for books, authors, categories, and member loans.",
+      "project_library_system_built_2": "Built administrative dashboard for book inventory restocking, reservations, and fine calculations.",
+      "project_library_system_built_3": "Designed user catalog search with ISBN filtering, category browsing, and real-time availability badges.",
+      "project_library_system_built_4": "Implemented automated notifications and tracking for overdue book return cycles.",
+      "project_quizzy_problem": "Traditional paper-based quizzes cause slow grading delays and fail to give learners immediate diagnostic feedback on their mistakes.",
+      "project_quizzy_solution": "An interactive, lightweight gamified quiz application delivering timed assessments, instant scoring, feedback review, and persistent high scores.",
+      "project_quizzy_built_1": "Built lightweight, dependency-free frontend using vanilla JavaScript, modern DOM manipulation, and CSS3.",
+      "project_quizzy_built_2": "Engineered dynamic quiz engine supporting randomized questions, timer countdowns, and score weighting.",
+      "project_quizzy_built_3": "Implemented instant question feedback, answer explanations, and performance percentage summaries.",
+      "project_quizzy_built_4": "Stored historical quiz attempts and user high scores locally via browser LocalStorage.",
+      "project_pill_greencar": "Flutter + Maps",
+      "project_greencar": "Contributed to the Green Car Wash app using MVVM, Bloc, Firebase, and Google Maps integration.",
+      "project_greencar_problem": "Car owners waste valuable time at physical car wash stations and lack reliable on-demand mobile washing services at their exact parking spots.",
+      "project_greencar_solution": "Solution details pending.",
+      "project_greencar_built_1": "Implemented MVVM architecture with Bloc state management for clean separation of UI and business logic.",
+      "modal_videos_title": "Screen Recordings & Demos",
+      "modal_gallery_title": "Screenshots Gallery",
+      "modal_admin_portal_btn": "Admin Operations Portal",
+      "modal_landing_btn": "Live Landing Page",
+      "project_status_monorepo": "Monorepo",
+      "project_status_ai_platform": "AI Platform",
+      "project_pill_resto": "Flutter Web & Mobile",
+      "project_pill_propmatch": "Flutter + AI + eKYC",
+      "project_resto_desc": "Enterprise-grade Melos Monorepo ecosystem for a high-end Egyptian gourmet restaurant, combining customer mobile app, delivery captain dispatch, operations admin web dashboard with TOTP 2FA, and responsive landing page.",
+      "project_resto_problem": "High-end restaurants face operational friction from disconnected systems across customer ordering, real-time kitchen queue dispatch, driver fulfillment, and multi-tenant security.",
+      "project_resto_built_1": "Architected modular Melos Monorepo separating resto_core, resto_app (iOS/Android), resto_admin_web (Wasm/CanvasKit), and resto_landing_page.",
+      "project_resto_built_2": "Engineered Customer Mobile App with gourmet menu browsing, dish customization, live order tracking, and cart management.",
+      "project_resto_built_3": "Developed Delivery Captain Portal (/driver/orders) for real-time dispatch, customer navigation, and delivery lifecycle transitions.",
+      "project_resto_built_4": "Built Operations Admin Web Dashboard with live spline analytics charts, kitchen order queue management, and multi-photo menu editing.",
+      "project_resto_built_5": "Implemented strict Role-Based Access Control (RBAC) with 6-digit TOTP two-factor authentication (Google Authenticator) for administrators.",
+      "project_resto_built_6": "Crafted the 'Culinary Heritage' luxury design system with Cairo/Literata typography, Charcoal/Terracotta palette, and Lucide icons.",
+      "project_propmatch_desc": "Smart Egyptian AI-powered real estate platform connecting tenants directly with verified landlords without brokers, featuring electronic National ID verification (eKYC) and digital rental contracts.",
+      "project_propmatch_problem": "The Egyptian rental ecosystem is plagued by exorbitant broker fees, unverified fraudulent listings, lack of identity verification, and risky informal paper agreements.",
+      "project_propmatch_built_1": "Engineered cross-platform mobile and web client interfaces for Tenants, Landlords, and Platform Administrators.",
+      "project_propmatch_built_2": "Built eKYC National ID verification module with document upload, quality checks, and 4 lifecycle states (Pending, Approved, Resubmission Required, Rejected).",
+      "project_propmatch_built_3": "Implemented AI description optimizer assisting landlords in generating professional, high-converting property listings.",
+      "project_propmatch_built_4": "Developed housing request matchmaking engine connecting prospective tenants with suitable verified units.",
+      "project_propmatch_built_5": "Created direct offer bidding and legally structured electronic rental agreement generation flow.",
+      "project_propmatch_built_6": "Built Admin Moderation Portal for manual ID auditing within 12-24 hours SLA and dispute ticket handling.",
+      "project_mindly_desc": "Protected EdTech platform with DRM-grade anti-piracy protections, QR subscription validation, and course catalog delivery.",
+      "project_cogninue_desc": "Interactive autism support application with sensory-friendly visual schedules, emotional expression cards, cognitive mini-games, and parent safety monitoring.",
+      "project_clinic_appointment_desc": "Multi-role clinic management system connecting Admins, Doctors, Receptionists, and Patients with conflict-free booking, queue coordination, and email verification.",
+      "project_hotel_desc": "Hospitality operations platform managing rooms, floors, managers, receptionists, guest approvals, and reservations.",
+      "project_cafeteria_desc": "Cafeteria POS and management system featuring customer self-service ordering, cashier manual orders, checks accounting audit, and user balance management.",
+      "project_bookstore_desc": "Django bookstore catalog and management system featuring author profiles, book inventory CRUD, and borrowing management.",
+      "project_bookstore_problem": "Independent bookstores and libraries struggle with disorganized catalog search, untracked author bibliographies, and manual book inventory adjustments.",
+      "project_bookstore_built_1": "Architected Django relational data models linking Books, Authors, Categories, and Publishers.",
+      "project_bookstore_built_2": "Built responsive Books catalog with cover previews, pricing, stock availability, and detailed synopsis views.",
+      "project_bookstore_built_3": "Created Author Directory and Author Details page showcasing biographies and linked published works.",
+      "project_bookstore_built_4": "Implemented Admin CRUD workflows (Create Author, Add Book, Edit Book specifications, and delete actions).",
+      "project_greencar_desc": "On-demand mobile car wash service application built with Flutter, MVVM, Bloc, Firebase, and live Google Maps location tracking.",
+      "project_greencar_built_2": "Integrated Google Maps SDK with custom vehicle marker placement, reverse geocoding, and address suggestions.",
+      "project_greencar_built_3": "Built interactive service package selection (Exterior Wash, Full Interior Detailing, Polish & Wax).",
+      "project_greencar_built_4": "Connected Firebase services for real-time order dispatch, booking scheduling, and push notifications.",
+      "project_farmbot_desc": "IoT smart agriculture mobile dashboard streaming real-time soil moisture, temperature, and crop telemetry with automated alert thresholds.",
+      "project_smart_notes_desc": "Modular full-stack workspace for markdown note-taking, tag taxonomies, instant full-text search, and project tasks.",
+      "project_stride_desc": "High-performance footwear e-commerce storefront with instant multi-facet filtering, persistent cart state, and smooth checkout flow.",
+      "project_rag_desc": "Retrieval-augmented generation (RAG) question-answering workflow extracting, embedding, and querying custom PDF knowledge bases with direct citations.",
+      "project_modifai_desc": "AI-powered mobile photo editor for prompt-based image transformations, style transfers, and fast mobile creation workflows.",
+      "project_cx_academy_desc": "Corporate e-learning platform featuring course tracks, video streaming, interactive search, and real-time WebSocket chat.",
+      "project_quizzy_desc": "Interactive quiz platform with timed assessments, instant scoring, answer explanations, and local high score tracking."
     },
     "ar": {
       "brand_role": "مهندس برمجيات",
@@ -158,14 +299,14 @@
       "nav_contact": "تواصل معي",
       "header_cta": "احجز مكالمة",
       "hero_eyebrow": "تطوير تطبيقات موبايل ومنصات ويب وحلول ذكاء اصطناعي جاهزة للإطلاق",
-      "hero_title": "أبني Digital products عملية بتصميم نظيف وتنفيذ يعتمد عليه.",
+      "hero_title": "بناء وتطوير منتجات برمجية قابلة للتوسع بتصميم نظيف وتنفيذ يعتمد عليه.",
       "hero_text": "أنا محمد وليد، مهندس برمجيات متخصص في Flutter وتطوير منصات الويب المتكاملة، مع خبرة في دمج حلول الذكاء الاصطناعي داخل المنتجات. أركز على بناء تطبيقات قابلة للتوسع، منظمة من الداخل، وسهلة الاستخدام من الخارج، مع التزام واضح بالجودة ومواعيد التسليم.",
       "hero_primary": "استعرض المشاريع",
       "hero_secondary": "ابدأ المحادثة",
       "hero_stat_1_title": "+2024",
-      "hero_stat_1_text": "خبرة في العمل الحر وتسليم منتجات برمجية حقيقية",
+      "hero_stat_1_text": "خبرة عملية في العمل الحر وتطوير حلول برمجية متكاملة",
       "hero_stat_2_title": "موبايل + ويب + ذكاء اصطناعي",
-      "hero_stat_2_text": "خبرة تجمع بين أكثر من طبقة في بناء المنتج",
+      "hero_stat_2_text": "خبرة شاملة تربط بين واجهة المستخدم والأنظمة الخلفية والذكاء الاصطناعي",
       "hero_stat_3_text": "التخصص الحالي",
       "hero_badge": "متاح للعمل الحر وبناء المنتجات البرمجية",
       "hero_panel_1_label": "التقنيات الأساسية",
@@ -174,15 +315,15 @@
       "hero_panel_2_text": "تنفيذ سريع، هيكلة واضحة، وتركيز مباشر على قيمة المنتج",
       "about_eyebrow": "نبذة عني",
       "about_title": "مهندس برمجيات يجمع بين سرعة بناء المنتج والاهتمام بالتفاصيل التقنية.",
-      "about_heading": "أطوّر تطبيقات موبايل ومنصات ويب متكاملة مع إمكانية دمج حلول الذكاء الاصطناعي عند الحاجة.",
-      "about_text": "مهندس برمجيات عملي وموجّه بالنتائج، لدي أساس قوي في الذكاء الاصطناعي وخبرة في تطوير تطبيقات الموبايل ومنصات الويب الكاملة. أعمل على تحويل الأفكار إلى منتجات قابلة للاستخدام، بدايةً من الواجهات التفاعلية وحتى الأنظمة الخلفية المستقرة والقابلة للتوسع.",
-      "about_point_1": "تطوير تطبيقات موبايل تعمل على Android و iOS مع تجربة مستخدم سلسة وتدفقات عمل لحظية",
-      "about_point_2": "بناء أنظمة منظمة تعتمد على مبادئ SOLID وتصميمات قابلة للصيانة والتوسع",
-      "about_point_3": "دمج حلول ذكاء اصطناعي عملية مثل RAG، أدوات معالجة الصور، وميزات مبنية على نماذج اللغة",
-      "about_point_4": "تسليم منتجات جاهزة للاستخدام الفعلي عبر الموبايل والويب والذكاء الاصطناعي",
+      "about_heading": "تطوير تطبيقات موبايل ومنصات ويب سريعة، مع دمج حلول الذكاء الاصطناعي التوليدي والعملي.",
+      "about_text": "مهندس برمجيات عملي أركز على تقديم قيمة حقيقية وسريعة، لدي أساس أكاديمي قوي في الذكاء الاصطناعي وخبرة عملية في تطوير تطبيقات الموبايل بـ Flutter وبناء منصات الويب الحديثة. أعمل على تحويل الأفكار والمتطلبات المعقدة إلى منتجات رقمية مستقرة، سريعة، وسهلة الاستخدام.",
+      "about_point_1": "تطوير تطبيقات موبايل سلسة لنظامي Android و iOS مع أداء عالي وتزامن فوري للبيانات",
+      "about_point_2": "هندسة معمارية نظيفة تتبع مبادئ SOLID وتصاميم برمجية يسهل صيانتها وتطويرها مستقبلاً",
+      "about_point_3": "تطبيق حلول ذكاء اصطناعي حقيقية مثل أنظمة RAG، معالجة الصور، ونماذج اللغة داخل التطبيقات",
+      "about_point_4": "تسليم منتجات جاهزة للإطلاق الفعلي بأعلى معايير الجودة ومواعيد تسليم دقيقة",
       "about_cta": "تواصل عبر LinkedIn",
       "journey_eyebrow": "الرحلة التقنية",
-      "journey_title": "مسار يجمع بين الدراسة الأكاديمية والتطبيق العملي في بناء البرمجيات.",
+      "journey_title": "مسار هندسي يجمع بين الدراسة الأكاديمية العميقة والتسليم الفعلي للمشاريع.",
       "education_column": "التعليم",
       "education_1_title": "بكالوريوس الحاسبات والمعلومات — برنامج الذكاء الاصطناعي",
       "education_1_text": "تأسيس قوي في الذكاء الاصطناعي، الخوارزميات، وهندسة البرمجيات.",
@@ -197,15 +338,15 @@
       "experience_2_title": "متدرب Flutter Developer",
       "experience_2_text": "المساهمة في تطوير تطبيق Green Car Wash باستخدام MVVM و Bloc و Firebase، مع دمج خرائط Google Maps.",
       "services_eyebrow": "الخدمات البرمجية",
-      "services_title": "خدمات تطوير تساعدك على تحويل الفكرة إلى منتج واضح وقابل للنمو.",
+      "services_title": "خدمات هندسية متكاملة لمساعدتك في إطلاق وتطوير منتجك الرقمي.",
       "service_1_title": "تطوير تطبيقات الموبايل",
-      "service_1_text": "بناء تطبيقات Flutter لنظامي Android و iOS بأداء جيد، إدارة حالة مستقرة، وتجربة استخدام مناسبة للإطلاق.",
+      "service_1_text": "تطبيقات Flutter مخصصة وعالية الأداء لنظامي Android و iOS مع بنية معمارية قوية (Clean Architecture / Bloc) وتجربة استخدام راقية.",
       "service_1_link": "ناقش مشروع الموبايل",
       "service_2_title": "تطوير منصات الويب المتكاملة",
-      "service_2_text": "بناء الواجهات الأمامية والأنظمة الخلفية للوحات التحكم، منصات الأعمال، واجهات API، وتطبيقات الويب الحديثة.",
+      "service_2_text": "بناء الواجهات الأمامية والأنظمة الخلفية وقواعد البيانات للوحات التحكم ومنصات الأعمال وواجهات الـ API السريعة والآمنة.",
       "service_2_link": "ناقش مشروع الويب",
       "service_3_title": "دمج حلول الذكاء الاصطناعي",
-      "service_3_text": "تطوير ميزات تعتمد على RAG، معالجة الصور، ونماذج اللغة، مع دمجها داخل المنتج بطريقة عملية ومفيدة للمستخدم.",
+      "service_3_text": "دمج حلول الذكاء الاصطناعي داخل المنتجات؛ مثل تقنيات RAG للبحث في المستندات، معالجة وتعديل الصور، وأتمتة العمليات بنماذج اللغة.",
       "service_3_link": "ناقش ميزات الذكاء الاصطناعي",
       "skills_eyebrow": "المهارات التقنية",
       "skills_title": "مهارات تغطي تطوير الموبايل، الويب، والذكاء الاصطناعي العملي.",
@@ -224,75 +365,216 @@
       "portfolio_stat_3_text": "بنية واضحة وكود سهل القراءة والتطوير",
       "project_pill_modifai": "Flutter + Firebase",
       "project_modifai": "محرر صور يعتمد على الذكاء الاصطناعي لتعديل الصور من خلال الأوامر النصية، مع تجربة سريعة ومناسبة للموبايل.",
-      "project_pill_healthcare": "تعليم تقني للرعاية الصحية",
+      "project_pill_healthcare": "صحة رقمية وتأهيل ذكي",
       "project_cogninue": "تطبيق يساعد أطفال التوحد من خلال تمارين إدراكية موجهة، تنبيهات للسلامة، ولوحة تحكم لمتابعة أولياء الأمور.",
-      "project_pill_cx_academy": "منصة تعليمية للشركات",
+      "project_pill_cx_academy": "تدريب مؤسسي (EdTech)",
       "project_cx_academy": "منصة تعليمية تستخدمها الشركات لتدريب موظفيها.",
       "project_pill_mindly": "Flutter + Firebase",
       "project_mindly_title": "Mindly",
       "project_mindly": "منصة تعليمية مزودة بميزات لحماية المحتوى، ونظام اشتراك يعتمد على QR لتنظيم الوصول إلى المواد التعليمية.",
-      "project_pill_doctor": "Vue.js + DRF",
+      "project_pill_doctor": "إدارة عيادات وحجوزات",
       "project_doctor_title": "نظام إدارة مواعيد العيادات",
       "project_doctor": "نظام لإدارة حجوزات المرضى، متابعة مواعيد الأطباء، وتنظيم العمليات اليومية داخل العيادة.",
-      "project_pill_iot": "لوحة تحكم لإنترنت الأشياء",
+      "project_pill_iot": "إنترنت الأشياء (IoT)",
       "project_farmbot": "لوحة تحكم زراعية ذكية لمراقبة بيانات التربة والمحاصيل لحظة بلحظة عبر واجهات API.",
-      "project_pill_hotel": "Laravel + Vue",
+      "project_pill_hotel": "إدارة منشآت فندقية",
       "project_hotel_title": "نظام إدارة الفنادق",
       "project_hotel": "منصة لإدارة الغرف، حجوزات النزلاء، ومتابعة العمليات التشغيلية داخل الفندق.",
-      "project_pill_bookstore": "Django",
+      "project_pill_bookstore": "كتالوج كتب ومكتبات",
       "project_bookstore_title": "نظام إدارة متجر كتب",
       "project_bookstore": "منصة لبيع الكتب تتيح تصفح الكتالوج، إدارة المخزون، ومعالجة الطلبات بكفاءة.",
-      "project_pill_stride": "Vue.js",
+      "project_pill_stride": "متجر أحذية عصري",
       "project_stride_title": "Stride Store",
       "project_stride": "متجر أحذية متجاوب يركز على عرض المنتجات بوضوح وتسهيل خطوات الشراء.",
-      "project_pill_quizzy": "JavaScript",
+      "project_pill_quizzy": "منصة اختبارات تفاعلية",
       "project_quizzy_title": "Quizzy",
       "project_quizzy": "منصة اختبارات تفاعلية تساعد على متابعة تقدم الطلاب ونتائج التقييم.",
       "project_pill_ai": "تطبيق ذكاء اصطناعي",
       "project_chatgpt_title": "ChatGPT Clone",
       "project_chatgpt": "واجهة محادثة تفاعلية تعتمد على الذكاء الاصطناعي، مع دعم للحوار الديناميكي وتجربة استخدام مرنة.",
-      "project_pill_cafeteria": "PHP Native",
+      "project_pill_cafeteria": "نظام كافتيريا ونقاط بيع",
       "project_cafeteria_title": "نظام إدارة الكافتيريا",
       "project_cafeteria": "نظام كافتيريا متكامل لإدارة الطلبات، الحسابات، والعمليات اليومية.",
-      "project_pill_rag": "LangChain + Flask",
+      "project_pill_rag": "بحث واسترجاع ذكي (RAG)",
       "project_rag_title": "نظام RAG مخصص",
       "project_rag": "نظام أسئلة وأجوبة على ملفات PDF يعتمد على Retrieval-Augmented Generation لتقديم إجابات مبنية على محتوى الملفات.",
-      "project_pill_smart_notes": "React + Express",
+      "project_pill_smart_notes": "مساحة عمل للملاحظات",
       "project_smart_notes_title": "Smart Notes Workspace",
       "project_smart_notes": "مساحة عمل ذكية ومنظمة لتدوين الملاحظات، تنظيم المهام، وإدارة مساحات العمل المشتركة.",
-      "project_status_featured": "مميز",
-      "project_status_product": "منتج",
-      "project_status_system": "نظام",
-      "project_status_realtime": "لحظي",
-      "project_status_operations": "تشغيل",
-      "project_status_catalog": "كتالوج",
+      "project_status_featured": "مشروع رئيسي",
+      "project_status_product": "منتج رقمي",
+      "project_status_system": "نظام متكامل",
+      "project_status_realtime": "متابعة حية ولحظية",
+      "project_status_operations": "إدارة عمليات",
+      "project_status_catalog": "إدارة كتالوج ومخزون",
       "project_status_ecommerce": "متجر إلكتروني",
-      "project_status_assessment": "تقييم",
-      "project_status_sandbox": "تجريبي",
-      "project_status_ai_search": "بحث ذكي",
+      "project_status_assessment": "منصة اختبارات",
+      "project_status_sandbox": "نموذج أولي تجريبي",
+      "project_status_ai_search": "بحث دلالي بالذكاء الاصطناعي",
       "filter_all": "الكل",
-      "filter_backend": "الأنظمة الخلفية",
-      "filter_frontend": "الواجهات الأمامية",
-      "filter_mobile": "الموبايل",
-      "filter_ai": "الذكاء الاصطناعي",
-      "filter_published": "مشاريع منشورة",
+      "filter_backend": "أنظمة خلفية (Backend)",
+      "filter_frontend": "واجهات أمامية (Frontend)",
+      "filter_mobile": "تطبيقات موبايل",
+      "filter_ai": "ذكاء اصطناعي",
+      "filter_published": "تطبيقات حية (Live)",
       "contact_eyebrow": "تواصل معي",
-      "contact_title": "لنبنِ منتجاً مفيداً، واضحاً، ومنظماً من الداخل.",
-      "contact_text": "سواء كنت تحتاج إلى تطبيق موبايل، منصة ويب متكاملة، أو دمج ميزات ذكاء اصطناعي داخل نظامك الحالي، يمكنني مساعدتك في فهم المتطلبات وتحويلها إلى منتج قابل للتنفيذ.",
+      "contact_title": "لنبنِ معاً منتجات رقمية قوية بتصميم جذاب وبنية برمجية متينة.",
+      "contact_text": "سواء كنت بحاجة إلى تطبيق موبايل بـ Flutter، منصة ويب متكاملة، أو دمج حلول ذكاء اصطناعي داخل مشروعك، يسعدني مناقشة التفاصيل وتحويل الفكرة إلى منتج جاهز للمستخدمين.",
       "contact_location": "المنصورة، مصر",
       "form_name": "الاسم الكامل",
       "form_email": "البريد الإلكتروني",
-      "form_project_type": "نوع المشروع أو الفكرة",
-      "form_details": "اكتب تفاصيل المنتج، نطاق العمل، أو المشكلة التي تريد حلها...",
+      "form_project_type": "مجال المشروع (موبايل، ويب، ذكاء اصطناعي...)",
+      "form_details": "اكتب نبذة عن فكرة المشروع أو المشكلة التي تريد حلها...",
       "form_submit": "إرسال الرسالة",
       "footer_text": "&copy; 2026 Mohamed Waleed. جميع الحقوق محفوظة.",
-      "contact_alert": "نموذج التواصل غير مفعل حالياً. يرجى التواصل مباشرة عبر WhatsApp أو البريد الإلكتروني أو LinkedIn.",
+      "contact_alert": "نموذج التواصل السريع قيد الربط، يمكنك التواصل مباشرة عبر WhatsApp أو LinkedIn أو البريد الإلكتروني.",
       "typed_strings": [
         "تطوير تطبيقات Flutter",
         "بناء منصات ويب متكاملة",
         "دمج حلول الذكاء الاصطناعي",
         "هندسة المنتجات الرقمية"
-      ]
+      ],
+      "case_study_btn": "دراسة الحالة",
+      "modal_problem_title": "المشكلة والتحدي",
+      "modal_solution_title": "الحل التقني والمعماري",
+      "modal_built_title": "أبرز ما قمت بتنفيذه",
+      "modal_demo_title": "الصور والعرض التوضيحي",
+      "modal_live_demo_btn": "تجربة التطبيق / الموقع",
+      "modal_github_btn": "المستودع البرمجي (GitHub)",
+      "modal_playstore_btn": "متجر Google Play",
+      "modal_appstore_btn": "متجر App Store",
+      "modal_close": "إغلاق",
+      "modal_tech_stack": "التقنيات المستخدمة",
+      "modal_deliverables": "النتائج والمخرجات",
+      "project_mindly_problem": "تعاني المراكز التعليمية وصناع المحتوى من خسائر فادحة بسبب تسريب الدروس بتسجيل الشاشة، مشاركة الحسابات، وصعوبة تسجيل وتفعيل اشتراكات الطلاب يدوياً.",
+      "project_mindly_solution": "تطوير تطبيق تعليمي متكامل وآمن عبر Flutter يدعم ربط الحساب بجهاز المستخدم، حماية المحتوى من التسجيل، وتفعيل الاشتراكات دون اتصال عبر QR Code.",
+      "project_mindly_built_1": "تطوير واجهة مستخدم سلسة لعرض كتالوج الكورسات، المقررات المسجل بها الطالب، ومؤشرات التقدم في الدروس.",
+      "project_mindly_built_2": "تطبيق نظام أمان وحماية متقدم يمنع تصوير وتسجيل الشاشة مع وضع علامة مائية عائمة برقم هاتف وهوية الطالب.",
+      "project_mindly_built_3": "برمجة ماسح ضوئي ذكي لرموز QR للتحقق السريع وتفعيل الاشتراكات وفتح المواد التعليمية.",
+      "project_mindly_built_4": "دمج خدمات Firebase للمصادقة وتخزين البيانات ومتابعة سجلات مشاهدة الطلاب لحظة بلحظة.",
+      "project_cogninue_problem": "يواجه الأطفال المصابون بالتوحد صعوبات في التعبير عن مشاعرهم، التشتت الحسي، وتنظيم روتينهم اليومي دون أدوات بصرية مخصصة ومريحة.",
+      "project_cogninue_solution": "تصميم وتطوير تطبيق موبايل يقدم تمارين إدراكية موجهة، تنبيهات أمان لحالات الطوارئ، ولوحة تحكم متكاملة لمتابعة أولياء الأمور والأخصائيين.",
+      "project_cogninue_built_1": "تصميم واجهات مريحة ومراعية للحواس بألوان هادئة وتصميم يقلل التشتت ويسهل تصفح الطفل.",
+      "project_cogninue_built_2": "بناء لوحة تعبير عن المشاعر والاحتياجات الأساسية لمساعدة الأطفال غير الناطقين على التواصل السريع.",
+      "project_cogninue_built_3": "تطوير ألعاب إدراكية تفاعلية (مطابقة الأشياء، ربط الأصوات بالصور، ألعاب الذاكرة) مخصصة لتنمية المهارات.",
+      "project_cogninue_built_4": "إنشاء لوحة تحكم متكاملة لولي الأمر والأخصائي لمتابعة التطور اليومي وتفعيل تنبيهات الطوارئ الفورية.",
+      "project_hotel_problem": "تواجه إدارة الفنادق صعوبة في تتبع حالة الغرف عبر الطوابق المختلفة، تنظيم صلاحيات موظفي الاستقبال، وتراكم طلبات الحجز المعلقة.",
+      "project_hotel_solution": "منصة مركزية لإدارة الفنادق تتيح متابعة حالة الغرف لحظة بلحظة، تسهيل دورة الحجز وتسجيل الوصول، وأتمتة إصدار الفواتير والحسابات.",
+      "project_hotel_built_1": "تطوير نظام الصلاحيات الهرمي: إدارة المديرين، إدارة موظفي الاستقبال، وتوزيع حسابات النزلاء والعملاء.",
+      "project_hotel_built_2": "بناء وحدات التحكم بالطوابق والغرف مع مؤشرات واضحة لحالتها (متاحة، مشغولة، قيد الصيانة والتنظيف).",
+      "project_hotel_built_3": "إنشاء طابور مراجعة العملاء المعلقين (Pending Clients) لتدقيق الحجوزات وتسكين الغرف وتأكيد الإقامة.",
+      "project_hotel_built_4": "تصميم صفحة الهبوط والحجز الفندقي مع ربطها الكامل بالخلفية البرمجية المبنية بـ Laravel وقاعدة بيانات MySQL.",
+      "project_clinic_appointment_problem": "تعاني المنشآت الطبية من تضارب مواعيد الكشف، طوابير الانتظار الطويلة، غياب التنسيق اللحظي بين الاستقبال والأطباء، والحسابات غير المؤكدة.",
+      "project_clinic_appointment_solution": "نظام رقمي منظم لإدارة حجوزات العيادات يوفر جداول زمنية دقيقة للأطباء، خوارزمية تمنع تضارب المواعيد، وإدارة مرنة لطوابير الانتظار.",
+      "project_clinic_appointment_built_1": "بناء 4 لوحات تحكم مخصصة: الإدارة (مؤشرات النظام والصلاحيات)، الطبيب (قائمة الكشوفات والملاحظات الطبية)، الاستقبال (تنظيم طابور الحضور والتسجيل)، والمريض (الحجز وسجل الزيارات).",
+      "project_clinic_appointment_built_2": "برمجة نظام تحقق وتأكيد تلقائي عبر البريد الإلكتروني لتسجيل المرضى وتأكيد المواعيد.",
+      "project_clinic_appointment_built_3": "تطبيق خوارزمية ذكية لمنع الحجز المزدوج أو التضارب في مواعيد الأطباء وأوقات الورديات.",
+      "project_clinic_appointment_built_4": "إنشاء نظام تتبع لحظي لحالة المريض داخل العيادة (تم الحجز، وصل للاستقبال، قيد الكشف، مكتمل، ملغي).",
+      "project_smart_notes_problem": "يواجه المطورون والطلاب صعوبة في تشتت الأفكار والملاحظات البرمجية والمهام عبر تطبيقات متعددة تفتقر للبحث السريع والتنظيم المرن.",
+      "project_smart_notes_solution": "مساحة عمل رقمية متكاملة تجمع بين تدوين الملاحظات المتقدم بصيغة Markdown، التنظيم بالوسوم، والبحث الفوري، مع إدارة المهام.",
+      "project_smart_notes_built_1": "تطوير تطبيق ويب تفاعلي سريع باستخدام React و Tailwind CSS بتصميم حديث وسهل الاستخدام.",
+      "project_smart_notes_built_2": "بناء خادم REST API باستخدام Express.js مع نظام مصادقة آمن JWT وتخزين البيانات في MongoDB Atlas.",
+      "project_smart_notes_built_3": "تضمين محرك بحث فوري وسريع داخل الملاحظات وتصنيفها بوسوم مرنة ومساحات عمل متعددة.",
+      "project_smart_notes_built_4": "إعداد بيئة الإنتاج والنشر السحابي على منصة Vercel مع دعم كامل لجميع الشاشات.",
+      "project_stride_problem": "يتخلى المتسوقون عن الشراء عند بطء استعراض المنتجات وصعوبة استخدام الفلاتر وإعادة تحميل الصفحات المتكرر.",
+      "project_stride_solution": "متجر إلكتروني عصري للأحذية يركز على سرعة استكشاف المنتجات، التصفية الفورية، وإدارة سلة التسوق بسلاسة.",
+      "project_stride_built_1": "تطوير الواجهة الأمامية بالكامل بـ Vue.js باستخدام بنية مكونات قابلة لإعادة الاستخدام وأداء فائق السرعة.",
+      "project_stride_built_2": "بناء نظام تصفية فوري ومتعدد الخيارات للمنتجات حسب المقاس واللون والسعر والتصنيف والبحث.",
+      "project_stride_built_3": "تطوير سلة مشتريات ذكية تحفظ محتوياتها محلياً وتحدث الإجماليات والضرائب والخصومات لحظياً.",
+      "project_stride_built_4": "تصميم واجهات متجاوبة مع الهواتف الذكية مع تأثيرات بصرية جذابة ومعارض صور تفاعلية للمنتجات.",
+      "project_rag_problem": "مشكلة هلوسة نماذج اللغة الكبيرة (LLMs) وافتقارها للمعلومات المحدثة أو القدرة على الإجابة الدقيقة من داخل المستندات والتقارير التقنية الخاصة بالشركات.",
+      "project_rag_solution": "نظام استرجاع وتوليد RAG يقوم باستخراج النصوص من ملفات PDF، تقسيمها وتحويلها إلى متجهات Vector Embeddings، لتقديم إجابات موثقة بالمصادر.",
+      "project_rag_built_1": "بناء خط معالجة المستندات باستخدام LangChain لاستخراج النصوص وتقسيمها دلالياً Semantic Chunking.",
+      "project_rag_built_2": "تطبيق نظام التضمين المتجهي Vector Store مع خوارزميات البحث الدلالي عالي الدقة.",
+      "project_rag_built_3": "تطوير واجهات برمجة Flask API لمعالجة استفسارات المستخدمين واسترجاع المقاطع الأكثر صلة.",
+      "project_rag_built_4": "هندسة أوامر التوجيه Prompt Engineering لتوليد إجابات دقيقة ومستندة مباشرة إلى نصوص الملفات الأصلية.",
+      "project_modifai_problem": "تعقيد برامج تعديل الصور على الكمبيوتر وصعوبة إنجاز تعديلات سريعة واحترافية وتطبيق تأثيرات بصرية من الموبايل بسهولة.",
+      "project_modifai_solution": "تطبيق موبايل مدعوم بالذكاء الاصطناعي التوليدي يتيح للمستخدمين تحويل الصور وتطبيق تأثيرات بصرية احترافية عبر الأوامر النصية البسيطة.",
+      "project_modifai_built_1": "تطوير واجهة مستخدم سلسة وتفاعلية باستخدام Flutter مع دعم إيماءات اللمس واستعراض الصور بدقة عالية.",
+      "project_modifai_built_2": "دمج واجهات الذكاء الاصطناعي التوليدي لتعديل وتوليد الصور بناءً على الوصف النصي المباشر.",
+      "project_modifai_built_3": "استخدام Firebase Cloud Storage لضغط الصور بكفاءة وسرعة، مع حفظ سجل التعديلات السابقة.",
+      "project_modifai_built_4": "توفير خيارات سريعة لحفظ وتصدير الصور ومشاركتها مباشرة على منصات التواصل.",
+      "project_farmbot_problem": "يفتقر المزارعون إلى متابعة لحظية لحالة التربة ورطوبتها، مما يؤدي إلى هدر مياه الري أو تعرض المحاصيل للجفاف والتلف.",
+      "project_farmbot_solution": "لوحة تحكم زراعية ذكية عبر الموبايل لتتبع بيانات حساسات إنترنت الأشياء IoT لحظياً، وعرض مؤشرات صحة التربة وإرسال التنبيهات الوقائية.",
+      "project_farmbot_built_1": "تطوير تطبيق Flutter بلوحة تحكم تفاعلية تضم مؤشرات ورسوم بيانية زمنية لمتابعة حالة الحقل لحظة بلحظة.",
+      "project_farmbot_built_2": "ربط التطبيق بواجهات REST APIs لمزامنة قراءات الحساسات المزروعة في التربة والبيئة المحيطة.",
+      "project_farmbot_built_3": "إعداد نظام إشعارات ذكي ينبه المستخدم عند انخفاض الرطوبة أو ارتفاع درجات الحرارة عن المستويات الآمنة.",
+      "project_farmbot_built_4": "تحسين استهلاك البيانات والبطارية عبر تقنيات التخزين المؤقت وتحديث البيانات المتغيرة فقط.",
+      "project_cx_academy_problem": "تعاني برامج التدريب المؤسسي للشركات من ضعف تفاعل الموظفين وغياب أدوات التواصل اللحظي أثناء الورش التدريبية الافتراضية.",
+      "project_cx_academy_solution": "منصة تعليمية متكاملة للشركات تتيح تدريب الموظفين عبر مسارات تعليمية منظمة، بث الفيديو، والمحادثات الحية عبر تقنية WebSockets.",
+      "project_cx_academy_built_1": "بناء واجهات موبايل وويب متجاوبة توفر تصفحاً سلساً للمسارات التدريبية والمواد التعليمية.",
+      "project_cx_academy_built_2": "تطوير نظام محادثة فورية وغرف نقاش مباشرة أثناء الورش باستخدام WebSockets للتفاعل بين المدرب والمتدربين.",
+      "project_cx_academy_built_3": "دمج مشغل فيديو آمن مع حفظ تقدم المشاهدة وتوليد شارات إتمام الدورات التدريبية.",
+      "project_cx_academy_built_4": "تصميم نظام صلاحيات مؤسسي يفصل بين إدارة الشركة والمدربين والموظفين المتدربين.",
+      "project_cafeteria_problem": "تعاني الكافتيريات في المؤسسات من ازدحام أوقات الذروة، أخطاء تدوين الطلبات يدوياً، غياب التوصيل للغرف، وصعوبة تدقيق الحسابات والديون.",
+      "project_cafeteria_solution": "نظام كافتيريا ونقاط بيع POS متكامل يسهل تسجيل الطلبات بسرعة، توجيهها للمطبخ، ومتابعة الحسابات والمبيعات اليومية بدقة.",
+      "project_cafeteria_built_1": "بناء بوابة العملاء لتصفح المنيو، تحديد الكميات والملاحظات، اختيار رقم الغرفة للتوصيل، ومتابعة سجل الطلبات السابقة.",
+      "project_cafeteria_built_2": "تطوير واجهة كاشير POS لتسجيل الطلبات اليدوية للزبائن ومتابعة حالة تجهيز وتسليم الوجبات والمشروبات لحظياً.",
+      "project_cafeteria_built_3": "إنشاء نظام Checks لتدقيق الحسابات والمبيعات وتصفية الفواتير حسب التاريخ ومتابعة المبالغ المستحقة على المستخدمين.",
+      "project_cafeteria_built_4": "تطوير لوحة تحكم لإدارة المنتجات والمستخدمين بالكامل (إضافة وتعديل المستخدمين وأرقام الغرف، وإدارة أسعار وصور المنتجات).",
+      "project_library_system_problem": "تستهلك إدارة المكتبات ومتاجر الكتب وقتاً طويلاً في جرد الكتب يدوياً، متابعة الإعارات المتأخرة، وسجلات المستعيرين.",
+      "project_library_system_solution": "نظام ويب متكامل لإدارة متجر الكتب والمكتبة يتيح فهرسة الكتالوج، إدارة عمليات الإعارة والبيع، ومتابعة غرامات التأخير آلياً.",
+      "project_library_system_built_1": "تطوير النظام الخلفي باستخدام Django ونظام Django ORM لإدارة نماذج الكتب والمؤلفين وسجلات الإعارة.",
+      "project_library_system_built_2": "بناء لوحة تحكم متطورة لإدارة المخزون، متابعة عمليات الاستعارة، وحساب رسوم وغرامات التأخير تلقائياً.",
+      "project_library_system_built_3": "تصميم كتالوج تصفح للكتب يتيح البحث برقم ISBN والتصنيف ومتابعة توافر النسخ في المخزن.",
+      "project_library_system_built_4": "إعداد نظام تتبع وتنبيه للمستعيرين بمواعيد استرجاع الكتب لتجنب التأخير.",
+      "project_quizzy_problem": "بطء التصحيح اليدوي للاختبارات الورقية وغياب التقييم الفوري والتحليل اللحظي لأداء الطلاب ونقاط ضعفهم.",
+      "project_quizzy_solution": "منصة اختبارات تفاعلية خفيفة تتيح إجراء اختبارات محددة بوقت، تصحيح فوري، مراجعة الإجابات، وحفظ أفضل النتائج.",
+      "project_quizzy_built_1": "تطوير الواجهة الأمامية بدون مكتبات خارجية باستخدام Vanilla JavaScript و HTML5 و CSS3 لأداء فائق الخفة والسرعة.",
+      "project_quizzy_built_2": "بناء محرك اختبارات تفاعلي يدعم ترتيب الأسئلة العشوائي، المؤقت التنازلي، والاحتساب الدقيق للدرجات.",
+      "project_quizzy_built_3": "توفير مراجعة فورية للإجابات مع توضيح الإجابة الصحيحة وشرح أسبابها ونسبة التحصيل.",
+      "project_quizzy_built_4": "حفظ سجل الاختبارات السابقة وأعلى النقاط المحققة داخل متصفح المستخدم عبر LocalStorage.",
+      "project_pill_greencar": "Flutter وخرائط Google",
+      "project_greencar": "المساهمة في تطوير تطبيق Green Car Wash باستخدام MVVM و Bloc و Firebase، مع دمج خرائط Google Maps.",
+      "project_greencar_problem": "يضيع أصحاب السيارات وقتاً طويلاً في محطات الغسيل التقليدية، مع غياب خدمة حجز فورية تصل لموقع السيارة بدقة.",
+      "project_greencar_solution": "تطبيق لطلب غسيل السيارات عند الطلب يتيح تحديد موقع السيارة بدقة عبر Google Maps، اختيار الباقة المطلوبة، ومتابعة الكابتن لحظياً حتى إتمام الخدمة.",
+      "project_greencar_built_1": "تطبيق نمط MVVM مع Bloc لإدارة حالة التطبيق وفصل طبقات البيانات عن واجهة المستخدم.",
+      "modal_videos_title": "فيديوهات استعراض النظام",
+      "modal_gallery_title": "لقطات من الشاشة (Screenshots)",
+      "modal_admin_portal_btn": "لوحة الإدارة (Admin Portal)",
+      "modal_landing_btn": "زيارة صفحة الهبوط",
+      "project_status_monorepo": "مشروع Monorepo",
+      "project_status_ai_platform": "منصة ذكاء اصطناعي",
+      "project_pill_resto": "Flutter ويب وموبايل",
+      "project_pill_propmatch": "Flutter وذكاء اصطناعي وتوثيق eKYC",
+      "project_resto_desc": "نظام رقمي مؤسسي متكامل (Melos Monorepo) لمطعم مصري فاخر، يجمع بين تطبيق الموبايل للعملاء، بوابة كباتن التوصيل، لوحة تحكم إدارة العمليات بـ TOTP 2FA، وصفحة الهبوط التفاعلية.",
+      "project_resto_problem": "تواجه المطاعم الفاخرة صعوبة في التنسيق بين قنوات طلبات العملاء، طوابير تجهيز المطبخ اللحظية، توجيه كباتن التوصيل، والأمان متعدد الصلاحيات.",
+      "project_resto_built_1": "بناء هيكل Monorepo احترافي يفصل resto_core و resto_app و resto_admin_web و resto_landing_page بتناغم كامل.",
+      "project_resto_built_2": "تطوير تطبيق موبايل للعملاء لتصفح القائمة الفاخرة، تخصيص الأطباق، التتبع اللحظي لحالة الطلب، وسلة المشتريات.",
+      "project_resto_built_3": "إنشاء بوابة مخصصة لكباتن التوصيل (/driver/orders) لمتابعة واستلام الطلبات المخصصة والتنقل لعنوان العميل وتأكيد التسليم.",
+      "project_resto_built_4": "تطوير لوحة تحكم عمليات الويب مع رسوم بيانية لحظية Spline Charts، إدارة طابور المطبخ، والتحكم بالصور المتعددة للأصناف.",
+      "project_resto_built_5": "تطبيق نظام صلاحيات RBAC محكم مع التحقق الثنائي عبر رموز TOTP المكونة من 6 أرقام (Google Authenticator) لمديري العمليات.",
+      "project_resto_built_6": "تصميم نظام Culinary Heritage المرئي المتكامل مع خطوط Cairo و Literata، وتناسق لوني مميز وأيقونات Lucide الموحدة.",
+      "project_propmatch_desc": "منصة عقارية مصرية ذكية تعتمد على الذكاء الاصطناعي لربط المستأجرين بالملاك مباشرة بدون عمولة سماسرة، مع توثيق الهوية الإلكتروني eKYC وصياغة العقود الإلكترونية.",
+      "project_propmatch_problem": "يعاني سوق الإيجارات المصري من عمولات السماسرة المرتفعة، الإعلانات الوهمية غير الموثقة، غياب التحقق من الهويات، والمخاطر القانونية للعقود الورقية العرفية.",
+      "project_propmatch_built_1": "تطوير واجهات متجاوبة على الموبايل والويب لكل من المستأجرين، ملاك العقارات، وإدارة المنصة.",
+      "project_propmatch_built_2": "بناء نظام توثيق الهوية الإلكتروني eKYC مع رفع المستندات وفحص جودتها وإدارة دورة حالة التوثيق (قيد المراجعة، مقبول، إعادة تقديم، مرفوض).",
+      "project_propmatch_built_3": "تضمين محرك ذكاء اصطناعي لتحسين وصياغة أوصاف العقارات ومساعدة الملاك على صياغة إعلانات احترافية.",
+      "project_propmatch_built_4": "تطوير محرك مطابقة ذكي يربط طلبات السكن الخاصة بالمستأجرين مع الوحدات العقارية المناسبة مباشرة.",
+      "project_propmatch_built_5": "بناء نظام تقديم العروض المباشرة وصياغة وتوقيع عقود الإيجار الإلكترونية المتوافقة مع القوانين المصرية.",
+      "project_propmatch_built_6": "تطوير لوحة تحكم المشرفين لمراجعة طلبات توثيق الهوية خلال 12-24 ساعة وإدارة التذاكر والإعلانات.",
+      "project_mindly_desc": "منصة تعليمية مزودة بميزات متقدمة لحماية المحتوى من القرصنة، ونظام اشتراك يعتمد على QR لتنظيم الوصول للدروس.",
+      "project_cogninue_desc": "تطبيق يساعد أطفال التوحد من خلال جداول بصرية مريحة، بطاقات تعبير عاطفي، ألعاب تدريب إدراكية، ولوحة تحكم لمتابعة أولياء الأمور.",
+      "project_clinic_appointment_desc": "نظام متكامل لإدارة العيادات يربط المديرين والأطباء وموظفي الاستقبال والمرضى مع حجز ذكي يمنع التضارب وتأكيد بالبريد الإلكتروني.",
+      "project_hotel_desc": "منصة فندقية لإدارة الغرف والطوابق وحسابات المديرين والاستقبال والموافقة على حجوزات النزلاء ومتابعة العمليات اليومية.",
+      "project_cafeteria_desc": "نظام كافتيريا ونقاط بيع POS متكامل يتيح طلب العملاء، تسجيل الكاشير اليدوي، تدقيق الشيكات والحسابات، وإدارة أرصدة وغرف المستخدمين.",
+      "project_bookstore_desc": "منصة لإدارة متجر الكتب والمكتبة مبنية بـ Django تتيح تصفح الكتالوج، ملفات المؤلفين، إدارة المخزون، والإعارة.",
+      "project_bookstore_problem": "تواجه المكتبات ومتاجر الكتب صعوبة في تنظيم البحث داخل الكتالوج، ربط الكتب بمؤلفيها، وتحديث المخزون والأسعار يدوياً.",
+      "project_bookstore_built_1": "بناء وتصميم قاعدة بيانات علائقية بـ Django ORM تربط الكتب بالمؤلفين والتصنيفات ودور النشر.",
+      "project_bookstore_built_2": "تطوير كتالوج تفاعلي للكتب يعرض أغلفة الكتب، الأسعار، مدى توافر النسخ بالمخزن، ونبذة تفصيلية عن كل كتاب.",
+      "project_bookstore_built_3": "إنشاء دليل المؤلفين وصفحة تفاصيل المؤلف لعرض سيرته الذاتية وجميع مؤلفاته المتاحة بالمتجر.",
+      "project_bookstore_built_4": "برمجة نماذج الإدارة لإضافة مؤلف جديد، تعديل بيانات الكتب، وتحديث الأسعار والمخزون بسهولة.",
+      "project_greencar_desc": "تطبيق لطلب خدمات غسيل وتلميع السيارات عند الطلب تم تطويره بـ Flutter ونمط MVVM و Bloc مع دمج خرائط Google Maps وتتبع الموقع.",
+      "project_greencar_built_2": "دمج خرائط Google Maps مع وضع علامات مخصصة لموقع السيارة والتحويل التلقائي للإحداثيات إلى عناوين نصية.",
+      "project_greencar_built_3": "بناء كتالوج تفاعلي لاختيار باقات الغسيل المختلفة (غسيل خارجي، تنظيف داخلي عميق، تلميع وشمع).",
+      "project_greencar_built_4": "ربط خدمات Firebase لتوجيه الطلبات للكباتن، جدولة المواعيد، وإرسال الإشعارات اللحظية.",
+      "project_farmbot_desc": "لوحة تحكم زراعية ذكية لإنترنت الأشياء IoT عبر الموبايل لمراقبة رطوبة التربة ودرجات الحرارة لحظياً مع تنبيهات تلقائية.",
+      "project_smart_notes_desc": "مساحة عمل رقمية متكاملة لتدوين الملاحظات بصيغة Markdown، التنظيم بالوسوم، البحث الفوري، وإدارة مهام المشاريع.",
+      "project_stride_desc": "متجر أحذية إلكتروني تفاعلي سريع يتميز بنظام تصفية فوري متعدد الخيارات، سلة مشتريات محفوظة محلياً، وتجربة شراء سلسة.",
+      "project_rag_desc": "نظام أسئلة وأجوبة ذكي يعتمد على تقنية RAG لاستخراج ومعالجة ملفات PDF والإجابة على الاستفسارات مع توثيق المصادر والصفحات.",
+      "project_modifai_desc": "محرر صور ذكي يعتمد على الذكاء الاصطناعي التوليدي لتعديل وتحسين الصور وتطبيق التأثيرات الفنية عبر الأوامر النصية البسيطة.",
+      "project_cx_academy_desc": "منصة تعليمية وتدريبية للشركات تتيح تصفح المسارات، بث الفيديو، البحث التفاعلي، والمحادثات الحية عبر WebSockets.",
+      "project_quizzy_desc": "منصة اختبارات تفاعلية خفيفة توفر تقييماً محدد بالوقت، تصحيحاً فورياً، وشرحاً تفصيلياً للإجابات مع حفظ أفضل النتائج محلياً."
     }
   },
   "journey": {
@@ -468,192 +750,621 @@
   ],
   "projects": [
     {
+      "id": "resto",
+      "image": "images/projects/resto/resto_thumbnail.png",
+      "alt": "Resto Gourmet Egyptian Restaurant Monorepo",
+      "pill_i18n": "project_pill_resto",
+      "status_i18n": "project_status_monorepo",
+      "desc_i18n": "project_resto_desc",
+      "stack_raw": "Flutter, Melos Monorepo, Dart, Wasm",
+      "categories": [
+        "mobile",
+        "frontend",
+        "backend",
+        "published"
+      ],
+      "links": {
+        "github": "https://github.com/mw205/resto_monorepo",
+        "website": "https://resto-landing-zeta.vercel.app",
+        "admin": "https://resto-admin-rouge.vercel.app"
+      },
+      "problem_i18n": "project_resto_problem",
+      "solution_i18n": "project_resto_solution",
+      "built_items_i18n": [
+        "project_resto_built_1",
+        "project_resto_built_2",
+        "project_resto_built_3",
+        "project_resto_built_4",
+        "project_resto_built_5",
+        "project_resto_built_6"
+      ],
+      "gallery": [
+        "images/projects/resto/screenshots/app_home.png",
+        "images/projects/resto/screenshots/app_menu.png",
+        "images/projects/resto/screenshots/app_product_details.png",
+        "images/projects/resto/screenshots/app_cart.png",
+        "images/projects/resto/screenshots/app_checkout.png",
+        "images/projects/resto/screenshots/app_order_tracking.png",
+        "images/projects/resto/screenshots/driver_orders.png",
+        "images/projects/resto/screenshots/admin_overview.png",
+        "images/projects/resto/screenshots/admin_orders.png",
+        "images/projects/resto/screenshots/admin_menu.png",
+        "images/projects/resto/screenshots/admin_add_item.png",
+        "images/projects/resto/screenshots/admin_item_photos.png"
+      ],
+      "videos": [],
+      "title_raw": "Resto (ريستو)",
+      "demo_url": "https://resto-landing-zeta.vercel.app"
+    },
+    {
+      "id": "propmatch",
+      "image": "images/projects/propmatch/propmatch_thumbnail.png",
+      "alt": "PropMatch Egyptian AI Real Estate and eKYC Platform",
+      "pill_i18n": "project_pill_propmatch",
+      "status_i18n": "project_status_ai_platform",
+      "desc_i18n": "project_propmatch_desc",
+      "stack_raw": "Flutter, Node.js, AI, eKYC",
+      "categories": [
+        "mobile",
+        "frontend",
+        "backend",
+        "ai",
+        "published"
+      ],
+      "links": {
+        "github": "https://github.com/Prop-Match/",
+        "website": "https://propmatch-frontend.vercel.app/"
+      },
+      "problem_i18n": "project_propmatch_problem",
+      "solution_i18n": "project_propmatch_solution",
+      "built_items_i18n": [
+        "project_propmatch_built_1",
+        "project_propmatch_built_2",
+        "project_propmatch_built_3",
+        "project_propmatch_built_4",
+        "project_propmatch_built_5",
+        "project_propmatch_built_6"
+      ],
+      "gallery": [
+        "images/projects/propmatch/screenshots/website_screen.png",
+        "images/projects/propmatch/screenshots/mobile_screen.png",
+        "images/projects/propmatch/screenshots/ai_chat_recommendations.png",
+        "images/projects/propmatch/screenshots/property_listing_dashboard.png",
+        "images/projects/propmatch/screenshots/mobile_property_view.png"
+      ],
+      "videos": [],
+      "title_raw": "PropMatch (بروب ماتش)",
+      "demo_url": "https://github.com/mw205/propmatch"
+    },
+    {
       "id": "mindly",
-      "image": "images/projects/mindly.jpeg",
+      "image": "images/projects/mindly/mindly_thumbnail.jpeg",
       "alt": "Mindly project",
       "pill_i18n": "project_pill_mindly",
       "status_i18n": "project_status_featured",
-      "title_i18n": "project_mindly_title",
-      "desc_i18n": "project_mindly",
-      "stack_raw": "EdTech",
-      "categories": ["mobile", "backend", "frontend", "published"],
+      "desc_i18n": "project_mindly_desc",
+      "stack_raw": "Flutter, Firebase, Bloc",
+      "categories": [
+        "mobile",
+        "backend",
+        "frontend",
+        "published"
+      ],
       "links": {
         "github": "https://github.com/mw205/mindly",
         "playstore": "https://play.google.com/store/apps/details?id=com.mindlyedu.mindly",
         "appstore": "https://apps.apple.com/eg/app/mindly/id6775058919",
         "website": "https://mindlyedu.com/"
-      }
+      },
+      "problem_i18n": "project_mindly_problem",
+      "solution_i18n": "project_mindly_solution",
+      "built_items_i18n": [
+        "project_mindly_built_1",
+        "project_mindly_built_2",
+        "project_mindly_built_3",
+        "project_mindly_built_4"
+      ],
+      "gallery": [
+        "images/projects/mindly/screenshots/home_page.png",
+        "images/projects/mindly/screenshots/enrolled_courses.png",
+        "images/projects/mindly/screenshots/popup.png"
+      ],
+      "videos": [],
+      "title_i18n": "project_mindly_title",
+      "demo_url": "https://mindlyedu.com/"
     },
     {
       "id": "cogninue",
-      "image": "images/projects/cogninue.jpeg",
-      "alt": "Cogninue project",
+      "image": "images/projects/cogninue/cogninue_thumbnail.jpeg",
+      "alt": "Cogninue Autism Support Project",
       "pill_i18n": "project_pill_healthcare",
       "status_i18n": "project_status_product",
-      "title_raw": "Cogninue",
-      "desc_i18n": "project_cogninue",
-      "stack_raw": "Accessibility",
-      "categories": ["mobile"],
+      "desc_i18n": "project_cogninue_desc",
+      "stack_raw": "Flutter, Dart, Firebase",
+      "categories": [
+        "mobile"
+      ],
       "links": {
         "github": "https://github.com/mw205/cogninue"
-      }
-    },
-    {
-      "id": "hotel",
-      "image": "images/projects/hotel.jpeg",
-      "alt": "Hotel System project",
-      "pill_i18n": "project_pill_hotel",
-      "status_i18n": "project_status_operations",
-      "title_i18n": "project_hotel_title",
-      "desc_i18n": "project_hotel",
-      "stack_raw": "Hospitality",
-      "categories": ["backend", "frontend", "published"],
-      "links": {
-        "github": "https://github.com/mw205",
-        "website": "https://technative.me"
-      }
+      },
+      "problem_i18n": "project_cogninue_problem",
+      "solution_i18n": "project_cogninue_solution",
+      "built_items_i18n": [
+        "project_cogninue_built_1",
+        "project_cogninue_built_2",
+        "project_cogninue_built_3",
+        "project_cogninue_built_4"
+      ],
+      "gallery": [
+        "images/projects/cogninue/screenshots/parent_login_screen.png",
+        "images/projects/cogninue/screenshots/children_management_dashboard.png",
+        "images/projects/cogninue/screenshots/activity_notifications_feed.png",
+        "images/projects/cogninue/screenshots/edit_child_profile.png",
+        "images/projects/cogninue/screenshots/child_app_home.png",
+        "images/projects/cogninue/screenshots/learning_progress_levels.png",
+        "images/projects/cogninue/screenshots/child_details_overview.png",
+        "images/projects/cogninue/screenshots/parent_specialist_role_selection.png",
+        "images/projects/cogninue/screenshots/add_child_photo_crop.png"
+      ],
+      "videos": [],
+      "title_raw": "Cogninue",
+      "demo_url": "https://github.com/mw205/cogninue"
     },
     {
       "id": "clinic_appointment",
-      "image": "images/projects/Clinic Scheduling Management System.png",
-      "alt": "Doctor Scheduling Management System project",
+      "image": "images/projects/clinic_scheduling_management_system/clinic_scheduling_management_system_thumbnail.png",
+      "alt": "Clinic Scheduling Management System",
       "pill_i18n": "project_pill_doctor",
       "status_i18n": "project_status_system",
-      "title_i18n": "project_doctor_title",
-      "desc_i18n": "project_doctor",
-      "stack_raw": "Scheduling",
-      "categories": ["backend", "frontend"],
+      "desc_i18n": "project_clinic_appointment_desc",
+      "stack_raw": "Vue.js, Django REST Framework, MySQL",
+      "categories": [
+        "backend",
+        "frontend"
+      ],
       "links": {
         "github": "https://github.com/mw205/clinic_appointment_system"
-      }
+      },
+      "problem_i18n": "project_clinic_appointment_problem",
+      "solution_i18n": "project_clinic_appointment_solution",
+      "built_items_i18n": [
+        "project_clinic_appointment_built_1",
+        "project_clinic_appointment_built_2",
+        "project_clinic_appointment_built_3",
+        "project_clinic_appointment_built_4"
+      ],
+      "gallery": [
+        "images/projects/clinic_scheduling_management_system/screenshots/admin_login_screen.png",
+        "images/projects/clinic_scheduling_management_system/screenshots/patient_appointments_list.png",
+        "images/projects/clinic_scheduling_management_system/screenshots/clinic_analytics_dashboard.png",
+        "images/projects/clinic_scheduling_management_system/screenshots/doctors_management_table.png",
+        "images/projects/clinic_scheduling_management_system/screenshots/doctor_profile_details.png"
+      ],
+      "videos": [
+        {
+          "title": "Admin Dashboard",
+          "title_ar": "لوحة تحكم المدير العام (Admin)",
+          "url": "images/projects/clinic_scheduling_management_system/screen_records/clinic project/adminDashboard.mp4"
+        },
+        {
+          "title": "Doctor Dashboard",
+          "title_ar": "لوحة تحكم الطبيب (Doctor)",
+          "url": "images/projects/clinic_scheduling_management_system/screen_records/clinic project/doctorDashboard.mp4"
+        },
+        {
+          "title": "Receptionist Dashboard",
+          "title_ar": "لوحة تحكم الاستقبال (Receptionist)",
+          "url": "images/projects/clinic_scheduling_management_system/screen_records/clinic project/receptionistDashboard.mp4"
+        },
+        {
+          "title": "Patient Dashboard",
+          "title_ar": "لوحة تحكم المريض (Patient)",
+          "url": "images/projects/clinic_scheduling_management_system/screen_records/clinic project/patientDashboard.mp4"
+        },
+        {
+          "title": "Email Verification Flow",
+          "title_ar": "تجربة التحقق عبر البريد الإلكتروني",
+          "url": "images/projects/clinic_scheduling_management_system/screen_records/clinic project/email-verify.mp4"
+        }
+      ],
+      "title_i18n": "project_doctor_title",
+      "demo_url": "https://github.com/mw205/clinic_appointment_system"
     },
     {
-      "id": "smart_notes",
-      "image": "images/projects/smart_notes_workspace.png",
-      "alt": "Smart Notes Workspace project",
-      "pill_i18n": "project_pill_smart_notes",
-      "status_i18n": "project_status_product",
-      "title_i18n": "project_smart_notes_title",
-      "desc_i18n": "project_smart_notes",
-      "stack_raw": "Productivity",
-      "categories": ["frontend", "backend", "published"],
+      "id": "hotel",
+      "image": "images/projects/hotel/hotel_thumbnail.jpeg",
+      "alt": "Hotel Management Platform",
+      "pill_i18n": "project_pill_hotel",
+      "status_i18n": "project_status_operations",
+      "desc_i18n": "project_hotel_desc",
+      "stack_raw": "Laravel, Vue.js, MySQL",
+      "categories": [
+        "backend",
+        "frontend",
+        "published"
+      ],
       "links": {
-        "github": "https://github.com/mw205/smart_notes_workspace",
-        "website": "https://smart-notes-workspace.vercel.app/login"
-      }
-    },
-    {
-      "id": "stride",
-      "image": "images/projects/stride.png",
-      "alt": "Stride",
-      "pill_i18n": "project_pill_stride",
-      "status_i18n": "project_status_ecommerce",
-      "title_i18n": "project_stride_title",
-      "desc_i18n": "project_stride",
-      "stack_raw": "Frontend",
-      "categories": ["frontend"],
-      "links": {
-        "github": "https://github.com/mw205/stride_ecommerce"
-      }
-    },
-    {
-      "id": "rag",
-      "image": "images/projects/rag.png",
-      "alt": "RAG System project",
-      "pill_i18n": "project_pill_rag",
-      "status_i18n": "project_status_ai_search",
-      "title_i18n": "project_rag_title",
-      "desc_i18n": "project_rag",
-      "stack_raw": "Knowledge base",
-      "categories": ["ai", "backend"],
-      "links": {
-        "github": "https://github.com/mw205/simple_rag_system"
-      }
-    },
-    {
-      "id": "modifai",
-      "image": "images/projects/modifai.png",
-      "alt": "ModifAI project",
-      "pill_i18n": "project_pill_modifai",
-      "status_i18n": "project_status_featured",
-      "title_raw": "ModifAI",
-      "desc_i18n": "project_modifai",
-      "stack_raw": "Mobile AI",
-      "categories": ["mobile"],
-      "links": {
-        "github": "https://github.com/mw205/ModifAI-photo-editor"
-      }
-    },
-    {
-      "id": "farmbot",
-      "image": "images/projects/farmbot.png",
-      "alt": "FarmBot project",
-      "pill_i18n": "project_pill_iot",
-      "status_i18n": "project_status_realtime",
-      "title_raw": "FarmBot",
-      "desc_i18n": "project_farmbot",
-      "stack_raw": "IoT",
-      "categories": ["mobile"],
-      "links": {
-        "github": "https://github.com/mw205/farmbot"
-      }
-    },
-    {
-      "id": "cx_academy",
-      "image": "images/projects/cx.png",
-      "alt": "CX Academy project",
-      "pill_i18n": "project_pill_cx_academy",
-      "status_i18n": "project_status_product",
-      "title_raw": "CX Academy",
-      "desc_i18n": "project_cx_academy",
-      "stack_raw": "EdTech",
-      "categories": ["mobile"],
-      "links": {
-        "github": "https://github.com/mw205"
-      }
+        "github": "https://github.com/mw205",
+        "website": "https://technative.me"
+      },
+      "problem_i18n": "project_hotel_problem",
+      "solution_i18n": "project_hotel_solution",
+      "built_items_i18n": [
+        "project_hotel_built_1",
+        "project_hotel_built_2",
+        "project_hotel_built_3",
+        "project_hotel_built_4"
+      ],
+      "gallery": [
+        "images/projects/hotel/screenshots/landing.png",
+        "images/projects/hotel/screenshots/admin_dashboard_statistics.png",
+        "images/projects/hotel/screenshots/admin_system_platform.png",
+        "images/projects/hotel/screenshots/admin_metrics_overview.png",
+        "images/projects/hotel/screenshots/manage_rooms.png",
+        "images/projects/hotel/screenshots/manage_floors.png",
+        "images/projects/hotel/screenshots/manage_managers.png",
+        "images/projects/hotel/screenshots/manage_receptionist.png",
+        "images/projects/hotel/screenshots/manage_clients.png",
+        "images/projects/hotel/screenshots/pending_clients.png"
+      ],
+      "videos": [],
+      "title_i18n": "project_hotel_title",
+      "demo_url": "https://technative.me"
     },
     {
       "id": "cafeteria",
-      "image": "images/projects/cafeteria.jpg",
-      "alt": "Cafeteria project",
+      "image": "images/projects/cafeteria/cafeteria_thumbnail.jpg",
+      "alt": "Cafeteria Management and POS System",
       "pill_i18n": "project_pill_cafeteria",
       "status_i18n": "project_status_operations",
-      "title_i18n": "project_cafeteria_title",
-      "desc_i18n": "project_cafeteria",
-      "stack_raw": "Back office",
-      "categories": ["backend", "frontend"],
+      "desc_i18n": "project_cafeteria_desc",
+      "stack_raw": "PHP Native, MySQL, Bootstrap",
+      "categories": [
+        "backend",
+        "frontend"
+      ],
       "links": {
         "github": "https://github.com/mw205"
-      }
+      },
+      "problem_i18n": "project_cafeteria_problem",
+      "solution_i18n": "project_cafeteria_solution",
+      "built_items_i18n": [
+        "project_cafeteria_built_1",
+        "project_cafeteria_built_2",
+        "project_cafeteria_built_3",
+        "project_cafeteria_built_4"
+      ],
+      "gallery": [
+        "images/projects/cafeteria/screenshots/customer_home.png",
+        "images/projects/cafeteria/screenshots/customer_create_order.png",
+        "images/projects/cafeteria/screenshots/customer_orders_view.png",
+        "images/projects/cafeteria/screenshots/customer_order_details.png",
+        "images/projects/cafeteria/screenshots/admin_home.png",
+        "images/projects/cafeteria/screenshots/admin_manual_order.png",
+        "images/projects/cafeteria/screenshots/admin_orders_view.png",
+        "images/projects/cafeteria/screenshots/checks.png",
+        "images/projects/cafeteria/screenshots/admin_products.png",
+        "images/projects/cafeteria/screenshots/admin_add_product.png",
+        "images/projects/cafeteria/screenshots/admin_view_users.png",
+        "images/projects/cafeteria/screenshots/admin_add_user.png",
+        "images/projects/cafeteria/screenshots/admin_edit_user.png",
+        "images/projects/cafeteria/screenshots/login.png"
+      ],
+      "videos": [],
+      "title_i18n": "project_cafeteria_title",
+      "demo_url": "https://github.com/mw205"
     },
     {
-      "id": "library_system",
-      "image": "images/projects/bookstore.png",
-      "alt": "Bookstore project",
+      "id": "bookstore",
+      "image": "images/projects/bookstore/bookstore_thumbnail.png",
+      "alt": "Bookstore and Library Management System",
       "pill_i18n": "project_pill_bookstore",
       "status_i18n": "project_status_catalog",
-      "title_i18n": "project_bookstore_title",
-      "desc_i18n": "project_bookstore",
-      "stack_raw": "Commerce",
-      "categories": ["backend", "frontend"],
+      "desc_i18n": "project_bookstore_desc",
+      "stack_raw": "Django, Python, Bootstrap",
+      "categories": [
+        "backend",
+        "frontend"
+      ],
       "links": {
         "github": "https://github.com/mw205/library_system"
-      }
+      },
+      "problem_i18n": "project_bookstore_problem",
+      "solution_i18n": "project_bookstore_solution",
+      "built_items_i18n": [
+        "project_bookstore_built_1",
+        "project_bookstore_built_2",
+        "project_bookstore_built_3",
+        "project_bookstore_built_4"
+      ],
+      "gallery": [
+        "images/projects/bookstore/screenshots/books-page.png",
+        "images/projects/bookstore/screenshots/book-details-page.png",
+        "images/projects/bookstore/screenshots/edit-book-page.png",
+        "images/projects/bookstore/screenshots/authors-page.png",
+        "images/projects/bookstore/screenshots/author-details-page.png",
+        "images/projects/bookstore/screenshots/create-author-page.png",
+        "images/projects/bookstore/screenshots/about-page.png",
+        "images/projects/bookstore/screenshots/contact-page.png"
+      ],
+      "videos": [],
+      "title_i18n": "project_bookstore_title",
+      "demo_url": "https://github.com/mw205/library_system"
+    },
+    {
+      "id": "greencar",
+      "image": "images/projects/greencar/greencar_thumbnail.png",
+      "alt": "Green Car Wash Mobile App",
+      "pill_i18n": "project_pill_greencar",
+      "status_i18n": "project_status_featured",
+      "desc_i18n": "project_greencar_desc",
+      "stack_raw": "Flutter, MVVM, Bloc, Google Maps",
+      "categories": [
+        "mobile"
+      ],
+      "links": {
+        "github": "https://github.com/mw205"
+      },
+      "problem_i18n": "project_greencar_problem",
+      "solution_i18n": "project_greencar_solution",
+      "built_items_i18n": [
+        "project_greencar_built_1",
+        "project_greencar_built_2",
+        "project_greencar_built_3",
+        "project_greencar_built_4"
+      ],
+      "gallery": [
+        "images/projects/greencar/screenshots/splash_branding.webp",
+        "images/projects/greencar/screenshots/onboarding_features.webp",
+        "images/projects/greencar/screenshots/phone_verification_login.webp",
+        "images/projects/greencar/screenshots/carwash_services_catalog.webp"
+      ],
+      "videos": [],
+      "title_raw": "Green Car Wash",
+      "demo_url": "https://github.com/mw205"
+    },
+    {
+      "id": "farmbot",
+      "image": "images/projects/farmbot/farmbot_thumbnail.png",
+      "alt": "FarmBot IoT Agriculture Dashboard",
+      "pill_i18n": "project_pill_iot",
+      "status_i18n": "project_status_realtime",
+      "desc_i18n": "project_farmbot_desc",
+      "stack_raw": "Flutter, IoT, REST API",
+      "categories": [
+        "mobile"
+      ],
+      "links": {
+        "github": "https://github.com/mw205/farmbot"
+      },
+      "problem_i18n": "project_farmbot_problem",
+      "solution_i18n": "project_farmbot_solution",
+      "built_items_i18n": [
+        "project_farmbot_built_1",
+        "project_farmbot_built_2",
+        "project_farmbot_built_3",
+        "project_farmbot_built_4"
+      ],
+      "gallery": [
+        "images/projects/farmbot/farmbot_thumbnail.png"
+      ],
+      "videos": [
+        {
+          "title": "FarmBot Live IoT Mobile Walkthrough",
+          "title_ar": "استعراض لوحة تحكم FarmBot وتتبع الحساسات",
+          "url": "images/projects/farmbot/screen_record/farmbot.mp4"
+        }
+      ],
+      "title_raw": "FarmBot",
+      "demo_url": "https://github.com/mw205/farmbot"
+    },
+    {
+      "id": "smart_notes",
+      "image": "images/projects/smart_notes_workspace/smart_notes_workspace_thumbnail.png",
+      "alt": "Smart Notes Workspace project",
+      "pill_i18n": "project_pill_smart_notes",
+      "status_i18n": "project_status_product",
+      "desc_i18n": "project_smart_notes_desc",
+      "stack_raw": "React, Express.js, MongoDB, Tailwind CSS",
+      "categories": [
+        "frontend",
+        "backend",
+        "published"
+      ],
+      "links": {
+        "github": "https://github.com/mw205/smart_notes_workspace",
+        "website": "https://smart-notes-workspace.vercel.app/login"
+      },
+      "problem_i18n": "project_smart_notes_problem",
+      "solution_i18n": "project_smart_notes_solution",
+      "built_items_i18n": [
+        "project_smart_notes_built_1",
+        "project_smart_notes_built_2",
+        "project_smart_notes_built_3",
+        "project_smart_notes_built_4"
+      ],
+      "gallery": [
+        "images/projects/smart_notes_workspace/smart_notes_workspace_thumbnail.png"
+      ],
+      "videos": [
+        {
+          "title": "Smart Notes Workspace Live Walkthrough",
+          "title_ar": "استعراض مساحة عمل Smart Notes وإدارة المهام",
+          "url": "images/projects/smart_notes_workspace/screen_record/smart_notes_workspace.mp4"
+        }
+      ],
+      "title_i18n": "project_smart_notes_title",
+      "demo_url": "https://smart-notes-workspace.vercel.app/login"
+    },
+    {
+      "id": "stride",
+      "image": "images/projects/stride/stride_thumbnail.png",
+      "alt": "Stride Footwear E-Commerce Store",
+      "pill_i18n": "project_pill_stride",
+      "status_i18n": "project_status_ecommerce",
+      "desc_i18n": "project_stride_desc",
+      "stack_raw": "Vue.js, JavaScript, CSS3",
+      "categories": [
+        "frontend"
+      ],
+      "links": {
+        "github": "https://github.com/mw205/stride_ecommerce"
+      },
+      "problem_i18n": "project_stride_problem",
+      "solution_i18n": "project_stride_solution",
+      "built_items_i18n": [
+        "project_stride_built_1",
+        "project_stride_built_2",
+        "project_stride_built_3",
+        "project_stride_built_4"
+      ],
+      "gallery": [
+        "images/projects/stride/stride_thumbnail.png"
+      ],
+      "videos": [
+        {
+          "title": "Stride E-Commerce Store Walkthrough",
+          "title_ar": "استعراض متجر Stride والتصفية الفورية وسلة الشراء",
+          "url": "images/projects/stride/screen_records/stride.mp4"
+        }
+      ],
+      "title_i18n": "project_stride_title",
+      "demo_url": "https://github.com/mw205/stride_ecommerce"
+    },
+    {
+      "id": "rag",
+      "image": "images/projects/rag/rag_thumbnail.png",
+      "alt": "Custom Retrieval-Augmented Generation RAG System",
+      "pill_i18n": "project_pill_rag",
+      "status_i18n": "project_status_ai_search",
+      "desc_i18n": "project_rag_desc",
+      "stack_raw": "LangChain, Flask, Python, Vector DB",
+      "categories": [
+        "ai",
+        "backend"
+      ],
+      "links": {
+        "github": "https://github.com/mw205/simple_rag_system"
+      },
+      "problem_i18n": "project_rag_problem",
+      "solution_i18n": "project_rag_solution",
+      "built_items_i18n": [
+        "project_rag_built_1",
+        "project_rag_built_2",
+        "project_rag_built_3",
+        "project_rag_built_4"
+      ],
+      "gallery": [
+        "images/projects/rag/rag_thumbnail.png"
+      ],
+      "videos": [
+        {
+          "title": "Custom RAG System Live Demo",
+          "title_ar": "عرض حي لتشغيل نظام RAG والاستفسار عن ملفات PDF",
+          "url": "images/projects/rag/screen_record/rag.mp4"
+        }
+      ],
+      "title_i18n": "project_rag_title",
+      "demo_url": "https://github.com/mw205/simple_rag_system"
+    },
+    {
+      "id": "modifai",
+      "image": "images/projects/modifai/modifai_thumbnail.png",
+      "alt": "ModifAI Generative Photo Editor",
+      "pill_i18n": "project_pill_modifai",
+      "status_i18n": "project_status_featured",
+      "desc_i18n": "project_modifai_desc",
+      "stack_raw": "Flutter, Firebase, GenAI",
+      "categories": [
+        "mobile",
+        "ai"
+      ],
+      "links": {
+        "github": "https://github.com/mw205/ModifAI-photo-editor"
+      },
+      "problem_i18n": "project_modifai_problem",
+      "solution_i18n": "project_modifai_solution",
+      "built_items_i18n": [
+        "project_modifai_built_1",
+        "project_modifai_built_2",
+        "project_modifai_built_3",
+        "project_modifai_built_4"
+      ],
+      "gallery": [
+        "images/projects/modifai/screenshots/gallery.png",
+        "images/projects/modifai/modifai_thumbnail.png"
+      ],
+      "videos": [],
+      "title_raw": "ModifAI",
+      "demo_url": "https://github.com/mw205/ModifAI-photo-editor"
+    },
+    {
+      "id": "cx_academy",
+      "image": "images/projects/cx/cx_thumbnail.png",
+      "alt": "CX Academy Corporate E-Learning Platform",
+      "pill_i18n": "project_pill_cx_academy",
+      "status_i18n": "project_status_product",
+      "desc_i18n": "project_cx_academy_desc",
+      "stack_raw": "Flutter, WebSockets, REST API",
+      "categories": [
+        "mobile"
+      ],
+      "links": {
+        "github": "https://github.com/mw205"
+      },
+      "problem_i18n": "project_cx_academy_problem",
+      "solution_i18n": "project_cx_academy_solution",
+      "built_items_i18n": [
+        "project_cx_academy_built_1",
+        "project_cx_academy_built_2",
+        "project_cx_academy_built_3",
+        "project_cx_academy_built_4"
+      ],
+      "gallery": [
+        "images/projects/cx/screenshots/home_page.png",
+        "images/projects/cx/screenshots/search.png",
+        "images/projects/cx/screenshots/onboarding.png"
+      ],
+      "videos": [],
+      "title_raw": "CX Academy",
+      "demo_url": "https://github.com/mw205"
     },
     {
       "id": "quizzy",
-      "image": "images/projects/quizzy.png",
-      "alt": "Quizzy project",
+      "image": "images/projects/quizzy/quizzy_thumbnail.png",
+      "alt": "Quizzy Interactive Quiz Platform",
       "pill_i18n": "project_pill_quizzy",
       "status_i18n": "project_status_assessment",
-      "title_i18n": "project_quizzy_title",
-      "desc_i18n": "project_quizzy",
-      "stack_raw": "Learning",
-      "categories": ["frontend", "published"],
+      "desc_i18n": "project_quizzy_desc",
+      "stack_raw": "JavaScript, HTML5, CSS3",
+      "categories": [
+        "frontend",
+        "published"
+      ],
       "links": {
         "github": "https://github.com/mw205/quizzy",
         "website": "https://mw205.github.io/quizzy/"
-      }
+      },
+      "problem_i18n": "project_quizzy_problem",
+      "solution_i18n": "project_quizzy_solution",
+      "built_items_i18n": [
+        "project_quizzy_built_1",
+        "project_quizzy_built_2",
+        "project_quizzy_built_3",
+        "project_quizzy_built_4"
+      ],
+      "gallery": [
+        "images/projects/quizzy/quizzy_thumbnail.png"
+      ],
+      "videos": [
+        {
+          "title": "Quizzy Interactive Gameplay Walkthrough",
+          "title_ar": "استعراض تجربة لعبة Quizzy والتصحيح الفوري",
+          "url": "images/projects/quizzy/screen_record/quizzy.mp4"
+        }
+      ],
+      "title_i18n": "project_quizzy_title",
+      "demo_url": "https://mw205.github.io/quizzy/"
     }
   ]
 }
