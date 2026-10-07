@@ -2663,6 +2663,25 @@ html.dark .spinner {
     padding-top: 7rem;
   }
 
+  .hero-actions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .hero-actions .primary-btn,
+  .hero-actions .intro-video-btn,
+  .hero-actions .secondary-btn {
+    width: 100%;
+    min-height: 3.15rem;
+    justify-content: center;
+    text-align: center;
+    padding: 0.85rem 1.25rem;
+    font-size: 0.96rem;
+  }
+
   .hero-meta,
   .about-points,
   .field-row,
