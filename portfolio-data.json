@@ -796,7 +796,13 @@
         "images/projects/resto/screenshots/admin_orders.png",
         "images/projects/resto/screenshots/admin_menu.png",
         "images/projects/resto/screenshots/admin_add_item.png",
-        "images/projects/resto/screenshots/admin_item_photos.png"
+        "images/projects/resto/screenshots/admin_item_photos.png",
+        "images/projects/resto/screenshots/app_order_payment_screen.png",
+        "images/projects/resto/screenshots/app_order_confirmation_screen.png",
+        "images/projects/resto/screenshots/app_live_tracking_screen.png",
+        "images/projects/resto/screenshots/app_order_history_screen.png",
+        "images/projects/resto/screenshots/app_user_profile_screen.png",
+        "images/projects/resto/screenshots/app_notifications_screen.png"
       ],
       "videos": [],
       "title_raw": "Resto (ريستو)",
@@ -881,7 +887,7 @@
     },
     {
       "id": "cogninue",
-      "image": "images/projects/cogninue/cogninue_thumbnail.jpeg",
+      "image": "images/projects/cogninue/cogninue_thumbnail.png",
       "alt": "Cogninue Autism Support Project",
       "pill_i18n": "project_pill_healthcare",
       "status_i18n": "project_status_product",
@@ -1123,7 +1129,10 @@
         "images/projects/greencar/screenshots/splash_branding.webp",
         "images/projects/greencar/screenshots/onboarding_features.webp",
         "images/projects/greencar/screenshots/phone_verification_login.webp",
-        "images/projects/greencar/screenshots/carwash_services_catalog.webp"
+        "images/projects/greencar/screenshots/carwash_services_catalog.webp",
+        "images/projects/greencar/screenshots/Home Page.png",
+        "images/projects/greencar/screenshots/raw_preview_tracking.png",
+        "images/projects/greencar/screenshots/raw_preview_profile.png"
       ],
       "videos": [],
       "title_raw": "Green Car Wash",
