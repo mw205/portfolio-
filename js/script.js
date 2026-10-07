@@ -81,6 +81,15 @@ const elements = {
   lightboxImg: document.getElementById("lightbox-img"),
   lightboxCloseBtn: document.getElementById("lightbox-close"),
   lightboxBackdrop: document.getElementById("lightbox-backdrop"),
+  // Intro Video Modal
+  introVideoBtn: document.getElementById("intro-video-btn"),
+  portraitVideoBtn: document.getElementById("portrait-video-btn"),
+  introVideoModal: document.getElementById("intro-video-modal"),
+  introModalBackdrop: document.getElementById("intro-modal-backdrop"),
+  introModalCloseBtn: document.getElementById("intro-modal-close"),
+  introVideoPlayer: document.getElementById("intro-video-player"),
+  introTabEn: document.getElementById("intro-tab-en"),
+  introTabAr: document.getElementById("intro-tab-ar"),
 };
 
 // =============================================================================
@@ -218,6 +227,11 @@ const applyLanguage = (lang) => {
       (p) => p.id === state.currentModalProjectId,
     );
     if (project) renderModalContent(project, lang);
+  }
+
+  // If intro video modal is open, sync video language
+  if (elements.introVideoModal?.classList.contains("active")) {
+    setIntroVideoLanguage(lang, false);
   }
 };
 
@@ -864,7 +878,57 @@ const closeProjectModal = () => {
 };
 
 // =============================================================================
-// 12. CONTACT FORM
+// 12. PERSONAL INTRO VIDEO MODAL
+// =============================================================================
+
+const setIntroVideoLanguage = (lang, autoPlay = false) => {
+  if (!elements.introVideoPlayer) return;
+  const isAr = lang === "ar";
+  const targetSrc = isAr
+    ? "videos/personal_intro_arabic.mp4"
+    : "videos/personal_intro_english.mp4";
+
+  if (!elements.introVideoPlayer.src.endsWith(targetSrc)) {
+    elements.introVideoPlayer.src = targetSrc;
+    elements.introVideoPlayer.load();
+    if (autoPlay) {
+      elements.introVideoPlayer.play().catch(() => {});
+    }
+  }
+
+  if (isAr) {
+    elements.introTabAr?.classList.add("active");
+    elements.introTabAr?.setAttribute("aria-selected", "true");
+    elements.introTabEn?.classList.remove("active");
+    elements.introTabEn?.setAttribute("aria-selected", "false");
+  } else {
+    elements.introTabEn?.classList.add("active");
+    elements.introTabEn?.setAttribute("aria-selected", "true");
+    elements.introTabAr?.classList.remove("active");
+    elements.introTabAr?.setAttribute("aria-selected", "false");
+  }
+};
+
+const openIntroVideoModal = () => {
+  if (!elements.introVideoModal || !elements.introVideoPlayer) return;
+  const currentLang = elements.html.lang === "ar" ? "ar" : "en";
+  setIntroVideoLanguage(currentLang, false);
+  elements.introVideoModal.classList.add("active");
+  elements.introVideoModal.setAttribute("aria-hidden", "false");
+  elements.body.classList.add("modal-open");
+  elements.introVideoPlayer.play().catch(() => {});
+};
+
+const closeIntroVideoModal = () => {
+  if (!elements.introVideoModal || !elements.introVideoPlayer) return;
+  elements.introVideoPlayer.pause();
+  elements.introVideoModal.classList.remove("active");
+  elements.introVideoModal.setAttribute("aria-hidden", "true");
+  elements.body.classList.remove("modal-open");
+};
+
+// =============================================================================
+// 13. CONTACT FORM
 // =============================================================================
 
 const handleContactSubmit = (event) => {
@@ -946,7 +1010,22 @@ const setupGlobalEventListeners = () => {
   elements.lightboxCloseBtn?.addEventListener("click", closeLightbox);
   elements.lightboxBackdrop?.addEventListener("click", closeLightbox);
 
+  // Intro Video Modal
+  elements.introVideoBtn?.addEventListener("click", openIntroVideoModal);
+  elements.portraitVideoBtn?.addEventListener("click", openIntroVideoModal);
+  elements.introModalCloseBtn?.addEventListener("click", closeIntroVideoModal);
+  elements.introModalBackdrop?.addEventListener("click", closeIntroVideoModal);
+  elements.introTabEn?.addEventListener("click", () => setIntroVideoLanguage("en", true));
+  elements.introTabAr?.addEventListener("click", () => setIntroVideoLanguage("ar", true));
+
   window.addEventListener("keydown", (e) => {
+    if (elements.introVideoModal?.classList.contains("active")) {
+      if (e.key === "Escape") {
+        closeIntroVideoModal();
+        return;
+      }
+    }
+
     if (elements.projectModal?.classList.contains("active")) {
       if (e.key === "Escape") {
         if (elements.imageLightbox?.classList.contains("active")) {

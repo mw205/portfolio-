@@ -289,7 +289,12 @@
       "project_quizzy_desc": "Interactive quiz platform with timed assessments, instant scoring, answer explanations, and local high score tracking.",
       "project_resto_solution": "Architected a unified Flutter & Dart monorepo using Melos, sharing core models, networking, state management, and the luxury 'Culinary Heritage' design system across customer mobile apps, web landing, and live admin dashboard with TOTP 2FA security.",
       "project_propmatch_solution": "Engineered a direct peer-to-peer real estate ecosystem with Flutter and AI, eliminating middlemen through automated Egyptian National ID eKYC verification, an AI-powered listing assistant, smart property-matching filters, and secure in-app rental contract execution.",
-      "project_bookstore_solution": "Developed a clean, full-stack Django bookstore platform with relational database modeling, structured inventory controls, dynamic author-book relationships, and intuitive administrative management workflows."
+      "project_bookstore_solution": "Developed a clean, full-stack Django bookstore platform with relational database modeling, structured inventory controls, dynamic author-book relationships, and intuitive administrative management workflows.",
+      "hero_intro_video": "Watch Video Intro",
+      "intro_modal_badge": "Video Introduction",
+      "intro_modal_title": "Mohamed Waleed • Intro Video",
+      "intro_lang_en": "English",
+      "intro_lang_ar": "العربية"
     },
     "ar": {
       "brand_role": "Software Engineer",
@@ -580,7 +585,12 @@
       "project_quizzy_desc": "منصة اختبارات تفاعلية خفيفة وسريعة تعتمد على عناصر التحفيز (Gamification)، توفر مؤقتاً تنازلياً، وتصحيحاً فورياً، وشرحاً تفصيلياً لكل إجابة مع حفظ النتائج القياسية (High Scores).",
       "project_resto_solution": "هندسة وتطوير منظومة برمجية موحدة بنظام Melos Monorepo لربط كافة أطراف المنظومة: تطبيق موبايل فاخر للعملاء، بوابة مخصصة لمناديب التوصيل، لوحة تحكم إدارية للعمليات بالويب بتسجيل دخول محمي بـ TOTP 2FA، وصفحة هبوط سريعة مبنية وفق نظام التصميم Culinary Heritage.",
       "project_propmatch_solution": "بناء منصة عقارية ذكية متكاملة تربط المستأجرين بالملاك مباشرة بدون وسطاء (0% عمولة)، مع إلزام المستخدمين بنظام توثيق هوية رقمي صارم (eKYC) بالرقم القومي المصري، وتوفير صياغة رقمية لعقود الإيجار متوافقة مع القوانين والتشريعات المصرية.",
-      "project_bookstore_solution": "تطوير منصة ويب متكاملة بـ Django لإدارة متاجر ومكتبات الكتب، تتيح استعراض الكتالوج بسلاسة، وربط المؤلفين بمؤلفاتهم، مع توفير لوحة تحكم كاملة بعمليات الـ CRUD لإدارة الكتب والمؤلفين والتصنيفات."
+      "project_bookstore_solution": "تطوير منصة ويب متكاملة بـ Django لإدارة متاجر ومكتبات الكتب، تتيح استعراض الكتالوج بسلاسة، وربط المؤلفين بمؤلفاتهم، مع توفير لوحة تحكم كاملة بعمليات الـ CRUD لإدارة الكتب والمؤلفين والتصنيفات.",
+      "hero_intro_video": "شاهد الفيديو التعريفي",
+      "intro_modal_badge": "فيديو تعريفي",
+      "intro_modal_title": "محمد وليد • فيديو تعريفي",
+      "intro_lang_en": "English",
+      "intro_lang_ar": "العربية"
     }
   },
   "journey": {
