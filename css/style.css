@@ -352,6 +352,58 @@ html.dark .navbar a::after {
   font-weight: 800;
 }
 
+.nav-cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3rem;
+  padding: 0 1.15rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.nav-cv-btn i {
+  font-size: 1.15rem;
+  color: var(--deep-blue);
+  transition: transform 0.2s ease;
+}
+
+html.dark .nav-cv-btn i {
+  color: var(--creamy-white);
+}
+
+.nav-cv-btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--deep-blue);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.nav-cv-btn:hover i {
+  transform: translateY(2px);
+}
+
+html.dark .nav-cv-btn:hover {
+  border-color: var(--creamy-white);
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.08);
+}
+
+.nav-cv-link {
+  display: none;
+}
+
 /* ==========================================================================
    5. SECTIONS & TYPOGRAPHY
    ========================================================================== */
@@ -1106,6 +1158,36 @@ html.dark .project-card:hover .project-media img {
 .project-status,
 .project-stack {
   color: var(--muted);
+}
+
+.project-status.is-live {
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+  border-color: rgba(16, 185, 129, 0.35);
+  font-weight: 800;
+}
+
+.project-status.is-live::before {
+  content: "";
+  display: inline-block;
+  width: 0.46rem;
+  height: 0.46rem;
+  border-radius: 50%;
+  background: #10b981;
+  margin-inline-end: 0.4rem;
+  box-shadow: 0 0 8px rgba(16, 185, 129, 0.8);
+  animation: pulse-live 2s infinite ease-in-out;
+}
+
+@keyframes pulse-live {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.8);
+  }
 }
 
 .project-card h3 {
@@ -2358,7 +2440,7 @@ html.dark .spinner {
   }
 
   .case-study-block-header {
-    width: 220px;
+    width: 250px;
     flex-shrink: 0;
   }
 }
@@ -2419,6 +2501,19 @@ html.dark .spinner {
 
   .header-cta {
     display: none;
+  }
+
+  .nav-cv-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 0.5rem;
+    color: var(--deep-blue);
+    font-weight: 800;
+  }
+
+  html.dark .nav-cv-link {
+    color: var(--creamy-white);
   }
 }
 
@@ -2680,6 +2775,17 @@ html.dark .spinner {
     text-align: center;
     padding: 0.85rem 1.25rem;
     font-size: 0.96rem;
+  }
+
+  .nav-cv-btn span {
+    display: none;
+  }
+
+  .nav-cv-btn {
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    justify-content: center;
   }
 
   .hero-meta,

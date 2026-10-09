@@ -423,6 +423,7 @@ const renderProjects = (projects) => {
         categories.push("published");
       }
       const categoriesStr = categories.join(" ");
+      const isLive = project.status_i18n === "project_status_live" || categories.includes("published");
 
       return `
         <article class="project-card" data-categories="${categoriesStr}" data-open-modal="${project.id}" tabindex="0" role="button" aria-label="Open case study for ${project.alt || "project"}">
@@ -432,7 +433,7 @@ const renderProjects = (projects) => {
           <div class="project-content">
             <div class="project-topline">
               <span class="project-pill" data-i18n="${project.pill_i18n}"></span>
-              <span class="project-status" data-i18n="${project.status_i18n}"></span>
+              <span class="project-status ${isLive ? "is-live" : ""}" data-i18n="${project.status_i18n}"></span>
             </div>
             ${titleHtml}
             <p data-i18n="${project.desc_i18n}"></p>
@@ -621,12 +622,19 @@ const renderModalContent = (project, lang) => {
     (project.desc_i18n && dict[project.desc_i18n]) || "";
   const problemText =
     (project.problem_i18n && dict[project.problem_i18n]) || "";
+  const roleText =
+    (project.role_i18n && dict[project.role_i18n]) || "";
   const solutionText =
     (project.solution_i18n && dict[project.solution_i18n]) || "";
+  const challengesText =
+    (project.challenges_i18n && dict[project.challenges_i18n]) || "";
   const pillText =
     (project.pill_i18n && dict[project.pill_i18n]) || "";
   const statusText =
     (project.status_i18n && dict[project.status_i18n]) || "";
+  const isLive =
+    project.status_i18n === "project_status_live" ||
+    project.categories?.includes("published");
 
   const builtItems = (project.built_items_i18n || [])
     .map((key) => `<li>${dict[key] || ""}</li>`)
@@ -674,7 +682,7 @@ const renderModalContent = (project, lang) => {
         <div class="modal-header-main">
           <div class="modal-topline">
             ${pillText ? `<span class="project-pill">${pillText}</span>` : ""}
-            ${statusText ? `<span class="project-status">${statusText}</span>` : ""}
+            ${statusText ? `<span class="project-status ${isLive ? "is-live" : ""}">${statusText}</span>` : ""}
             <span class="project-stack">${project.stack_raw || ""}</span>
           </div>
         </div>
@@ -682,37 +690,62 @@ const renderModalContent = (project, lang) => {
       </header>
 
       <div class="case-study-grid">
+        ${problemText ? `
         <div class="case-study-block">
           <div class="case-study-block-header">
             <span class="case-study-block-icon"><i class='bx bx-target-lock'></i></span>
-            <h3 class="case-study-block-title">${dict.modal_problem_title || "Problem"}</h3>
+            <h3 class="case-study-block-title">${dict.modal_problem_title || "Problem & Objective"}</h3>
           </div>
           <div class="case-study-block-content">
             <p>${problemText}</p>
           </div>
-        </div>
+        </div>` : ""}
 
+        ${roleText ? `
         <div class="case-study-block">
           <div class="case-study-block-header">
-            <span class="case-study-block-icon"><i class='bx bx-bulb'></i></span>
-            <h3 class="case-study-block-title">${dict.modal_solution_title || "Solution"}</h3>
+            <span class="case-study-block-icon"><i class='bx bx-user-check'></i></span>
+            <h3 class="case-study-block-title">${dict.modal_role_title || "My Role & Responsibilities"}</h3>
+          </div>
+          <div class="case-study-block-content">
+            <p>${roleText}</p>
+          </div>
+        </div>` : ""}
+
+        ${solutionText ? `
+        <div class="case-study-block full-width">
+          <div class="case-study-block-header">
+            <span class="case-study-block-icon"><i class='bx bx-sitemap'></i></span>
+            <h3 class="case-study-block-title">${dict.modal_solution_title || "Solution & Architecture"}</h3>
           </div>
           <div class="case-study-block-content">
             <p>${solutionText}</p>
           </div>
-        </div>
+        </div>` : ""}
 
+        ${challengesText ? `
         <div class="case-study-block full-width">
           <div class="case-study-block-header">
-            <span class="case-study-block-icon"><i class='bx bx-code-block'></i></span>
-            <h3 class="case-study-block-title">${dict.modal_built_title || "What I Built"}</h3>
+            <span class="case-study-block-icon"><i class='bx bx-wrench'></i></span>
+            <h3 class="case-study-block-title">${dict.modal_challenges_title || "Key Technical Challenges & Decisions"}</h3>
+          </div>
+          <div class="case-study-block-content">
+            <p>${challengesText}</p>
+          </div>
+        </div>` : ""}
+
+        ${builtItems ? `
+        <div class="case-study-block full-width">
+          <div class="case-study-block-header">
+            <span class="case-study-block-icon"><i class='bx bx-badge-check'></i></span>
+            <h3 class="case-study-block-title">${dict.modal_built_title || "Key Deliverables, Results & Proof"}</h3>
           </div>
           <div class="case-study-block-content">
             <ul class="case-study-built-list">
               ${builtItems}
             </ul>
           </div>
-        </div>
+        </div>` : ""}
       </div>
     </div>
   `;

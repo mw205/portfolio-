@@ -147,9 +147,9 @@
         "Product Engineering"
       ],
       "case_study_btn": "Case Study",
-      "modal_problem_title": "Problem",
-      "modal_solution_title": "Solution",
-      "modal_built_title": "What I Built",
+      "modal_problem_title": "Problem & Objective",
+      "modal_solution_title": "Solution & Architecture",
+      "modal_built_title": "Key Deliverables, Results & Proof",
       "modal_demo_title": "Screenshots & Demo",
       "modal_live_demo_btn": "Live Preview",
       "modal_github_btn": "View Source Code",
@@ -239,7 +239,7 @@
       "project_pill_greencar": "Flutter + Maps",
       "project_greencar": "Contributed to the Green Car Wash app using MVVM, Bloc, Firebase, and Google Maps integration.",
       "project_greencar_problem": "Car owners waste valuable time at physical car wash stations and lack reliable on-demand mobile washing services at their exact parking spots.",
-      "project_greencar_solution": "Solution details pending.",
+      "project_greencar_solution": "Engineered an on-demand mobile car wash application using Flutter, enabling vehicle owners to pinpoint their parking location via Google Maps, select custom care packages, and track service providers in real time with Firebase dispatching.",
       "project_greencar_built_1": "Implemented MVVM architecture with Bloc state management for clean separation of UI and business logic.",
       "modal_videos_title": "Screen Recordings & Demos",
       "modal_gallery_title": "Screenshots Gallery",
@@ -294,7 +294,43 @@
       "intro_modal_badge": "Video Introduction",
       "intro_modal_title": "Mohamed Waleed • Intro Video",
       "intro_lang_en": "English",
-      "intro_lang_ar": "العربية"
+      "intro_lang_ar": "العربية",
+      "modal_role_title": "My Role & Responsibilities",
+      "modal_challenges_title": "Key Technical Challenges & Decisions",
+      "project_status_live": "Live Production",
+      "nav_cv": "Download CV",
+      "project_resto_role": "Solo Software Engineer — Architected and built the entire Melos Monorepo ecosystem end-to-end, including shared business models (resto_core), the Flutter customer & driver mobile app (resto_app), the web admin operations dashboard (resto_admin_web), and the marketing landing page (resto_landing_page).",
+      "project_resto_challenges": "Challenge: Compiling shared Dart packages for both mobile and Flutter Web (Wasm/CanvasKit) without leaking web-incompatible plugins or bloating client bundle sizes, while securing admin dashboard operations. Solution: Separated platform-independent logic into resto_core with clean Melos package isolation; implemented RFC 6238 TOTP two-factor authentication (Google Authenticator) directly on the client with deterministic cryptographic verification and role-based route guards.",
+      "project_propmatch_role": "Lead Full-Stack & Mobile Engineer (Team Project) — Engineered the cross-platform Flutter mobile client and web portal for Tenants, Landlords, and Admins; architected the eKYC 3-document verification state machine, integrated the AI description enhancer, and designed the electronic tenancy agreement generator.",
+      "project_propmatch_challenges": "Challenge: High fraud risk from fabricated or low-resolution National ID card uploads and selfie mismatches under varying mobile lighting conditions. Solution: Designed a strict 3-document upload flow (Front ID, Back ID, Live Selfie) with client-side aspect ratio and glare pre-validation, combined with a 4-state lifecycle machine (Pending, Approved, Resubmission Required, Rejected) and a dedicated Admin Moderation Queue operating under a 12-24h SLA.",
+      "project_mindly_role": "Freelance Flutter Developer (Solo) — Managed complete product development from system design to production: implemented Clean Architecture with Bloc, engineered proprietary DRM screen recording suppression, integrated offline-first QR subscription scanning, connected Firebase services, and automated deployments with GitHub Actions CI/CD.",
+      "project_mindly_challenges": "Challenge: Preventing video piracy via screen recording, HDMI mirroring, and external capture tools across fragmented Android OEM skins and iOS without crashing legitimate video playback. Solution: Implemented platform-level secure window flags (FLAG_SECURE on Android, protected AVPlayer layers on iOS), paired with a dynamic floating student-ID watermark that constantly moves across the viewport to prevent external camera recording, backed by offline encrypted QR validation for in-center student admissions.",
+      "project_cogninue_role": "Graduation Project Lead & Mobile Engineer (Student Team, Mansoura University) — Led clinical requirements research, designed the sensory-friendly UI/UX in Figma and Flutter, engineered the non-verbal emotion cards and danger-cognition mini-games, and built the real-time guardian/therapist monitoring dashboard.",
+      "project_cogninue_challenges": "Challenge: Mainstream app patterns (flashing effects, abrupt sound alerts, complex navigation) trigger severe sensory overload and meltdowns in autistic children. Solution: Consulted behavioral therapy specialists to define sensory-friendly tokens: soft pastel palette, predictable spatial navigation, calming audio feedback, and gamified danger recognition simulations (hot stove, traffic safety) tailored to cognitive levels.",
+      "project_clinic_appointment_role": "Full-Stack Software Engineer (Solo) — Designed the relational schema, built the Django REST Framework API, engineered the Vue.js Single Page Application featuring 4 dedicated role dashboards, and implemented automated cryptographic email verification.",
+      "project_clinic_appointment_challenges": "Challenge: Race conditions where multiple patients or receptionists simultaneously attempt to book the exact same physician time slot within the same millisecond. Solution: Implemented database-level atomic locking (select_for_update) inside Django ORM transactions, coupled with an automated expiring email verification token flow to eradicate bot bookings and phantom reservations.",
+      "project_hotel_role": "Full-Stack Developer (Team Project with Mostafa Abdelmajied) — Engineered Laravel backend controllers and Eloquent models, created Vue.js Inertia frontend components with ShadCN and Tailwind CSS, and built room floor inventory and guest verification views.",
+      "project_hotel_challenges": "Challenge: Synchronizing multi-floor room statuses (Available, Occupied, Maintenance) across reception desks without full-page reloads or the architectural overhead of separate client-server repositories. Solution: Utilized Inertia.js to seamlessly share state between Laravel and Vue components, enforcing role-based policy gates (Managers vs. Receptionists vs. Clients) with instant reactive feedback.",
+      "project_cafeteria_role": "Backend & Full-Stack Developer (Team Project with Mostafa Abdelmajied) — Architected the Native PHP OOP MVC framework, structured the MySQL database schema, built the Cashier POS manual ordering interface, and engineered the date-range financial Checks audit module.",
+      "project_cafeteria_challenges": "Challenge: Building a secure, enterprise-grade POS and financial audit ledger in pure Native PHP without modern frameworks, ensuring defense against SQL injection, session hijacking, and order calculation inconsistencies. Solution: Built a custom OOP MVC structure with a PDO database abstraction layer utilizing prepared statements, transaction rollbacks for order processing, and dynamic date-filter aggregations for employee monthly statements.",
+      "project_bookstore_role": "Full-Stack Django Developer (Solo) — Designed the relational data model for authors, books, and categories, built the responsive Django Templates catalog with cover previews, and created the administrative CRUD inventory control panel.",
+      "project_bookstore_challenges": "Challenge: Complex relational joins between multi-edition books, categories, and author bibliographies leading to severe N+1 database queries during catalog browsing. Solution: Engineered optimized Django ORM query pipelines utilizing select_related and prefetch_related, eliminating redundant database hits and reducing catalog response times by over 70%.",
+      "project_greencar_role": "Flutter Developer Intern at serv5 (Team Project) — Developed client UI screens using MVVM architecture, managed state and business logic via Bloc, and implemented core location-based features using Firebase and the Google Maps SDK.",
+      "project_greencar_challenges": "Challenge: High mobile battery drain and map frame stuttering resulting from unthrottled continuous GPS location tracking and reverse geocoding on low-end mobile devices. Solution: Implemented geohash caching and debounced map camera movement listeners to execute geocoding only when stationary, decoupling map render cycles from business logic through Bloc event streams.",
+      "project_farmbot_role": "Freelance IoT & Mobile Flutter Developer (Solo) — Designed and built the mobile telemetry dashboard, integrated REST APIs for live sensor feeds, developed time-series spline graphs, implemented threshold-based alerts, and secured user access with Firebase.",
+      "project_farmbot_challenges": "Challenge: Unreliable cellular connectivity in remote agricultural areas causing frequent network drops and excessive battery usage from background polling loops. Solution: Implemented an offline-first caching layer using Hive, applying delta synchronization that transmits only changed sensor parameters alongside exponential backoff retry policies.",
+      "project_smart_notes_role": "Full-Stack Software Engineer (Solo) — Designed the application UI in React with Tailwind CSS, developed the Express.js REST API with JWT security, structured MongoDB Atlas full-text indexes, and deployed the production app on Vercel.",
+      "project_smart_notes_challenges": "Challenge: Maintaining instantaneous full-text search and responsive markdown AST parsing across hundreds of dense technical notes without browser lag or high server load. Solution: Implemented memoized client-side rendering for markdown preview, combined with debounced search queries and compound text indexes on MongoDB Atlas for sub-100ms retrieval.",
+      "project_stride_role": "Frontend Vue.js Developer (Solo) — Designed the modern footwear storefront, engineered the reactive client-side multi-facet filter engine, built the persistent shopping cart state store, and created fluid micro-interactions.",
+      "project_stride_challenges": "Challenge: Guaranteeing instantaneous multi-facet product filtering (size, category, brand, price) without UI stuttering, page reloads, or expensive layout thrashing on mobile browsers. Solution: Built an in-memory reactive filtering engine using Vue 3 computed properties and proxy reactivity, keeping UI updates well under the 16ms frame budget (60 FPS).",
+      "project_rag_role": "AI & Full-Stack Engineer (Solo) — Engineered the document ingestion and semantic chunking pipeline with LangChain, integrated vector embeddings, developed the Flask REST API, and built the interactive web chat client.",
+      "project_rag_challenges": "Challenge: Chunk boundary fragmentation where naive splitting cuts technical terminology across chunks, leading to lost context and irrelevant vector matches. Solution: Implemented recursive character splitting with 200-token semantic overlap, combined with Maximal Marginal Relevance (MMR) retrieval to optimize diversity and relevance of context supplied to the LLM.",
+      "project_modifai_role": "Mobile & GenAI Flutter Developer (Solo) — Designed the mobile interface, engineered the multi-source image intake pipeline (Camera, Gallery, Shared Intents, Clipboard), integrated generative AI APIs, and configured Firebase Cloud Storage.",
+      "project_modifai_challenges": "Challenge: High mobile network latency and memory crashes when uploading multi-megabyte high-resolution camera photos to cloud AI APIs. Solution: Implemented background isolate-based image compression that reduces payload size by up to 80% with zero perceptual visual loss before transmission, paired with interactive before/after split rendering.",
+      "project_cx_academy_role": "Freelance Flutter Developer (Solo) — Architected the cross-platform mobile and web client with GetX state management, built the real-time WebSocket chat service, integrated secure video streaming with watch persistence, and connected RESTful course APIs.",
+      "project_cx_academy_challenges": "Challenge: Maintaining low-latency real-time WebSocket chat synchronization during high-definition video playback without causing frame drops or UI stuttering on mobile devices. Solution: Decoupled the WebSocket listener into an independent background service worker, streaming incoming messages directly into a reactive GetX list to avoid rebuilding video rendering viewports.",
+      "project_quizzy_role": "Frontend JavaScript Developer (Solo) — Built the complete zero-dependency frontend application using vanilla JavaScript, modern DOM manipulation, HTML5, and CSS3, engineered the quiz state machine, and implemented local storage persistence.",
+      "project_quizzy_challenges": "Challenge: Creating a fluid, gamified experience with timers and score animations while strictly adhering to a zero-dependency architecture. Solution: Architected an event-driven state machine using pure DOM events and CSS custom properties, achieving a total bundle size of under 20KB with sub-50ms initial load times."
     },
     "ar": {
       "brand_role": "Software Engineer",
@@ -443,9 +479,9 @@
         "هندسة المنتجات الرقمية"
       ],
       "case_study_btn": "دراسة الحالة",
-      "modal_problem_title": "المشكلة والتحدي (Problem)",
-      "modal_solution_title": "الحل والمعمارية البرمجية (Solution & Architecture)",
-      "modal_built_title": "أبرز ما قمت ببنائه (What I Built)",
+      "modal_problem_title": "المشكلة والهدف",
+      "modal_solution_title": "الحل والمعمارية البرمجية",
+      "modal_built_title": "النتائج وما تم إنجازه",
       "modal_demo_title": "العرض التوضيحي والوسائط (Demo & Media)",
       "modal_live_demo_btn": "معاينة حية (Live Preview)",
       "modal_github_btn": "الكود المصدري على GitHub",
@@ -590,7 +626,43 @@
       "intro_modal_badge": "فيديو تعريفي",
       "intro_modal_title": "محمد وليد • فيديو تعريفي",
       "intro_lang_en": "English",
-      "intro_lang_ar": "العربية"
+      "intro_lang_ar": "العربية",
+      "modal_role_title": "دوري ومسؤولياتي بالتحديد",
+      "modal_challenges_title": "التحديات التقنية والقرارات",
+      "project_status_live": "مشروع مباشر (Live)",
+      "nav_cv": "تحميل السيرة الذاتية",
+      "project_resto_role": "مهندس برمجيات مستقل (Solo Engineer) — توليت هندسة وبناء منظومة Melos Monorepo بالكامل من الصفر: الحزمة المركزية المشتركة (resto_core)، تطبيق الموبايل للعملاء ومناديب التوصيل (resto_app)، لوحة تحكم العمليات للويب (resto_admin_web)، وصفحة الهبوط التسويقية (resto_landing_page).",
+      "project_resto_challenges": "التحدي: تجميع حزم Dart المشتركة لتطبيقات الموبايل ولـ Flutter Web (تقنيات Wasm و CanvasKit) في آن واحد دون تسريب حزم غير متوافقة مع الويب أو زيادة حجم ملفات التحميل، مع حماية العمليات الإدارية الحساسة. الحل: عزل المنطق البرمجي المستقل في resto_core بحزم Melos نظيفة، وتطبيق مصادقة ثنائية بـ 6 أرقام عبر محرك TOTP (RFC 6238) متوافق مع Google Authenticator لتسجيل الدخول الإداري الآمن وحراسة المسارات برمجياً.",
+      "project_propmatch_role": "مهندس برمجيات رئيسي (Lead Full-Stack & Mobile) ضمن فريق عمل — توليت تطوير واجهات وتطبيقات الموبايل والويب بـ Flutter للمستأجرين والملاك والمشرفين، وهندسة دورة التحقق الرقمي من الهوية (eKYC)، ودمج مساعد الذكاء الاصطناعي لكتابة الأوصاف، وبناء نظام صياغة وتوقيع عقود الإيجار الرقمية.",
+      "project_propmatch_challenges": "التحدي: خطورة الاحتيال ورفع بطاقات رقم قومي غير واضحة أو مزورة واختلاف زوايا الإضاءة عند التقاط صور السيلفي. الحل: بناء نظام فحص صارم يشترط 3 وثائق (الوجهين لبطاقة الرقم القومي المصرية وسيلفي حية) مع فحص قبلي في واجهة المستخدم، وتطبيق آلة حالات رباعية (معلق، معتمد، إعادة رفع، مرفوض) مع لوحة إشراف للتدقيق اليدوي السريع خلال 12-24 ساعة.",
+      "project_mindly_role": "مطور Flutter مستقل (Solo Freelancer) — أدرت دورة حياة المنتج بالكامل: تطبيق معمارية Clean Architecture ونمط Bloc، ابتكار وتطبيق طبقات حماية DRM لمنع تصوير الشاشة، برمجة ماسح QR لاشتراكات الطلاب يعمل دون إنترنت، ربط خدمات Firebase، وأتمتة النشر عبر GitHub Actions CI/CD.",
+      "project_mindly_challenges": "التحدي: منع قرصنة الفيديوهات التعليمية عبر برامج تسجيل الشاشة أو كابلات HDMI مع اختلاف إصدارات أندرويد و iOS دون التأثير على سلاسة المشاهدة العادية. الحل: تفعيل أعلام الحماية في النظام الأساسي (FLAG_SECURE و AVPlayer المحمي)، مع ابتكار علامة مائية ديناميكية عائمة برقم هاتف الطالب تتحرك باستمرار على الشاشة لردع التصوير بكاميرا خارجية، وتشفير رموز QR للتحقق السريع في السنتر دون اتصال.",
+      "project_cogninue_role": "قائد مشروع التخرج ومطور الموبايل الرئيسي (فريق طلاب، جامعة المنصورة) — قدت دراسة المتطلبات بالتعاون مع أخصائيين، صممت الواجهة المريحة حسياً بـ Figma و Flutter، برمجت بطاقات التعبير عن المشاعر وألعاب إدراك المخاطر، وبنيت لوحة متابعة الأهل والأخصائيين اللحظية.",
+      "project_cogninue_challenges": "التحدي: أنماط التصميم التقليدية (الألوان الصارخة، الأصوات المفاجئة، والتنقل المعقد) تسبب تشتتاً حسياً ونوبات توتر للأطفال على طيف التوحد. الحل: التعاون مع أخصائيي تعديل السلوك لاعتماد معايير تصميم حسية مخصصة: ألوان باستيل هادئة، مسارات تنقل ثابتة، نغمات صوتية مريحة، وألعاب محاكاة تفاعلية لتمييز الأخطار (مثل مواقد النار وعبور الطرق) تناسب مختلف القدرات الإدراكية.",
+      "project_clinic_appointment_role": "مهندس برمجيات Full-Stack مستقل (Solo Engineer) — صممت مخطط قاعدة البيانات العلائقية، طورت واجهات برمجة التطبيقات بـ Django REST Framework، بنيت تطبيق الويب الأحادي بـ Vue.js مع 4 لوحات تحكم مستقلة، وطبقت نظام التحقق الآمن عبر البريد الإلكتروني.",
+      "project_clinic_appointment_challenges": "التحدي: حدوث تضارب متزامن (Race Conditions) عند محاولة أكثر من مريض أو موظف استقبال حجز نفس موعد الطبيب في نفس اللحظة. الحل: تطبيق القفل الذري على مستوى قاعدة البيانات (select_for_update) ضمن معاملات Django ORM، مع نظام توثيق فوري بالبريد الإلكتروني برموز مؤقتة لمنع الحجوزات الوهمية وضمان عدالة الجدولة.",
+      "project_hotel_role": "مطور Full-Stack (ضمن فريق ثنائي مع مصطفى عبد المجيد) — طورت متحكمات Laravel الخلفية ونماذج Eloquent، بنيت مكونات الواجهة بـ Vue.js و Inertia.js مع ShadCN و Tailwind CSS، ونفذت وحدات إدارة الطوابق والغرف ومراجعة النزلاء.",
+      "project_hotel_challenges": "التحدي: مزامنة حالات الغرف عبر الطوابق بين مكاتب الاستقبال دون إعادة تحميل الصفحة ودون تعقيد بناء مستودعين منفصلين للواجهة والخلفية. الحل: استغلال تقنية Inertia.js للربط اللحظي بين نماذج Laravel ومكونات Vue.js، مع حراسة العمليات بنظام صلاحيات صارم (مديرون، موظفو استقبال، نزلاء) واستجابة تفاعلية فورية.",
+      "project_cafeteria_role": "مطور الواجهة الخلفية والـ Full-Stack (ضمن فريق ثنائي مع مصطفى عبد المجيد) — صممت معمارية PHP Native المبنية على الكائنات (OOP MVC)، صممت قاعدة بيانات MySQL، بنيت واجهة كاشير نقاط البيع (POS)، وبرمجت نظام تدقيق الشيكات والفواتير (Checks Module).",
+      "project_cafeteria_challenges": "التحدي: بناء نظام نقاط بيع ومحاسبة مؤسسي بـ PHP Native فقط دون أطر عمل، مع ضمان الحماية التامة من ثغرات SQL Injection والتلاعب بالجلسات ومنع الأخطاء الحسابية في الفواتير. الحل: تصميم نمط MVC كائني مخصص مع طبقة PDO Prepared Statements ومعاملات SQL Transactions مدعومة بـ Rollback، وحسابات تجميعية سريعة لتدقيق أرصدة الموظفين بنطاقات زمنية محددة.",
+      "project_bookstore_role": "مطور Django و Full-Stack مستقل (Solo Developer) — صممت مخطط البيانات العلائقي للكتب والمؤلفين والتصنيفات، طورت كتالوج الكتب التفاعلي بـ Django Templates، وبرمجت لوحة الإدارة لعمليات الـ CRUD وتتبع المخزون والأسعار.",
+      "project_bookstore_challenges": "التحدي: العلاقات العلائقية المعقدة بين الكتب والمؤلفين والتصنيفات المتعددة كانت تتسبب في بطء التحميل واستعلامات N+1 المتكررة. الحل: إعادة هندسة استعلامات Django ORM باستخدام select_related و prefetch_related لجلب البيانات المرتبطة في استعلام موحد، مما خفض زمن استجابة الكتالوج بنسبة تتجاوز 70%.",
+      "project_greencar_role": "مطور Flutter (ضمن فريق عمل شركة serv5) — طورت واجهات المستخدم الرئيسية للتطبيق وفق معمارية MVVM، أدرت تدفق البيانات ومنطق الأعمال عبر Bloc، ونفذت ميزات تحديد الموقع والخرائط عبر Google Maps و Firebase.",
+      "project_greencar_challenges": "التحدي: الاستنزاف السريع لبطارية الموبايل وبطء حركة الخريطة بسبب التتبع المستمر للـ GPS وتحويل الإحداثيات لعناوين (Reverse Geocoding) باستمرار على الهواتف الاقتصادية. الحل: تطبيق التخزين المؤقت عبر Geohashes وجدولة استدعاءات العناوين لتعمل فقط عند توقف حركة الخريطة (Debounce)، وفصل دورات رسم الخريطة عن منطق الأعمال باستخدام Bloc.",
+      "project_farmbot_role": "مطور موبايل وإنترنت أشياء مستقل (Solo Freelancer) — صممت وطورت لوحة تحكم الموبايل بـ Flutter، ربطت واجهات REST APIs لجلب بيانات المستشعرات، برمجت الرسوم البيانية اللحظية، ونفذت نظام التنبيهات والمصادقة بـ Firebase.",
+      "project_farmbot_challenges": "التحدي: ضعف وانقطاع شبكة الهاتف المحمول في الأراضي الزراعية مما يسبب توقف التطبيق واستهلاكاً مفرطاً للبطارية أثناء محاولات الاتصال المتكررة. الحل: بناء طبقة تخزين محلي بـ Hive مع تطبيق مزامنة جزئية (Delta Sync) للبيانات المتغيرة فقط، واستخدام خوارزمية Exponential Backoff لتنظيم محاولات الاتصال وتوفير الطاقة.",
+      "project_smart_notes_role": "مهندس برمجيات Full-Stack مستقل (Solo Engineer) — صممت واجهة المستخدم العصرية بـ React و Tailwind CSS، طورت خوادم Express.js مع مصادقة JWT، ضبطت الفهارس النصية في MongoDB Atlas، ونشرت النظام كاملاً على Vercel.",
+      "project_smart_notes_challenges": "التحدي: الحفاظ على سرعة بحث فورية ومعاينة نصوص Markdown دون أي تأخير في الواجهة عند تضخم حجم الملاحظات البرمجية. الحل: استخدام التخزين المؤقت (Memoization) في الواجهة لتحليل Markdown AST، مع تأخير البحث التلقائي (Debounce) وفهارس نصية مركبة في MongoDB Atlas تضمن استجابة في أقل من 100ms.",
+      "project_stride_role": "مطور واجهات أمامية بـ Vue.js مستقل (Solo Frontend Developer) — صممت واجهة المتجر الإلكتروني، طورت محرك الفلترة اللحظي متعدد الأبعاد، بنيت سلة التسوق التفاعلية، ونفذت تفاعلات بصرية دقيقة.",
+      "project_stride_challenges": "التحدي: ضمان استجابة فورية للفلاتر لجميع خيارات المنتجات والمقاسات والأسعار دون أي إعادة تحميل للصفحة أو تقطيع على متصفحات الهواتف. الحل: بناء محرك تصفية داخلي في الذاكرة عبر Vue 3 Computed Properties، مما ألغى إعادة بناء الـ DOM غير الضرورية وحقق سرعة استجابة فائقة بمعدل 60 إطاراً في الثانية.",
+      "project_rag_role": "مهندس ذكاء اصطناعي و Full-Stack مستقل (Solo Engineer) — بنيت خط معالجة واستخراج نصوص ملفات PDF والتجزئة الدلالية بـ LangChain، طورت خدمة البحث المتجهي، بنيت خوادم Flask API، وطورت واجهة المحادثة التفاعلية.",
+      "project_rag_challenges": "التحدي: انقطاع السياق عند تقسيم النصوص الفنية عشوائياً مما يؤدي لنتائج بحث غير دقيقة وإجابات غير مترابطة. الحل: تطبيق التجزئة الذكية (Recursive Character Splitting) مع تداخل 200 رمز (Overlap)، واستخدام خوارزمية MMR لموازنة الدقة والتنوع في الفقرات المزودة للنموذج لتوليد إجابات دقيقة موثقة بالصفحة والمصدر.",
+      "project_modifai_role": "مطور موبايل وذكاء اصطناعي مستقل (Solo Flutter & GenAI Developer) — صممت واجهة المستخدم للهاتف، طورت خط استيراد الصور متعدد المصادر، ربطت واجهات برمجة تطبيقات الذكاء الاصطناعي التوليدي، وضبطت سحابة Firebase Storage.",
+      "project_modifai_challenges": "التحدي: بطء الرفع واستنزاف ذاكرة الهاتف عند إرسال صور الكاميرا الكبيرة الحجم لخوادم الذكاء الاصطناعي. الحل: معالجة وضغط الصور في مسار خلفي منفصل (Flutter Background Isolate) لتقليل حجم الصورة بنسبة 80% دون فقدان الجودة، مع شريط مقارنة تفاعلي قبل وبعد التعديل.",
+      "project_cx_academy_role": "مطور Flutter مستقل (Solo Freelancer) — صممت معمارية التطبيق للموبايل والويب بـ GetX، برمجت خدمة الدردشة الحية الفورية عبر WebSockets، دمجت مشغل الفيديو مع حفظ تقدم المشاهدة، وربطت واجهات REST APIs للمناهج التدريبية.",
+      "project_cx_academy_challenges": "التحدي: الحفاظ على تزامن المحادثة الفورية عبر WebSockets بالتوازي مع تشغيل فيديو عالي الدقة دون حدوث سقوط في الإطارات على الهواتف. الحل: فصل مستمع الـ WebSocket في خدمة خلفية مستقلة وتمرير الرسائل لقائمة تفاعلية بـ GetX لتحديث صندوق الدردشة فقط دون التأثير على مشغل الفيديو.",
+      "project_quizzy_role": "مطور واجهات أمامية مستقل (Solo Frontend Developer) — طورت التطبيق بالكامل باستخدام Vanilla JavaScript و HTML5 و CSS3 دون أي مكتبات خارجية، صممت محرك الاختبارات (State Machine)، ونفذت التخزين المحلي للنتائج.",
+      "project_quizzy_challenges": "التحدي: تقديم تجربة ممتعة وتفاعلية مع مؤقتات وانتقالات سلسة مع الالتزام التام بعدم استخدام أي مكتبات خارجية. الحل: تصميم آلة حالة (State Machine) معتمدة على أحداث الـ DOM و CSS Variables، مما حقق حجماً إجمالياً أقل من 20KB وسرعة تحميل فائقة في أقل من 50 مللي ثانية."
     }
   },
   "journey": {
@@ -770,7 +842,7 @@
       "image": "images/projects/resto/resto_thumbnail.png",
       "alt": "Resto Gourmet Egyptian Restaurant Monorepo",
       "pill_i18n": "project_pill_resto",
-      "status_i18n": "project_status_monorepo",
+      "status_i18n": "project_status_live",
       "desc_i18n": "project_resto_desc",
       "stack_raw": "Flutter, Melos Monorepo, Dart, Wasm",
       "categories": [
@@ -816,14 +888,16 @@
       ],
       "videos": [],
       "title_raw": "Resto (ريستو)",
-      "demo_url": "https://resto-landing-zeta.vercel.app"
+      "demo_url": "https://resto-landing-zeta.vercel.app",
+      "role_i18n": "project_resto_role",
+      "challenges_i18n": "project_resto_challenges"
     },
     {
       "id": "propmatch",
       "image": "images/projects/propmatch/propmatch_thumbnail.png",
       "alt": "PropMatch Egyptian AI Real Estate and eKYC Platform",
       "pill_i18n": "project_pill_propmatch",
-      "status_i18n": "project_status_ai_platform",
+      "status_i18n": "project_status_live",
       "desc_i18n": "project_propmatch_desc",
       "stack_raw": "Flutter, Node.js, AI, eKYC",
       "categories": [
@@ -856,14 +930,16 @@
       ],
       "videos": [],
       "title_raw": "PropMatch (بروب ماتش)",
-      "demo_url": "https://github.com/mw205/propmatch"
+      "demo_url": "https://github.com/mw205/propmatch",
+      "role_i18n": "project_propmatch_role",
+      "challenges_i18n": "project_propmatch_challenges"
     },
     {
       "id": "mindly",
       "image": "images/projects/mindly/mindly_thumbnail.jpeg",
       "alt": "Mindly project",
       "pill_i18n": "project_pill_mindly",
-      "status_i18n": "project_status_featured",
+      "status_i18n": "project_status_live",
       "desc_i18n": "project_mindly_desc",
       "stack_raw": "Flutter, Firebase, Bloc",
       "categories": [
@@ -893,7 +969,9 @@
       ],
       "videos": [],
       "title_i18n": "project_mindly_title",
-      "demo_url": "https://mindlyedu.com/"
+      "demo_url": "https://mindlyedu.com/",
+      "role_i18n": "project_mindly_role",
+      "challenges_i18n": "project_mindly_challenges"
     },
     {
       "id": "cogninue",
@@ -930,7 +1008,9 @@
       ],
       "videos": [],
       "title_raw": "Cogninue",
-      "demo_url": "https://github.com/mw205/cogninue"
+      "demo_url": "https://github.com/mw205/cogninue",
+      "role_i18n": "project_cogninue_role",
+      "challenges_i18n": "project_cogninue_challenges"
     },
     {
       "id": "clinic_appointment",
@@ -990,14 +1070,16 @@
         }
       ],
       "title_i18n": "project_doctor_title",
-      "demo_url": "https://github.com/mw205/clinic_appointment_system"
+      "demo_url": "https://github.com/mw205/clinic_appointment_system",
+      "role_i18n": "project_clinic_appointment_role",
+      "challenges_i18n": "project_clinic_appointment_challenges"
     },
     {
       "id": "hotel",
       "image": "images/projects/hotel/hotel_thumbnail.jpeg",
       "alt": "Hotel Management Platform",
       "pill_i18n": "project_pill_hotel",
-      "status_i18n": "project_status_operations",
+      "status_i18n": "project_status_live",
       "desc_i18n": "project_hotel_desc",
       "stack_raw": "Laravel, Vue.js, MySQL",
       "categories": [
@@ -1006,7 +1088,7 @@
         "published"
       ],
       "links": {
-        "github": "https://github.com/mw205",
+        "github": "https://github.com/MostafaAbdelmajied/hotel-system-laravel",
         "website": "https://technative.me"
       },
       "problem_i18n": "project_hotel_problem",
@@ -1031,7 +1113,9 @@
       ],
       "videos": [],
       "title_i18n": "project_hotel_title",
-      "demo_url": "https://technative.me"
+      "demo_url": "https://technative.me",
+      "role_i18n": "project_hotel_role",
+      "challenges_i18n": "project_hotel_challenges"
     },
     {
       "id": "cafeteria",
@@ -1046,7 +1130,7 @@
         "frontend"
       ],
       "links": {
-        "github": "https://github.com/mw205"
+        "github": "https://github.com/MostafaAbdelmajied/cafeteria_project_php"
       },
       "problem_i18n": "project_cafeteria_problem",
       "solution_i18n": "project_cafeteria_solution",
@@ -1074,7 +1158,9 @@
       ],
       "videos": [],
       "title_i18n": "project_cafeteria_title",
-      "demo_url": "https://github.com/mw205"
+      "demo_url": "https://github.com/MostafaAbdelmajied/cafeteria_project_php",
+      "role_i18n": "project_cafeteria_role",
+      "challenges_i18n": "project_cafeteria_challenges"
     },
     {
       "id": "bookstore",
@@ -1111,21 +1197,25 @@
       ],
       "videos": [],
       "title_i18n": "project_bookstore_title",
-      "demo_url": "https://github.com/mw205/library_system"
+      "demo_url": "https://github.com/mw205/library_system",
+      "role_i18n": "project_bookstore_role",
+      "challenges_i18n": "project_bookstore_challenges"
     },
     {
       "id": "greencar",
       "image": "images/projects/greencar/greencar_thumbnail.png",
       "alt": "Green Car Wash Mobile App",
       "pill_i18n": "project_pill_greencar",
-      "status_i18n": "project_status_featured",
+      "status_i18n": "project_status_live",
       "desc_i18n": "project_greencar_desc",
       "stack_raw": "Flutter, MVVM, Bloc, Google Maps",
       "categories": [
-        "mobile"
+        "mobile",
+        "published"
       ],
       "links": {
-        "github": "https://github.com/mw205"
+        "github": "https://github.com/mw205",
+        "playstore": "https://play.google.com/store/apps/details?id=com.wb.greencar&hl=en&pli=1"
       },
       "problem_i18n": "project_greencar_problem",
       "solution_i18n": "project_greencar_solution",
@@ -1146,7 +1236,9 @@
       ],
       "videos": [],
       "title_raw": "Green Car Wash",
-      "demo_url": "https://github.com/mw205"
+      "demo_url": "https://play.google.com/store/apps/details?id=com.wb.greencar&hl=en&pli=1",
+      "role_i18n": "project_greencar_role",
+      "challenges_i18n": "project_greencar_challenges"
     },
     {
       "id": "farmbot",
@@ -1181,14 +1273,16 @@
         }
       ],
       "title_raw": "FarmBot",
-      "demo_url": "https://github.com/mw205/farmbot"
+      "demo_url": "https://github.com/mw205/farmbot",
+      "role_i18n": "project_farmbot_role",
+      "challenges_i18n": "project_farmbot_challenges"
     },
     {
       "id": "smart_notes",
       "image": "images/projects/smart_notes_workspace/smart_notes_workspace_thumbnail.png",
       "alt": "Smart Notes Workspace project",
       "pill_i18n": "project_pill_smart_notes",
-      "status_i18n": "project_status_product",
+      "status_i18n": "project_status_live",
       "desc_i18n": "project_smart_notes_desc",
       "stack_raw": "React, Express.js, MongoDB, Tailwind CSS",
       "categories": [
@@ -1219,7 +1313,9 @@
         }
       ],
       "title_i18n": "project_smart_notes_title",
-      "demo_url": "https://smart-notes-workspace.vercel.app/login"
+      "demo_url": "https://smart-notes-workspace.vercel.app/login",
+      "role_i18n": "project_smart_notes_role",
+      "challenges_i18n": "project_smart_notes_challenges"
     },
     {
       "id": "stride",
@@ -1254,7 +1350,9 @@
         }
       ],
       "title_i18n": "project_stride_title",
-      "demo_url": "https://github.com/mw205/stride_ecommerce"
+      "demo_url": "https://github.com/mw205/stride_ecommerce",
+      "role_i18n": "project_stride_role",
+      "challenges_i18n": "project_stride_challenges"
     },
     {
       "id": "rag",
@@ -1290,7 +1388,9 @@
         }
       ],
       "title_i18n": "project_rag_title",
-      "demo_url": "https://github.com/mw205/simple_rag_system"
+      "demo_url": "https://github.com/mw205/simple_rag_system",
+      "role_i18n": "project_rag_role",
+      "challenges_i18n": "project_rag_challenges"
     },
     {
       "id": "modifai",
@@ -1321,7 +1421,9 @@
       ],
       "videos": [],
       "title_raw": "ModifAI",
-      "demo_url": "https://github.com/mw205/ModifAI-photo-editor"
+      "demo_url": "https://github.com/mw205/ModifAI-photo-editor",
+      "role_i18n": "project_modifai_role",
+      "challenges_i18n": "project_modifai_challenges"
     },
     {
       "id": "cx_academy",
@@ -1335,7 +1437,7 @@
         "mobile"
       ],
       "links": {
-        "github": "https://github.com/mw205"
+        "github": "https://github.com/mw205/cx-project"
       },
       "problem_i18n": "project_cx_academy_problem",
       "solution_i18n": "project_cx_academy_solution",
@@ -1352,14 +1454,16 @@
       ],
       "videos": [],
       "title_raw": "CX Academy",
-      "demo_url": "https://github.com/mw205"
+      "demo_url": "https://github.com/mw205/cx-project",
+      "role_i18n": "project_cx_academy_role",
+      "challenges_i18n": "project_cx_academy_challenges"
     },
     {
       "id": "quizzy",
       "image": "images/projects/quizzy/quizzy_thumbnail.png",
       "alt": "Quizzy Interactive Quiz Platform",
       "pill_i18n": "project_pill_quizzy",
-      "status_i18n": "project_status_assessment",
+      "status_i18n": "project_status_live",
       "desc_i18n": "project_quizzy_desc",
       "stack_raw": "JavaScript, HTML5, CSS3",
       "categories": [
@@ -1389,7 +1493,9 @@
         }
       ],
       "title_i18n": "project_quizzy_title",
-      "demo_url": "https://mw205.github.io/quizzy/"
+      "demo_url": "https://mw205.github.io/quizzy/",
+      "role_i18n": "project_quizzy_role",
+      "challenges_i18n": "project_quizzy_challenges"
     }
   ]
 }
