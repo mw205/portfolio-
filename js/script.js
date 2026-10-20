@@ -57,6 +57,7 @@ const elements = {
   body: document.body,
   header: document.getElementById("header"),
   navbar: document.getElementById("navbar"),
+  navBackdrop: document.getElementById("nav-backdrop"),
   menuButton: document.getElementById("menu-icon"),
   menuIcon: document.querySelector("#menu-icon i"),
   themeToggle: document.getElementById("theme-toggle"),
@@ -1025,16 +1026,29 @@ const setupGlobalEventListeners = () => {
 
   // Mobile Navigation
   elements.menuButton?.addEventListener("click", toggleMenu);
+  elements.navBackdrop?.addEventListener("click", closeMenu);
   elements.navLinks.forEach((link) => {
     link.addEventListener("click", () => {
-      if (window.innerWidth <= 900) closeMenu();
+      if (window.innerWidth <= 1024) closeMenu();
     });
+  });
+
+  // Close mobile nav when clicking outside
+  document.addEventListener("click", (e) => {
+    if (elements.navbar?.classList.contains("open")) {
+      if (
+        !elements.navbar.contains(e.target) &&
+        !elements.menuButton?.contains(e.target)
+      ) {
+        closeMenu();
+      }
+    }
   });
 
   // Window events
   window.addEventListener("scroll", handleHeaderScroll, { passive: true });
   window.addEventListener("resize", () => {
-    if (window.innerWidth > 900) closeMenu();
+    if (window.innerWidth > 1024) closeMenu();
   });
 
   // Modal & Lightbox close
@@ -1052,6 +1066,11 @@ const setupGlobalEventListeners = () => {
   elements.introTabAr?.addEventListener("click", () => setIntroVideoLanguage("ar", true));
 
   window.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && elements.navbar?.classList.contains("open")) {
+      closeMenu();
+      return;
+    }
+
     if (elements.introVideoModal?.classList.contains("active")) {
       if (e.key === "Escape") {
         closeIntroVideoModal();
