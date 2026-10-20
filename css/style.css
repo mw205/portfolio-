@@ -241,24 +241,26 @@ html.dark .header {
 }
 
 .header-shell {
+  width: min(1360px, calc(100% - 2rem));
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: clamp(0.5rem, 1.2vw, 1.5rem);
 }
 
 .brand-mark {
   display: inline-flex;
   align-items: center;
-  gap: 0.9rem;
+  gap: 0.75rem;
   flex-shrink: 0;
   white-space: nowrap;
 }
 
 .brand-logo {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.3rem;
+  width: 2.85rem;
+  height: 2.85rem;
+  border-radius: 0.35rem;
   object-fit: cover;
   border: 1px solid var(--border);
 }
@@ -266,7 +268,7 @@ html.dark .header {
 .brand-name {
   display: block;
   font-family: "Space Grotesk", sans-serif;
-  font-size: 1.06rem;
+  font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: -0.02em;
 }
@@ -274,26 +276,29 @@ html.dark .header {
 .brand-role {
   display: block;
   color: var(--muted);
-  font-size: 0.83rem;
+  font-size: 0.8rem;
 }
 
 .navbar {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
-  padding: 0.8rem 1.1rem;
+  justify-content: center;
+  gap: clamp(0.35rem, 0.85vw, 1.1rem);
+  padding: 0.5rem clamp(0.6rem, 0.9vw, 1.1rem);
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--surface);
-  margin: 0 1.2rem;
+  margin: 0;
   white-space: nowrap;
+  flex-shrink: 1;
 }
 
 .navbar a {
   position: relative;
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: clamp(0.82rem, 0.85vw, 0.93rem);
   font-weight: 700;
+  padding: 0.35rem clamp(0.3rem, 0.55vw, 0.65rem);
   transition: color 0.2s ease;
 }
 
@@ -343,8 +348,9 @@ body.menu-open .nav-backdrop {
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: clamp(0.4rem, 0.6vw, 0.75rem);
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .theme-toggle,
@@ -360,13 +366,14 @@ body.menu-open .nav-backdrop {
 .theme-toggle,
 .lang-toggle,
 .menu-toggle {
-  width: 3rem;
-  height: 3rem;
+  width: 2.85rem;
+  height: 2.85rem;
   border: 1px solid var(--border);
-  border-radius: 1rem;
+  border-radius: 0.85rem;
   background: var(--surface);
   color: var(--text);
   cursor: pointer;
+  flex-shrink: 0;
   transition:
     transform 0.2s ease,
     background-color 0.2s ease,
@@ -375,26 +382,27 @@ body.menu-open .nav-backdrop {
 
 .lang-toggle {
   width: auto;
-  padding: 0 0.9rem;
-  font-size: 0.9rem;
+  padding: 0 0.85rem;
+  font-size: 0.88rem;
   font-weight: 800;
 }
 
 .nav-cv-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  height: 3rem;
-  padding: 0 1.15rem;
+  gap: 0.45rem;
+  height: 2.85rem;
+  padding: 0 1rem;
   border: 1px solid var(--border);
-  border-radius: 1rem;
+  border-radius: 0.85rem;
   background: var(--surface);
   color: var(--text);
-  font-size: 0.88rem;
+  font-size: 0.86rem;
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
   white-space: nowrap;
+  flex-shrink: 0;
   transition:
     transform 0.2s ease,
     background-color 0.2s ease,
@@ -2487,10 +2495,10 @@ html.dark .spinner {
   }
 }
 
-/* Full Desktop Screens (> 1200px) */
-@media (min-width: 1201px) {
+/* Full Desktop Screens (> 1260px) */
+@media (min-width: 1261px) {
   .header-cta {
-    display: inline-flex;
+    display: none;
   }
 
   .nav-cv-btn span {
@@ -2499,7 +2507,7 @@ html.dark .spinner {
 
   .nav-cv-btn {
     width: auto;
-    padding: 0 1.15rem;
+    padding: 0 1rem;
   }
 
   .brand-role {
@@ -2532,8 +2540,15 @@ html.dark .spinner {
   }
 }
 
-/* Desktop Compact (1025px - 1200px): Keeps desktop navbar comfortable without crowding */
-@media (max-width: 1200px) and (min-width: 1025px) {
+/* Extra Wide Monitors (>= 1440px) */
+@media (min-width: 1440px) {
+  .header-cta {
+    display: inline-flex;
+  }
+}
+
+/* Desktop Compact (1025px - 1260px): Keeps desktop navbar comfortable without crowding */
+@media (max-width: 1260px) and (min-width: 1025px) {
   .header-cta {
     display: none;
   }
@@ -2551,13 +2566,14 @@ html.dark .spinner {
   }
 
   .navbar {
-    gap: 0.85rem;
-    padding: 0.65rem 0.95rem;
-    margin: 0 0.5rem;
+    gap: 0.45rem;
+    padding: 0.45rem 0.75rem;
+    margin: 0;
   }
 
   .navbar a {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.45rem;
   }
 
   .brand-role {
