@@ -852,7 +852,7 @@
         "published"
       ],
       "links": {
-        "github": "https://github.com/mw205/resto_monorepo",
+        "github": "https://github.com/mw205/resto",
         "website": "https://resto-landing-zeta.vercel.app",
         "admin": "https://resto-admin-rouge.vercel.app"
       },
@@ -1175,7 +1175,7 @@
         "frontend"
       ],
       "links": {
-        "github": "https://github.com/mw205/library_system"
+        "github": "https://github.com/mw205/iti_tasks/tree/main/django/books_store_project"
       },
       "problem_i18n": "project_bookstore_problem",
       "solution_i18n": "project_bookstore_solution",
@@ -1197,7 +1197,7 @@
       ],
       "videos": [],
       "title_i18n": "project_bookstore_title",
-      "demo_url": "https://github.com/mw205/library_system",
+      "demo_url": "https://github.com/mw205/iti_tasks/tree/main/django/books_store_project",
       "role_i18n": "project_bookstore_role",
       "challenges_i18n": "project_bookstore_challenges"
     },
@@ -1214,7 +1214,6 @@
         "published"
       ],
       "links": {
-        "github": "https://github.com/mw205",
         "playstore": "https://play.google.com/store/apps/details?id=com.wb.greencar&hl=en&pli=1"
       },
       "problem_i18n": "project_greencar_problem",
